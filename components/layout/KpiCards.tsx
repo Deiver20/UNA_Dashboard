@@ -56,55 +56,72 @@ export function KpiCards() {
       value: produccion,
       unit: "ton",
       icon: Factory,
-      color: "#4f8ef7",
+      color: "#03488D",
     },
     {
       title: `Consumo de ${productNames[selectedProduct]}`,
       value: consumo,
       unit: "ton",
       icon: UtensilsCrossed,
-      color: "#4f8ef7",
+      color: "#03488D",
     },
     {
       title: `Consumo per cápita ${productNames[selectedProduct]}`,
       value: consumoPerCapita,
       unit: "kg/hab",
       icon: TrendingUp,
-      color: "#4f8ef7",
+      color: "#03488D",
     },
     {
       title: "Balance comercial",
       value: balanceComercial,
       unit: "ton",
       icon: ArrowRightLeft,
-      color: "#4f8ef7",
+      color: "#03488D",
     },
   ];
 
   return (
     <div className="space-y-4">
-      {/* Header de sección: título + selector de vista (no filtro) */}
+      {/* Header de sección */}
       <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-3">
         <div>
-          <h2 className="text-base font-semibold text-white font-heading">
+          <h2
+            className="text-base font-semibold font-heading"
+            style={{ color: "#06254B" }}
+          >
             Indicadores del año {activeYear}
           </h2>
-          <p className="text-xs text-[#94a3b8] mt-0.5">
+          <p className="text-xs mt-0.5" style={{ color: "#5a6478", fontFamily: "'Quicksand', sans-serif" }}>
             Métricas principales por producto seleccionado
           </p>
         </div>
 
-        {/* Segmented control: estilo "vista/tabs", NO filtro */}
-        <div className="inline-flex rounded-lg border border-white/[0.06] bg-[#0f1628] p-0.5 shrink-0">
+        {/* Segmented control */}
+        <div
+          className="inline-flex p-0.5 shrink-0"
+          style={{
+            borderRadius: 2,
+            border: "1px solid rgba(6,37,75,0.15)",
+            background: "white",
+          }}
+        >
           {["pollo", "huevo", "pavo"].map((p) => (
             <button
               key={p}
               onClick={() => setSelectedProduct(p)}
-              className={`rounded-md px-3 py-1 text-xs font-medium transition-all ${
-                selectedProduct === p
-                  ? "bg-[#1a2240] text-[#4f8ef7] border border-[#4f8ef7]/25 shadow-sm"
-                  : "text-[#64748b] hover:text-[#94a3b8]"
-              }`}
+              className="transition-all"
+              style={{
+                borderRadius: 2,
+                padding: "6px 14px",
+                fontSize: 11,
+                fontWeight: 700,
+                letterSpacing: "0.18em",
+                textTransform: "uppercase",
+                fontFamily: "'Quicksand', sans-serif",
+                background: selectedProduct === p ? "#06254B" : "transparent",
+                color: selectedProduct === p ? "white" : "#5a6478",
+              }}
             >
               {productNames[p]}
             </button>
@@ -112,30 +129,52 @@ export function KpiCards() {
         </div>
       </div>
 
-      <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 xl:grid-cols-4">
+      <div className="grid grid-cols-1 gap-5 sm:grid-cols-2 xl:grid-cols-4">
         {cards.map((card) => {
           const Icon = card.icon;
           return (
             <div
               key={card.title}
-              className="rounded-xl border border-white/[0.06] bg-[#1a2240] p-5 transition-all hover:border-[#4f8ef7]/30"
+              className="una-card"
+              style={{ padding: "28px 28px 24px" }}
             >
               <div className="flex items-center justify-between">
-                <span className="text-sm text-[#94a3b8]">{card.title}</span>
-                <div
-                  className="flex h-8 w-8 items-center justify-center rounded-lg"
-                  style={{ backgroundColor: `${card.color}15` }}
+                <span
+                  className="text-sm"
+                  style={{
+                    color: "#5a6478",
+                    fontFamily: "'Quicksand', sans-serif",
+                    fontWeight: 500,
+                  }}
                 >
-                  <Icon className="h-4 w-4" style={{ color: card.color }} />
+                  {card.title}
+                </span>
+                <div
+                  className="flex h-9 w-9 items-center justify-center"
+                  style={{
+                    backgroundColor: "#F2F8FF",
+                    borderRadius: 2,
+                    color: card.color,
+                  }}
+                >
+                  <Icon className="h-4 w-4" style={{ strokeWidth: 1.6 }} />
                 </div>
               </div>
               <div className="mt-3 flex items-baseline gap-1.5">
-                <span className="text-2xl font-bold text-white font-mono-numbers">
+                <span
+                  className="text-2xl font-bold font-mono-numbers"
+                  style={{ color: "#06254B", fontSize: 32 }}
+                >
                   {card.value.toLocaleString("es-ES", {
                     maximumFractionDigits: 1,
                   })}
                 </span>
-                <span className="text-xs text-[#94a3b8]">{card.unit}</span>
+                <span
+                  className="text-xs"
+                  style={{ color: "#5a6478", fontFamily: "'Quicksand', sans-serif" }}
+                >
+                  {card.unit}
+                </span>
               </div>
             </div>
           );

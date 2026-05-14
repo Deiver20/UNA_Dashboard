@@ -14,9 +14,9 @@ import {
 } from "recharts";
 
 const COLORS: Record<string, string> = {
-  pollo: "#4f8ef7",
-  huevo: "#f7c94f",
-  pavo: "#f7734f",
+  pollo: "#03488D",
+  huevo: "#F8D227",
+  pavo: "#06254B",
 };
 
 const PRODUCT_NAMES: Record<string, string> = {
@@ -48,21 +48,21 @@ function CustomTooltip({
 }) {
   if (!active || !payload || payload.length === 0) return null;
 
-  // Filter out zero values
   const filtered = payload.filter((p) => (p.value ?? 0) > 0);
   if (filtered.length === 0) return null;
 
   return (
     <div
-      className="rounded-md px-3 py-2 text-xs"
+      className="px-3 py-2 text-xs"
       style={{
-        backgroundColor: "#1a2240",
-        border: "1px solid rgba(255,255,255,0.06)",
-        boxShadow: "0 4px 12px rgba(0,0,0,0.5)",
-        color: "#e2e8f0",
+        backgroundColor: "white",
+        border: "1px solid rgba(6,37,75,0.15)",
+        borderRadius: 2,
+        boxShadow: "0 14px 36px rgba(6, 37, 75, 0.10)",
+        color: "#1C1C1C",
       }}
     >
-      <strong className="block mb-1 text-[#94a3b8]">{label}</strong>
+      <strong className="block mb-1" style={{ color: "#5a6478" }}>{label}</strong>
       {filtered.map((item) => (
         <div key={item.dataKey} className="flex items-center gap-2 py-0.5">
           <span
@@ -110,21 +110,33 @@ export function TradeChart() {
     });
   }, [filteredData, productos, concepto]);
 
+  const selectStyle: React.CSSProperties = {
+    borderRadius: 2,
+    border: "1px solid rgba(6,37,75,0.15)",
+    background: "white",
+    padding: "6px 12px",
+    fontSize: 13,
+    fontFamily: "'Quicksand', sans-serif",
+    color: "#06254B",
+    outline: "none",
+  };
+
   return (
-    <div className="rounded-xl border border-white/[0.06] bg-[#1a2240] p-5">
+    <div className="una-card" style={{ padding: "28px 28px 24px" }}>
       <div className="mb-4 flex flex-col gap-3 sm:flex-row sm:items-start sm:justify-between">
         <div>
-          <h3 className="text-base font-semibold text-white font-heading mb-1">
+          <h3 className="text-base font-semibold font-heading mb-1" style={{ color: "#06254B" }}>
             {conceptoLabel} por Producto
           </h3>
-          <p className="text-sm text-[#94a3b8]">
+          <p className="text-sm" style={{ color: "#5a6478", fontFamily: "'Quicksand', sans-serif" }}>
             Evolución anual del comercio exterior
           </p>
         </div>
         <select
           value={concepto}
           onChange={(e) => setConcepto(e.target.value)}
-          className="rounded-md border border-white/[0.06] bg-[#0f1628] px-3 py-1.5 text-sm text-[#e2e8f0] outline-none focus:border-[#4f8ef7] shrink-0"
+          style={selectStyle}
+          className="shrink-0"
         >
           {CONCEPTOS.map((c) => (
             <option key={c.value} value={c.value}>
@@ -142,20 +154,20 @@ export function TradeChart() {
           >
             <CartesianGrid
               strokeDasharray="3 3"
-              stroke="rgba(255,255,255,0.06)"
+              stroke="rgba(6,37,75,0.08)"
             />
             <XAxis
               dataKey="año"
-              stroke="#94a3b8"
-              tick={{ fill: "#94a3b8", fontSize: 12 }}
+              stroke="#5a6478"
+              tick={{ fill: "#5a6478", fontSize: 12 }}
               tickLine={false}
-              axisLine={{ stroke: "rgba(255,255,255,0.06)" }}
+              axisLine={{ stroke: "rgba(6,37,75,0.10)" }}
             />
             <YAxis
-              stroke="#94a3b8"
-              tick={{ fill: "#94a3b8", fontSize: 12 }}
+              stroke="#5a6478"
+              tick={{ fill: "#5a6478", fontSize: 12 }}
               tickLine={false}
-              axisLine={{ stroke: "rgba(255,255,255,0.06)" }}
+              axisLine={{ stroke: "rgba(6,37,75,0.10)" }}
               tickFormatter={(v: number) =>
                 v >= 1_000_000
                   ? `${(v / 1_000_000).toFixed(1)}M`
@@ -165,13 +177,13 @@ export function TradeChart() {
               }
             />
             <Tooltip content={<CustomTooltip />} />
-            <Legend wrapperStyle={{ color: "#94a3b8" }} />
+            <Legend wrapperStyle={{ color: "#5a6478" }} />
             {productos.map((prod) => (
               <Bar
                 key={prod}
                 dataKey={PRODUCT_NAMES[prod]}
                 fill={COLORS[prod]}
-                radius={[4, 4, 0, 0]}
+                radius={[2, 2, 0, 0]}
               />
             ))}
           </BarChart>

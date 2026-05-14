@@ -29,10 +29,10 @@ export default function DashboardPage() {
 
   if (loading && data.length === 0) {
     return (
-      <div className="flex min-h-screen items-center justify-center bg-[#0f1628] text-[#e2e8f0]">
+      <div className="flex min-h-screen items-center justify-center" style={{ background: '#F2F8FF', color: '#1C1C1C' }}>
         <div className="text-center">
-          <div className="mb-4 h-8 w-8 animate-spin rounded-full border-2 border-[#4f8ef7] border-t-transparent mx-auto" />
-          <p className="text-sm text-[#94a3b8]">Cargando datos...</p>
+          <div className="mb-4 h-8 w-8 animate-spin rounded-full border-2 border-[#03488D] border-t-transparent mx-auto" />
+          <p className="text-sm" style={{ color: '#5a6478' }}>Cargando datos...</p>
         </div>
       </div>
     );
@@ -40,13 +40,13 @@ export default function DashboardPage() {
 
   if (error && data.length === 0) {
     return (
-      <div className="flex min-h-screen items-center justify-center bg-[#0f1628] text-[#e2e8f0]">
+      <div className="flex min-h-screen items-center justify-center" style={{ background: '#F2F8FF', color: '#1C1C1C' }}>
         <div className="text-center max-w-md px-6">
-          <p className="text-lg font-semibold text-[#f7734f] mb-2">Error</p>
-          <p className="text-sm text-[#94a3b8] mb-4">{error}</p>
+          <p className="text-lg font-semibold mb-2" style={{ color: '#b85c00' }}>Error</p>
+          <p className="text-sm mb-4" style={{ color: '#5a6478' }}>{error}</p>
           <button
             onClick={reloadFromFile}
-            className="rounded-md bg-[#4f8ef7] px-4 py-2 text-sm font-medium text-white hover:bg-[#3a7de4]"
+            className="btn-filled"
           >
             Reintentar
           </button>
@@ -56,7 +56,7 @@ export default function DashboardPage() {
   }
 
   return (
-    <div className="min-h-full flex flex-col bg-[#0f1628]">
+    <div className="min-h-full flex flex-col" style={{ background: '#F2F8FF' }}>
       <Header />
       
       <div className="flex flex-1">
@@ -104,7 +104,7 @@ export default function DashboardPage() {
 
             <DataTable />
 
-            <footer className="text-center text-xs text-[#94a3b8] py-4">
+            <footer className="text-center py-4" style={{ fontSize: 11, fontFamily: "'JetBrains Mono', monospace", letterSpacing: '0.05em', color: '#5a6478' }}>
               Dashboard Avícola México — Datos 1977-2025
             </footer>
           </div>

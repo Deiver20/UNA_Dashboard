@@ -1,18 +1,25 @@
 import type { Metadata } from "next";
-import { Syne, Space_Mono } from "next/font/google";
+import { Playfair_Display, Quicksand, JetBrains_Mono } from "next/font/google";
 import "./globals.css";
 import { DashboardProvider } from "@/lib/filters";
 
-const syne = Syne({
-  variable: "--font-syne",
+const playfair = Playfair_Display({
+  variable: "--font-playfair",
   subsets: ["latin"],
-  weight: ["400", "500", "600", "700", "800"],
+  weight: ["400", "500", "600", "700"],
+  style: ["normal", "italic"],
 });
 
-const spaceMono = Space_Mono({
-  variable: "--font-space-mono",
+const quicksand = Quicksand({
+  variable: "--font-quicksand",
   subsets: ["latin"],
-  weight: ["400", "700"],
+  weight: ["300", "400", "500", "600", "700"],
+});
+
+const jetbrains = JetBrains_Mono({
+  variable: "--font-jetbrains",
+  subsets: ["latin"],
+  weight: ["400", "500"],
 });
 
 export const metadata: Metadata = {
@@ -29,9 +36,9 @@ export default function RootLayout({
     <html
       lang="es"
       suppressHydrationWarning
-      className={`${syne.variable} ${spaceMono.variable} dark`}
+      className={`${playfair.variable} ${quicksand.variable} ${jetbrains.variable}`}
     >
-      <body className="min-h-full bg-[#0f1628] text-[#e2e8f0] antialiased">
+      <body className="min-h-full antialiased" style={{ background: '#F2F8FF', color: '#1C1C1C' }}>
         <DashboardProvider>{children}</DashboardProvider>
       </body>
     </html>

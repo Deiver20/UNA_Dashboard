@@ -21,9 +21,9 @@ const CONCEPTOS_DISPONIBLES = [
 ];
 
 const COLORS: Record<string, string> = {
-  pollo: "#4f8ef7",
-  huevo: "#f7c94f",
-  pavo: "#f7734f",
+  pollo: "#03488D",
+  huevo: "#F8D227",
+  pavo: "#06254B",
 };
 
 export function LineChartSection() {
@@ -46,20 +46,31 @@ export function LineChartSection() {
       .sort((a, b) => a.año - b.año);
   }, [data, producto, concepto]);
 
+  const selectStyle: React.CSSProperties = {
+    borderRadius: 2,
+    border: "1px solid rgba(6,37,75,0.15)",
+    background: "white",
+    padding: "6px 12px",
+    fontSize: 13,
+    fontFamily: "'Quicksand', sans-serif",
+    color: "#06254B",
+    outline: "none",
+  };
+
   return (
-    <div
-      id="overview"
-      className="rounded-xl border border-white/[0.06] bg-[#1a2240] p-5"
-    >
+    <div className="una-card" style={{ padding: "28px 28px 24px" }}>
       <div className="mb-4 flex flex-col gap-3 sm:flex-row sm:items-center sm:justify-between">
-        <h3 className="text-base font-semibold text-white font-heading">
+        <h3
+          className="text-base font-semibold font-heading"
+          style={{ color: "#06254B" }}
+        >
           Evolución Temporal (1977–2025)
         </h3>
         <div className="flex flex-wrap gap-2">
           <select
             value={producto}
             onChange={(e) => setProducto(e.target.value)}
-            className="rounded-md border border-white/[0.06] bg-[#0f1628] px-3 py-1.5 text-sm text-[#e2e8f0] outline-none focus:border-[#4f8ef7]"
+            style={selectStyle}
           >
             {PRODUCTOS_DISPONIBLES.map((p) => (
               <option key={p} value={p} className="capitalize">
@@ -70,7 +81,7 @@ export function LineChartSection() {
           <select
             value={concepto}
             onChange={(e) => setConcepto(e.target.value)}
-            className="rounded-md border border-white/[0.06] bg-[#0f1628] px-3 py-1.5 text-sm text-[#e2e8f0] outline-none focus:border-[#4f8ef7]"
+            style={selectStyle}
           >
             {CONCEPTOS_DISPONIBLES.map((c) => (
               <option key={c} value={c} className="capitalize">
@@ -84,19 +95,19 @@ export function LineChartSection() {
       <div className="h-80 w-full">
         <ResponsiveContainer width="100%" height="100%">
           <LineChart data={chartData} margin={{ top: 5, right: 20, bottom: 5, left: 0 }}>
-            <CartesianGrid strokeDasharray="3 3" stroke="rgba(255,255,255,0.06)" />
+            <CartesianGrid strokeDasharray="3 3" stroke="rgba(6,37,75,0.08)" />
             <XAxis
               dataKey="año"
-              stroke="#94a3b8"
-              tick={{ fill: "#94a3b8", fontSize: 12 }}
+              stroke="#5a6478"
+              tick={{ fill: "#5a6478", fontSize: 12 }}
               tickLine={false}
-              axisLine={{ stroke: "rgba(255,255,255,0.06)" }}
+              axisLine={{ stroke: "rgba(6,37,75,0.10)" }}
             />
             <YAxis
-              stroke="#94a3b8"
-              tick={{ fill: "#94a3b8", fontSize: 12 }}
+              stroke="#5a6478"
+              tick={{ fill: "#5a6478", fontSize: 12 }}
               tickLine={false}
-              axisLine={{ stroke: "rgba(255,255,255,0.06)" }}
+              axisLine={{ stroke: "rgba(6,37,75,0.10)" }}
               tickFormatter={(v: number) =>
                 v >= 1_000_000
                   ? `${(v / 1_000_000).toFixed(1)}M`
@@ -107,12 +118,13 @@ export function LineChartSection() {
             />
             <Tooltip
               contentStyle={{
-                backgroundColor: "#1a2240",
-                border: "1px solid rgba(255,255,255,0.06)",
-                borderRadius: "0.5rem",
-                color: "#e2e8f0",
+                backgroundColor: "white",
+                border: "1px solid rgba(6,37,75,0.15)",
+                borderRadius: 2,
+                color: "#1C1C1C",
+                boxShadow: "0 14px 36px rgba(6, 37, 75, 0.10)",
               }}
-              labelStyle={{ color: "#94a3b8" }}
+              labelStyle={{ color: "#5a6478" }}
               formatter={(value: any) => [
                 Number(value).toLocaleString("es-ES", { maximumFractionDigits: 0 }),
                 concepto.charAt(0).toUpperCase() + concepto.slice(1),

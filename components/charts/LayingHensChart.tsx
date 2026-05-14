@@ -13,12 +13,6 @@ import {
   Legend,
 } from "recharts";
 
-const COLORS: Record<string, string> = {
-  pollo: "#4f8ef7",
-  huevo: "#f7c94f",
-  pavo: "#f7734f",
-};
-
 export function LayingHensChart() {
   const { filteredData } = useDashboard();
 
@@ -43,30 +37,30 @@ export function LayingHensChart() {
   }, [filteredData]);
 
   return (
-    <div className="rounded-xl border border-white/[0.06] bg-[#1a2240] p-5">
-      <h3 className="text-base font-semibold text-white font-heading mb-1">
+    <div className="una-card" style={{ padding: "28px 28px 24px" }}>
+      <h3 className="text-base font-semibold font-heading mb-1" style={{ color: "#06254B" }}>
         Aves de Postura
       </h3>
-      <p className="text-sm text-[#94a3b8] mb-4">
+      <p className="text-sm mb-4" style={{ color: "#5a6478", fontFamily: "'Quicksand', sans-serif" }}>
         Evolución del número de aves (Huevo)
       </p>
 
       <div className="h-72 w-full">
         <ResponsiveContainer width="100%" height="100%">
           <BarChart data={chartData} margin={{ top: 5, right: 20, bottom: 5, left: 0 }}>
-            <CartesianGrid strokeDasharray="3 3" stroke="rgba(255,255,255,0.06)" />
+            <CartesianGrid strokeDasharray="3 3" stroke="rgba(6,37,75,0.08)" />
             <XAxis
               dataKey="año"
-              stroke="#94a3b8"
-              tick={{ fill: "#94a3b8", fontSize: 12 }}
+              stroke="#5a6478"
+              tick={{ fill: "#5a6478", fontSize: 12 }}
               tickLine={false}
-              axisLine={{ stroke: "rgba(255,255,255,0.06)" }}
+              axisLine={{ stroke: "rgba(6,37,75,0.10)" }}
             />
             <YAxis
-              stroke="#94a3b8"
-              tick={{ fill: "#94a3b8", fontSize: 12 }}
+              stroke="#5a6478"
+              tick={{ fill: "#5a6478", fontSize: 12 }}
               tickLine={false}
-              axisLine={{ stroke: "rgba(255,255,255,0.06)" }}
+              axisLine={{ stroke: "rgba(6,37,75,0.10)" }}
               tickFormatter={(v: number) =>
                 v >= 1_000_000
                   ? `${(v / 1_000_000).toFixed(1)}M`
@@ -77,10 +71,11 @@ export function LayingHensChart() {
             />
             <Tooltip
               contentStyle={{
-                backgroundColor: "#1a2240",
-                border: "1px solid rgba(255,255,255,0.06)",
-                borderRadius: "0.5rem",
-                color: "#e2e8f0",
+                backgroundColor: "white",
+                border: "1px solid rgba(6,37,75,0.15)",
+                borderRadius: 2,
+                color: "#1C1C1C",
+                boxShadow: "0 14px 36px rgba(6, 37, 75, 0.10)",
               }}
               formatter={(value: any) => [
                 Number(value).toLocaleString("es-ES", { maximumFractionDigits: 0 }),
@@ -89,8 +84,8 @@ export function LayingHensChart() {
             />
             <Bar
               dataKey="Huevo"
-              fill="#f7c94f"
-              radius={[4, 4, 0, 0]}
+              fill="#F8D227"
+              radius={[2, 2, 0, 0]}
             />
           </BarChart>
         </ResponsiveContainer>

@@ -69,28 +69,43 @@ export function CombinedChart() {
 
   const latestYear = chartData[chartData.length - 1];
 
+  const tabStyle = (isActive: boolean): React.CSSProperties => ({
+    borderRadius: 2,
+    padding: "6px 14px",
+    fontSize: 11,
+    fontWeight: 700,
+    letterSpacing: "0.18em",
+    textTransform: "uppercase",
+    fontFamily: "'Quicksand', sans-serif",
+    background: isActive ? "#06254B" : "transparent",
+    color: isActive ? "white" : "#5a6478",
+  });
+
   return (
-    <div className="rounded-xl border border-white/[0.06] bg-[#1a2240] p-5">
+    <div className="una-card" style={{ padding: "28px 28px 24px" }}>
       <div className="mb-4 flex flex-col gap-3 sm:flex-row sm:items-center sm:justify-between">
         <div>
-          <h3 className="text-base font-semibold text-white font-heading">
+          <h3 className="text-base font-semibold font-heading" style={{ color: "#06254B" }}>
             Producción y Consumo
           </h3>
-          <p className="text-sm text-[#94a3b8]">
+          <p className="text-sm" style={{ color: "#5a6478", fontFamily: "'Quicksand', sans-serif" }}>
             Producción, importaciones y consumo per cápita
           </p>
         </div>
-        {/* Segmented control: estilo "vista/tabs", NO filtro */}
-        <div className="inline-flex rounded-lg border border-white/[0.06] bg-[#0f1628] p-0.5 shrink-0">
+        <div
+          className="inline-flex p-0.5 shrink-0"
+          style={{
+            borderRadius: 2,
+            border: "1px solid rgba(6,37,75,0.15)",
+            background: "white",
+          }}
+        >
           {PRODUCTOS_DISPONIBLES.map((p) => (
             <button
               key={p}
               onClick={() => setSelectedProduct(p)}
-              className={`rounded-md px-3 py-1 text-xs font-medium transition-all ${
-                selectedProduct === p
-                  ? "bg-[#1a2240] text-[#4f8ef7] border border-[#4f8ef7]/25 shadow-sm"
-                  : "text-[#64748b] hover:text-[#94a3b8]"
-              }`}
+              className="transition-all"
+              style={tabStyle(selectedProduct === p)}
             >
               {PRODUCT_NAMES[p]}
             </button>
@@ -106,21 +121,21 @@ export function CombinedChart() {
           >
             <CartesianGrid
               strokeDasharray="3 3"
-              stroke="rgba(255,255,255,0.06)"
+              stroke="rgba(6,37,75,0.08)"
             />
             <XAxis
               dataKey="año"
-              stroke="#94a3b8"
-              tick={{ fill: "#94a3b8", fontSize: 12 }}
+              stroke="#5a6478"
+              tick={{ fill: "#5a6478", fontSize: 12 }}
               tickLine={false}
-              axisLine={{ stroke: "rgba(255,255,255,0.06)" }}
+              axisLine={{ stroke: "rgba(6,37,75,0.10)" }}
             />
             <YAxis
               yAxisId="left"
-              stroke="#94a3b8"
-              tick={{ fill: "#94a3b8", fontSize: 12 }}
+              stroke="#5a6478"
+              tick={{ fill: "#5a6478", fontSize: 12 }}
               tickLine={false}
-              axisLine={{ stroke: "rgba(255,255,255,0.06)" }}
+              axisLine={{ stroke: "rgba(6,37,75,0.10)" }}
               tickFormatter={(v: number) =>
                 v >= 1_000_000
                   ? `${(v / 1_000_000).toFixed(1)}M`
@@ -132,18 +147,19 @@ export function CombinedChart() {
             <YAxis
               yAxisId="right"
               orientation="right"
-              stroke="#94a3b8"
-              tick={{ fill: "#94a3b8", fontSize: 12 }}
+              stroke="#5a6478"
+              tick={{ fill: "#5a6478", fontSize: 12 }}
               tickLine={false}
-              axisLine={{ stroke: "rgba(255,255,255,0.06)" }}
+              axisLine={{ stroke: "rgba(6,37,75,0.10)" }}
               domain={[0, Math.ceil(maxPerCapita * 1.2)]}
             />
             <Tooltip
               contentStyle={{
-                backgroundColor: "#1a2240",
-                border: "1px solid rgba(255,255,255,0.06)",
-                borderRadius: "0.5rem",
-                color: "#e2e8f0",
+                backgroundColor: "white",
+                border: "1px solid rgba(6,37,75,0.15)",
+                borderRadius: 2,
+                color: "#1C1C1C",
+                boxShadow: "0 14px 36px rgba(6, 37, 75, 0.10)",
               }}
               formatter={(value: any, name: any) => [
                 Number(value).toLocaleString("es-ES", {
@@ -152,26 +168,26 @@ export function CombinedChart() {
                 name,
               ]}
             />
-            <Legend wrapperStyle={{ color: "#94a3b8" }} />
+            <Legend wrapperStyle={{ color: "#5a6478" }} />
             <Bar
               yAxisId="left"
               dataKey="Producción"
-              fill="#4f8ef7"
-              radius={[4, 4, 0, 0]}
+              fill="#03488D"
+              radius={[2, 2, 0, 0]}
             />
             <Bar
               yAxisId="left"
               dataKey="Importaciones"
-              fill="#f7c94f"
-              radius={[4, 4, 0, 0]}
+              fill="#F8D227"
+              radius={[2, 2, 0, 0]}
             />
             <Line
               yAxisId="right"
               type="monotone"
               dataKey="Consumo Per Cápita"
-              stroke="#f7734f"
+              stroke="#06254B"
               strokeWidth={2.5}
-              dot={{ r: 3, fill: "#f7734f", strokeWidth: 0 }}
+              dot={{ r: 3, fill: "#06254B", strokeWidth: 0 }}
               activeDot={{ r: 5 }}
             />
           </ComposedChart>
@@ -179,30 +195,30 @@ export function CombinedChart() {
       </div>
 
       {latestYear && (
-        <div className="mt-4 grid grid-cols-3 gap-3 rounded-lg bg-[#0f1628] p-3">
+        <div
+          className="mt-4 grid grid-cols-3 gap-3 p-3"
+          style={{
+            borderRadius: 2,
+            background: "#F2F8FF",
+            border: "1px solid rgba(6,37,75,0.06)",
+          }}
+        >
           <div className="text-center">
-            <p className="text-xs text-[#94a3b8]">Producción {latestYear.año}</p>
-            <p className="text-sm font-bold text-[#4f8ef7] font-mono-numbers">
-              {latestYear.Producción.toLocaleString("es-ES", {
-                maximumFractionDigits: 0,
-              })}
+            <p className="text-xs" style={{ color: "#5a6478", fontFamily: "'Quicksand', sans-serif" }}>Producción {latestYear.año}</p>
+            <p className="text-sm font-bold font-mono-numbers" style={{ color: "#03488D" }}>
+              {latestYear.Producción.toLocaleString("es-ES", { maximumFractionDigits: 0 })}
             </p>
           </div>
           <div className="text-center">
-            <p className="text-xs text-[#94a3b8]">Importaciones {latestYear.año}</p>
-            <p className="text-sm font-bold text-[#f7c94f] font-mono-numbers">
-              {latestYear.Importaciones.toLocaleString("es-ES", {
-                maximumFractionDigits: 0,
-              })}
+            <p className="text-xs" style={{ color: "#5a6478", fontFamily: "'Quicksand', sans-serif" }}>Importaciones {latestYear.año}</p>
+            <p className="text-sm font-bold font-mono-numbers" style={{ color: "#b85c00" }}>
+              {latestYear.Importaciones.toLocaleString("es-ES", { maximumFractionDigits: 0 })}
             </p>
           </div>
           <div className="text-center">
-            <p className="text-xs text-[#94a3b8]">Per Cápita {latestYear.año}</p>
-            <p className="text-sm font-bold text-[#f7734f] font-mono-numbers">
-              {latestYear["Consumo Per Cápita"].toLocaleString("es-ES", {
-                maximumFractionDigits: 2,
-              })}{" "}
-              kg
+            <p className="text-xs" style={{ color: "#5a6478", fontFamily: "'Quicksand', sans-serif" }}>Per Cápita {latestYear.año}</p>
+            <p className="text-sm font-bold font-mono-numbers" style={{ color: "#06254B" }}>
+              {latestYear["Consumo Per Cápita"].toLocaleString("es-ES", { maximumFractionDigits: 2 })} kg
             </p>
           </div>
         </div>

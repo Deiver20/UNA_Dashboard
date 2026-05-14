@@ -10,7 +10,6 @@ export function GlobalFilters() {
   const { data, filters, setFilters } = useDashboard();
   const [minYear, maxYear] = getMinMaxYears(data);
 
-  // Estado local para inputs de año (strings para permitir edición libre)
   const [yearStartInput, setYearStartInput] = useState(String(filters.yearRange[0]));
   const [yearEndInput, setYearEndInput] = useState(String(filters.yearRange[1]));
 
@@ -21,7 +20,6 @@ export function GlobalFilters() {
     setFilters({ ...filters, productos: newProductos });
   };
 
-  // Solo actualiza el contexto global al soltar el thumb (no durante el arrastre)
   const handleSliderCommit = (value: number | readonly number[]) => {
     const arr = Array.isArray(value) ? value : [value];
     if (arr.length >= 2) {
@@ -54,22 +52,58 @@ export function GlobalFilters() {
   };
 
   return (
-    <div className="sticky top-16 z-40 px-6 py-4 border-b border-white/[0.06] bg-[#0f1628]/95 backdrop-blur-xl shadow-lg shadow-black/20">
-      <div className="rounded-xl border border-white/[0.06] bg-[#1a2240] p-4">
+    <div
+      className="sticky z-40 px-6 py-4"
+      style={{
+        top: 76,
+        background: "white",
+        borderBottom: "1px solid rgba(6,37,75,0.10)",
+      }}
+    >
+      <div
+        className="p-4"
+        style={{
+          borderRadius: 2,
+          border: "1px solid rgba(6,37,75,0.06)",
+          background: "white",
+          boxShadow: "0 2px 12px rgba(6, 37, 75, 0.04)",
+        }}
+      >
         <div className="flex flex-col gap-4 md:flex-row md:items-center md:justify-between">
           {/* Productos */}
           <div className="flex items-center gap-3">
-            <span className="text-xs text-[#94a3b8] shrink-0">Productos</span>
+            <span
+              className="text-xs shrink-0"
+              style={{
+                color: "#5a6478",
+                fontFamily: "'Quicksand', sans-serif",
+                fontWeight: 600,
+                letterSpacing: "0.18em",
+                textTransform: "uppercase",
+              }}
+            >
+              Productos
+            </span>
             <div className="flex gap-2">
               {["pollo", "huevo", "pavo"].map((prod) => (
                 <button
                   key={prod}
                   onClick={() => toggleProducto(prod)}
-                  className={`rounded-md px-3 py-1.5 text-xs font-medium transition-colors ${
-                    filters.productos.includes(prod)
-                      ? "bg-[#4f8ef7] text-white"
-                      : "bg-[#0f1628] text-[#94a3b8] border border-white/[0.06] hover:text-white"
-                  }`}
+                  className="transition-all"
+                  style={{
+                    borderRadius: 2,
+                    padding: "6px 14px",
+                    fontSize: 11,
+                    fontWeight: 700,
+                    letterSpacing: "0.18em",
+                    textTransform: "uppercase",
+                    fontFamily: "'Quicksand', sans-serif",
+                    background: filters.productos.includes(prod) ? "#03488D" : "white",
+                    color: filters.productos.includes(prod) ? "white" : "#5a6478",
+                    border: filters.productos.includes(prod)
+                      ? "1px solid #03488D"
+                      : "1px solid rgba(6,37,75,0.15)",
+                  }}
                 >
                   {prod.charAt(0).toUpperCase() + prod.slice(1)}
                 </button>
@@ -79,7 +113,18 @@ export function GlobalFilters() {
 
           {/* Años */}
           <div className="flex items-center gap-3 flex-1 max-w-lg">
-            <span className="text-xs text-[#94a3b8] shrink-0">Años</span>
+            <span
+              className="text-xs shrink-0"
+              style={{
+                color: "#5a6478",
+                fontFamily: "'Quicksand', sans-serif",
+                fontWeight: 600,
+                letterSpacing: "0.18em",
+                textTransform: "uppercase",
+              }}
+            >
+              Años
+            </span>
             <input
               type="number"
               min={minYear}
@@ -87,7 +132,13 @@ export function GlobalFilters() {
               value={yearStartInput}
               onChange={(e) => setYearStartInput(e.target.value)}
               onBlur={handleStartBlur}
-              className="w-16 rounded-md border border-white/[0.06] bg-[#0f1628] px-2 py-1 text-xs text-[#e2e8f0] text-center font-mono-numbers outline-none focus:border-[#4f8ef7]"
+              className="w-16 px-2 py-1 text-xs text-center font-mono-numbers outline-none"
+              style={{
+                borderRadius: 2,
+                border: "1px solid rgba(6,37,75,0.15)",
+                background: "white",
+                color: "#06254B",
+              }}
             />
             <div className="flex-1 px-2">
               <Slider
@@ -106,14 +157,35 @@ export function GlobalFilters() {
               value={yearEndInput}
               onChange={(e) => setYearEndInput(e.target.value)}
               onBlur={handleEndBlur}
-              className="w-16 rounded-md border border-white/[0.06] bg-[#0f1628] px-2 py-1 text-xs text-[#e2e8f0] text-center font-mono-numbers outline-none focus:border-[#4f8ef7]"
+              className="w-16 px-2 py-1 text-xs text-center font-mono-numbers outline-none"
+              style={{
+                borderRadius: 2,
+                border: "1px solid rgba(6,37,75,0.15)",
+                background: "white",
+                color: "#06254B",
+              }}
             />
           </div>
 
           {/* Recargar */}
           <button
             onClick={() => window.location.reload()}
-            className="inline-flex items-center gap-2 rounded-md border border-white/[0.06] bg-[#1a2240] px-3 py-2 text-sm font-medium text-[#e2e8f0] hover:bg-[#253055] transition-colors"
+            className="inline-flex items-center gap-2 px-3 py-2 text-sm font-medium transition-colors"
+            style={{
+              borderRadius: 2,
+              border: "1px solid rgba(6,37,75,0.15)",
+              background: "white",
+              color: "#06254B",
+              fontFamily: "'Quicksand', sans-serif",
+            }}
+            onMouseEnter={(e) => {
+              e.currentTarget.style.background = "#06254B";
+              e.currentTarget.style.color = "white";
+            }}
+            onMouseLeave={(e) => {
+              e.currentTarget.style.background = "white";
+              e.currentTarget.style.color = "#06254B";
+            }}
             title="Recargar página"
           >
             <RefreshCw className="h-4 w-4" />

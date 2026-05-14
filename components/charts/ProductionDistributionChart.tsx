@@ -4,9 +4,9 @@ import { useMemo, useState, useCallback } from "react";
 import { useDashboard } from "@/lib/filters";
 
 const COLORS: Record<string, string> = {
-  pollo: "#4f8ef7",
-  huevo: "#f7c94f",
-  pavo: "#f7734f",
+  pollo: "#03488D",
+  huevo: "#F8D227",
+  pavo: "#06254B",
 };
 
 const EMOJIS: Record<string, string> = {
@@ -49,21 +49,7 @@ function describeArc(
   const end = polarToCartesian(cx, cy, r, startAngle);
   const largeArcFlag = endAngle - startAngle <= 180 ? "0" : "1";
   return [
-    "M",
-    cx,
-    cy,
-    "L",
-    start.x,
-    start.y,
-    "A",
-    r,
-    r,
-    0,
-    largeArcFlag,
-    0,
-    end.x,
-    end.y,
-    "Z",
+    "M", cx, cy, "L", start.x, start.y, "A", r, r, 0, largeArcFlag, 0, end.x, end.y, "Z",
   ].join(" ");
 }
 
@@ -159,21 +145,33 @@ export function ProductionDistributionChart() {
   const conceptoLabel =
     CONCEPTOS_DISPONIBLES.find((c) => c.value === concepto)?.label ?? concepto;
 
+  const selectStyle: React.CSSProperties = {
+    borderRadius: 2,
+    border: "1px solid rgba(6,37,75,0.15)",
+    background: "white",
+    padding: "6px 12px",
+    fontSize: 13,
+    fontFamily: "'Quicksand', sans-serif",
+    color: "#06254B",
+    outline: "none",
+  };
+
   return (
-    <div className="rounded-xl border border-white/[0.06] bg-[#1a2240] p-5">
+    <div className="una-card" style={{ padding: "28px 28px 24px" }}>
       <div className="mb-4 flex flex-col gap-3 sm:flex-row sm:items-start sm:justify-between">
         <div>
-          <h3 className="text-base font-semibold text-white font-heading mb-1">
+          <h3 className="text-base font-semibold font-heading mb-1" style={{ color: "#06254B" }}>
             Distribución de {conceptoLabel} en {lastYear}
           </h3>
-          <p className="text-sm text-[#94a3b8]">
+          <p className="text-sm" style={{ color: "#5a6478", fontFamily: "'Quicksand', sans-serif" }}>
             Participación por producto (toneladas del año)
           </p>
         </div>
         <select
           value={concepto}
           onChange={(e) => setConcepto(e.target.value)}
-          className="rounded-md border border-white/[0.06] bg-[#0f1628] px-3 py-1.5 text-sm text-[#e2e8f0] outline-none focus:border-[#4f8ef7] shrink-0"
+          style={selectStyle}
+          className="shrink-0"
         >
           {CONCEPTOS_DISPONIBLES.map((c) => (
             <option key={c.value} value={c.value}>
@@ -191,19 +189,15 @@ export function ProductionDistributionChart() {
             viewBox="0 0 400 400"
             preserveAspectRatio="xMidYMid meet"
             className="w-full h-auto block"
-            style={{ filter: "drop-shadow(0 2px 4px rgba(0,0,0,0.3))" }}
+            style={{ filter: "drop-shadow(0 2px 4px rgba(6,37,75,0.08))" }}
           >
             {slices.map((slice) => (
               <g
                 key={slice.key}
                 className="cursor-pointer transition-all duration-200"
                 style={{
-                  opacity:
-                    hoveredKey && hoveredKey !== slice.key ? 0.6 : 1,
-                  filter:
-                    hoveredKey === slice.key
-                      ? "brightness(1.2)"
-                      : "none",
+                  opacity: hoveredKey && hoveredKey !== slice.key ? 0.6 : 1,
+                  filter: hoveredKey === slice.key ? "brightness(1.1)" : "none",
                 }}
                 onMouseEnter={() => setHoveredKey(slice.key)}
                 onMouseMove={(e) => handleMouseMove(e, slice)}
@@ -212,7 +206,7 @@ export function ProductionDistributionChart() {
                 <path
                   d={slice.d}
                   fill={slice.color}
-                  stroke="#0f1628"
+                  stroke="white"
                   strokeWidth="3"
                   strokeLinejoin="round"
                 />
@@ -236,7 +230,7 @@ export function ProductionDistributionChart() {
                     fontSize="14"
                     fontWeight="700"
                     fill="#ffffff"
-                    style={{ textShadow: "0 1px 2px rgba(0,0,0,0.5)" }}
+                    style={{ textShadow: "0 1px 2px rgba(0,0,0,0.3)" }}
                     pointerEvents="none"
                   >
                     {((slice.value / total) * 100).toFixed(1)}%
@@ -247,46 +241,47 @@ export function ProductionDistributionChart() {
           </svg>
         </div>
 
-        {/* Resumen valores (leyenda a la derecha) */}
+        {/* Resumen valores */}
         <div className="flex-1 space-y-3">
           {chartData.map((item) => {
-            const pct =
-              total > 0 ? ((item.value / total) * 100).toFixed(1) : "0";
+            const pct = total > 0 ? ((item.value / total) * 100).toFixed(1) : "0";
             return (
               <div
                 key={item.key}
-                className="flex items-center justify-between py-2 px-3 rounded-lg border border-white/[0.04] bg-[#0f1628]/40 cursor-pointer transition-all hover:bg-[#0f1628]/70"
+                className="flex items-center justify-between py-2 px-3 cursor-pointer transition-all"
+                style={{
+                  borderRadius: 2,
+                  border: "1px solid rgba(6,37,75,0.06)",
+                  background: "#F2F8FF",
+                }}
                 onMouseEnter={() => setHoveredKey(item.key)}
                 onMouseLeave={() => setHoveredKey(null)}
               >
                 <div className="flex items-center gap-3">
                   <span
-                    className="inline-block h-4 w-4 rounded-full shrink-0"
+                    className="inline-block h-4 w-4 shrink-0"
                     style={{
                       backgroundColor: item.color,
-                      boxShadow: "0 1px 4px rgba(0,0,0,0.4)",
+                      borderRadius: 2,
                     }}
                   />
-                  <span className="text-sm text-[#e2e8f0] font-medium">
+                  <span className="text-sm font-medium" style={{ color: "#06254B", fontFamily: "'Quicksand', sans-serif" }}>
                     {item.name}
                   </span>
                 </div>
                 <div className="text-right">
-                  <span className="text-sm font-bold text-[#e2e8f0] font-mono-numbers block">
-                    {item.value.toLocaleString("es-ES", {
-                      maximumFractionDigits: 0,
-                    })}{" "}
-                    t
+                  <span className="text-sm font-bold font-mono-numbers block" style={{ color: "#06254B" }}>
+                    {item.value.toLocaleString("es-ES", { maximumFractionDigits: 0 })} t
                   </span>
-                  <span className="text-xs text-[#94a3b8]">{pct}%</span>
+                  <span className="text-xs" style={{ color: "#5a6478" }}>{pct}%</span>
                 </div>
               </div>
             );
           })}
-          <div className="pt-3 border-t border-white/[0.06]">
+          <div className="pt-3" style={{ borderTop: "1px solid rgba(6,37,75,0.10)" }}>
             <div className="flex justify-between px-3">
-              <span className="text-sm text-[#94a3b8]">Total</span>
-              <span className="text-sm font-bold text-white font-mono-numbers">
+              <span className="text-sm" style={{ color: "#5a6478", fontFamily: "'Quicksand', sans-serif" }}>Total</span>
+              <span className="text-sm font-bold font-mono-numbers" style={{ color: "#06254B" }}>
                 {total.toLocaleString("es-ES", { maximumFractionDigits: 0 })} t
               </span>
             </div>
@@ -297,18 +292,19 @@ export function ProductionDistributionChart() {
       {/* Tooltip */}
       {tooltip.visible && (
         <div
-          className="fixed z-50 px-3 py-2 rounded-md text-xs pointer-events-none"
+          className="fixed z-50 px-3 py-2 text-xs pointer-events-none"
           style={{
             left: tooltip.x,
             top: tooltip.y,
-            backgroundColor: "#1a2240",
-            border: "1px solid rgba(255,255,255,0.06)",
-            boxShadow: "0 4px 12px rgba(0,0,0,0.5)",
-            color: "#e2e8f0",
+            backgroundColor: "white",
+            border: "1px solid rgba(6,37,75,0.15)",
+            borderRadius: 2,
+            boxShadow: "0 14px 36px rgba(6, 37, 75, 0.10)",
+            color: "#1C1C1C",
           }}
         >
-          <strong className="block mb-0.5">{tooltip.name}</strong>
-          <span className="text-[#94a3b8]">{tooltip.pct}% del total</span>
+          <strong className="block mb-0.5" style={{ color: "#06254B" }}>{tooltip.name}</strong>
+          <span style={{ color: "#5a6478" }}>{tooltip.pct}% del total</span>
         </div>
       )}
     </div>

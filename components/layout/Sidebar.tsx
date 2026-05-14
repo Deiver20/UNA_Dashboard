@@ -29,9 +29,34 @@ export function Sidebar() {
   };
 
   return (
-    <aside className="hidden lg:flex w-64 shrink-0 flex-col border-r border-white/[0.06] bg-[#0f1628] sticky top-16 self-start h-[calc(100vh-4rem)]">
+    <aside
+      className="hidden lg:flex shrink-0 flex-col sticky self-start"
+      style={{
+        width: 268,
+        background: "#06254B",
+        color: "white",
+        borderRight: "1px solid rgba(248,210,39,0.10)",
+        top: 76,
+        height: "calc(100vh - 76px)",
+      }}
+    >
       <div className="p-4">
-        <nav className="space-y-1">
+        {/* Section label */}
+        <div
+          className="mb-3 flex items-center gap-2 px-3"
+          style={{
+            fontFamily: "'Quicksand', sans-serif",
+            fontSize: 10,
+            fontWeight: 600,
+            letterSpacing: "0.3em",
+            textTransform: "uppercase",
+            color: "rgba(255,255,255,0.40)",
+          }}
+        >
+          <span style={{ width: 22, height: 1, background: "#F8D227", display: "inline-block" }} />
+          Navegación
+        </div>
+        <nav className="space-y-0.5">
           {navItems.map((item) => {
             const Icon = item.icon;
             const isActive = active === item.id;
@@ -39,14 +64,29 @@ export function Sidebar() {
               <button
                 key={item.id}
                 onClick={() => scrollTo(item.id)}
-                className={`flex w-full items-center gap-3 rounded-lg px-3 py-2.5 text-sm font-medium transition-all ${
-                  isActive
-                    ? "bg-[#1a2240] text-[#4f8ef7] border border-[#4f8ef7]/20"
-                    : "text-[#94a3b8] hover:bg-[#1a2240]/60 hover:text-[#e2e8f0]"
-                }`}
+                className="flex w-full items-center gap-3.5 text-left transition-all"
+                style={{
+                  padding: "12px 28px",
+                  gap: 14,
+                  background: isActive ? "rgba(3,72,141,0.45)" : "transparent",
+                  color: isActive ? "white" : "rgba(255,255,255,0.72)",
+                  borderLeft: isActive ? "2px solid #F8D227" : "2px solid transparent",
+                  fontFamily: "'Quicksand', sans-serif",
+                  fontSize: 13.5,
+                  fontWeight: 500,
+                  lineHeight: 1,
+                }}
               >
-                <Icon className="h-4 w-4 shrink-0" />
-                {item.label}
+                <Icon
+                  className="shrink-0"
+                  style={{
+                    width: 18,
+                    height: 18,
+                    strokeWidth: 1.6,
+                    color: isActive ? "#F8D227" : "rgba(255,255,255,0.72)",
+                  }}
+                />
+                <span className="truncate">{item.label}</span>
               </button>
             );
           })}
@@ -54,12 +94,19 @@ export function Sidebar() {
       </div>
 
       <div className="mt-auto p-4">
-        <div className="rounded-lg border border-white/[0.06] bg-[#1a2240] p-3">
-          <p className="text-xs text-[#94a3b8]">Fuente de datos</p>
-          <p className="mt-1 text-xs font-medium text-[#e2e8f0]">
+        <div
+          className="p-3"
+          style={{
+            borderRadius: 2,
+            border: "1px solid rgba(248,210,39,0.10)",
+            background: "rgba(3,72,141,0.25)",
+          }}
+        >
+          <p className="text-xs" style={{ color: "rgba(255,255,255,0.40)", fontFamily: "'Quicksand', sans-serif" }}>Fuente de datos</p>
+          <p className="mt-1 text-xs font-medium" style={{ color: "white", fontFamily: "'Quicksand', sans-serif" }}>
             Base Producción-Consumo
           </p>
-          <p className="text-[10px] text-[#94a3b8]">1977 – 2025</p>
+          <p className="text-[10px]" style={{ color: "rgba(255,255,255,0.40)", fontFamily: "'JetBrains Mono', monospace", letterSpacing: "0.05em" }}>1977 – 2025</p>
         </div>
       </div>
     </aside>
