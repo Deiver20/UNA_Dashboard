@@ -1,0 +1,5217 @@
+[
+  {
+    "año": 1977,
+    "cantidad": 63822.0,
+    "unidades": "miles de habitantes",
+    "concepto": "poblacion",
+    "producto": null
+  },
+  {
+    "año": 1978,
+    "cantidad": 65844.0,
+    "unidades": "miles de habitantes",
+    "concepto": "poblacion",
+    "producto": null
+  },
+  {
+    "año": 1979,
+    "cantidad": 67899.0,
+    "unidades": "miles de habitantes",
+    "concepto": "poblacion",
+    "producto": null
+  },
+  {
+    "año": 1980,
+    "cantidad": 69347.0,
+    "unidades": "miles de habitantes",
+    "concepto": "poblacion",
+    "producto": null
+  },
+  {
+    "año": 1981,
+    "cantidad": 70526.0,
+    "unidades": "miles de habitantes",
+    "concepto": "poblacion",
+    "producto": null
+  },
+  {
+    "año": 1982,
+    "cantidad": 71243.0,
+    "unidades": "miles de habitantes",
+    "concepto": "poblacion",
+    "producto": null
+  },
+  {
+    "año": 1983,
+    "cantidad": 72944.0,
+    "unidades": "miles de habitantes",
+    "concepto": "poblacion",
+    "producto": null
+  },
+  {
+    "año": 1984,
+    "cantidad": 74184.0,
+    "unidades": "miles de habitantes",
+    "concepto": "poblacion",
+    "producto": null
+  },
+  {
+    "año": 1985,
+    "cantidad": 75445.0,
+    "unidades": "miles de habitantes",
+    "concepto": "poblacion",
+    "producto": null
+  },
+  {
+    "año": 1986,
+    "cantidad": 76728.0,
+    "unidades": "miles de habitantes",
+    "concepto": "poblacion",
+    "producto": null
+  },
+  {
+    "año": 1987,
+    "cantidad": 78032.0,
+    "unidades": "miles de habitantes",
+    "concepto": "poblacion",
+    "producto": null
+  },
+  {
+    "año": 1988,
+    "cantidad": 79359.0,
+    "unidades": "miles de habitantes",
+    "concepto": "poblacion",
+    "producto": null
+  },
+  {
+    "año": 1989,
+    "cantidad": 80708.0,
+    "unidades": "miles de habitantes",
+    "concepto": "poblacion",
+    "producto": null
+  },
+  {
+    "año": 1990,
+    "cantidad": 81141.0,
+    "unidades": "miles de habitantes",
+    "concepto": "poblacion",
+    "producto": null
+  },
+  {
+    "año": 1991,
+    "cantidad": 82764.0,
+    "unidades": "miles de habitantes",
+    "concepto": "poblacion",
+    "producto": null
+  },
+  {
+    "año": 1992,
+    "cantidad": 84004.0,
+    "unidades": "miles de habitantes",
+    "concepto": "poblacion",
+    "producto": null
+  },
+  {
+    "año": 1993,
+    "cantidad": 85685.0,
+    "unidades": "miles de habitantes",
+    "concepto": "poblacion",
+    "producto": null
+  },
+  {
+    "año": 1994,
+    "cantidad": 87380.0,
+    "unidades": "miles de habitantes",
+    "concepto": "poblacion",
+    "producto": null
+  },
+  {
+    "año": 1995,
+    "cantidad": 88908.0,
+    "unidades": "miles de habitantes",
+    "concepto": "poblacion",
+    "producto": null
+  },
+  {
+    "año": 1996,
+    "cantidad": 90538.0,
+    "unidades": "miles de habitantes",
+    "concepto": "poblacion",
+    "producto": null
+  },
+  {
+    "año": 1997,
+    "cantidad": 92198.0,
+    "unidades": "miles de habitantes",
+    "concepto": "poblacion",
+    "producto": null
+  },
+  {
+    "año": 1998,
+    "cantidad": 93888.0,
+    "unidades": "miles de habitantes",
+    "concepto": "poblacion",
+    "producto": null
+  },
+  {
+    "año": 1999,
+    "cantidad": 95609.0,
+    "unidades": "miles de habitantes",
+    "concepto": "poblacion",
+    "producto": null
+  },
+  {
+    "año": 2000,
+    "cantidad": 97483.0,
+    "unidades": "miles de habitantes",
+    "concepto": "poblacion",
+    "producto": null
+  },
+  {
+    "año": 2001,
+    "cantidad": 98653.0,
+    "unidades": "miles de habitantes",
+    "concepto": "poblacion",
+    "producto": null
+  },
+  {
+    "año": 2002,
+    "cantidad": 99837.0,
+    "unidades": "miles de habitantes",
+    "concepto": "poblacion",
+    "producto": null
+  },
+  {
+    "año": 2003,
+    "cantidad": 101034.0,
+    "unidades": "miles de habitantes",
+    "concepto": "poblacion",
+    "producto": null
+  },
+  {
+    "año": 2004,
+    "cantidad": 102146.0,
+    "unidades": "miles de habitantes",
+    "concepto": "poblacion",
+    "producto": null
+  },
+  {
+    "año": 2005,
+    "cantidad": 103371.0,
+    "unidades": "miles de habitantes",
+    "concepto": "poblacion",
+    "producto": null
+  },
+  {
+    "año": 2006,
+    "cantidad": 105164.0,
+    "unidades": "miles de habitantes",
+    "concepto": "poblacion",
+    "producto": null
+  },
+  {
+    "año": 2007,
+    "cantidad": 106957.0,
+    "unidades": "miles de habitantes",
+    "concepto": "poblacion",
+    "producto": null
+  },
+  {
+    "año": 2008,
+    "cantidad": 108750.0,
+    "unidades": "miles de habitantes",
+    "concepto": "poblacion",
+    "producto": null
+  },
+  {
+    "año": 2009,
+    "cantidad": 110543.0,
+    "unidades": "miles de habitantes",
+    "concepto": "poblacion",
+    "producto": null
+  },
+  {
+    "año": 2010,
+    "cantidad": 112336.0,
+    "unidades": "miles de habitantes",
+    "concepto": "poblacion",
+    "producto": null
+  },
+  {
+    "año": 2011,
+    "cantidad": 113816.93031271531,
+    "unidades": "miles de habitantes",
+    "concepto": "poblacion",
+    "producto": null
+  },
+  {
+    "año": 2012,
+    "cantidad": 115317.38379334757,
+    "unidades": "miles de habitantes",
+    "concepto": "poblacion",
+    "producto": null
+  },
+  {
+    "año": 2013,
+    "cantidad": 116837.61781665793,
+    "unidades": "miles de habitantes",
+    "concepto": "poblacion",
+    "producto": null
+  },
+  {
+    "año": 2014,
+    "cantidad": 118377.89315039008,
+    "unidades": "miles de habitantes",
+    "concepto": "poblacion",
+    "producto": null
+  },
+  {
+    "año": 2015,
+    "cantidad": 119938.474,
+    "unidades": "miles de habitantes",
+    "concepto": "poblacion",
+    "producto": null
+  },
+  {
+    "año": 2016,
+    "cantidad": 121129.68592792077,
+    "unidades": "miles de habitantes",
+    "concepto": "poblacion",
+    "producto": null
+  },
+  {
+    "año": 2017,
+    "cantidad": 122332.72880390931,
+    "unidades": "miles de habitantes",
+    "concepto": "poblacion",
+    "producto": null
+  },
+  {
+    "año": 2018,
+    "cantidad": 123547.72013126532,
+    "unidades": "miles de habitantes",
+    "concepto": "poblacion",
+    "producto": null
+  },
+  {
+    "año": 2019,
+    "cantidad": 124774.77858031463,
+    "unidades": "miles de habitantes",
+    "concepto": "poblacion",
+    "producto": null
+  },
+  {
+    "año": 2020,
+    "cantidad": 126014.024,
+    "unidades": "miles de habitantes",
+    "concepto": "poblacion",
+    "producto": null
+  },
+  {
+    "año": 2021,
+    "cantidad": 127996.051,
+    "unidades": "miles de habitantes",
+    "concepto": "poblacion",
+    "producto": null
+  },
+  {
+    "año": 2022,
+    "cantidad": 129276.01151000001,
+    "unidades": "miles de habitantes",
+    "concepto": "poblacion",
+    "producto": null
+  },
+  {
+    "año": 2023,
+    "cantidad": 130568.77162510001,
+    "unidades": "miles de habitantes",
+    "concepto": "poblacion",
+    "producto": null
+  },
+  {
+    "año": 2024,
+    "cantidad": 131874.459341351,
+    "unidades": "miles de habitantes",
+    "concepto": "poblacion",
+    "producto": null
+  },
+  {
+    "año": 2025,
+    "cantidad": 133193.20393476452,
+    "unidades": "miles de habitantes",
+    "concepto": "poblacion",
+    "producto": null
+  },
+  {
+    "año": 1977,
+    "cantidad": 46645179.0,
+    "unidades": "aves",
+    "concepto": "aves de postura",
+    "producto": "Huevo"
+  },
+  {
+    "año": 1978,
+    "cantidad": 49678920.0,
+    "unidades": "aves",
+    "concepto": "aves de postura",
+    "producto": "Huevo"
+  },
+  {
+    "año": 1979,
+    "cantidad": 51914820.0,
+    "unidades": "aves",
+    "concepto": "aves de postura",
+    "producto": "Huevo"
+  },
+  {
+    "año": 1980,
+    "cantidad": 62308345.0,
+    "unidades": "aves",
+    "concepto": "aves de postura",
+    "producto": "Huevo"
+  },
+  {
+    "año": 1981,
+    "cantidad": 63759496.0,
+    "unidades": "aves",
+    "concepto": "aves de postura",
+    "producto": "Huevo"
+  },
+  {
+    "año": 1982,
+    "cantidad": 67699712.0,
+    "unidades": "aves",
+    "concepto": "aves de postura",
+    "producto": "Huevo"
+  },
+  {
+    "año": 1983,
+    "cantidad": 73115683.0,
+    "unidades": "aves",
+    "concepto": "aves de postura",
+    "producto": "Huevo"
+  },
+  {
+    "año": 1984,
+    "cantidad": 80061654.0,
+    "unidades": "aves",
+    "concepto": "aves de postura",
+    "producto": "Huevo"
+  },
+  {
+    "año": 1985,
+    "cantidad": 78460420.0,
+    "unidades": "aves",
+    "concepto": "aves de postura",
+    "producto": "Huevo"
+  },
+  {
+    "año": 1986,
+    "cantidad": 76891212.0,
+    "unidades": "aves",
+    "concepto": "aves de postura",
+    "producto": "Huevo"
+  },
+  {
+    "año": 1987,
+    "cantidad": 76506756.0,
+    "unidades": "aves",
+    "concepto": "aves de postura",
+    "producto": "Huevo"
+  },
+  {
+    "año": 1988,
+    "cantidad": 75741688.0,
+    "unidades": "aves",
+    "concepto": "aves de postura",
+    "producto": "Huevo"
+  },
+  {
+    "año": 1989,
+    "cantidad": 76120396.0,
+    "unidades": "aves",
+    "concepto": "aves de postura",
+    "producto": "Huevo"
+  },
+  {
+    "año": 1990,
+    "cantidad": 76494406.0,
+    "unidades": "aves",
+    "concepto": "aves de postura",
+    "producto": "Huevo"
+  },
+  {
+    "año": 1991,
+    "cantidad": 78789238.0,
+    "unidades": "aves",
+    "concepto": "aves de postura",
+    "producto": "Huevo"
+  },
+  {
+    "año": 1992,
+    "cantidad": 79183184.0,
+    "unidades": "aves",
+    "concepto": "aves de postura",
+    "producto": "Huevo"
+  },
+  {
+    "año": 1993,
+    "cantidad": 80687665.0,
+    "unidades": "aves",
+    "concepto": "aves de postura",
+    "producto": "Huevo"
+  },
+  {
+    "año": 1994,
+    "cantidad": 85950000.0,
+    "unidades": "aves",
+    "concepto": "aves de postura",
+    "producto": "Huevo"
+  },
+  {
+    "año": 1995,
+    "cantidad": 85000000.0,
+    "unidades": "aves",
+    "concepto": "aves de postura",
+    "producto": "Huevo"
+  },
+  {
+    "año": 1996,
+    "cantidad": 85536383.0,
+    "unidades": "aves",
+    "concepto": "aves de postura",
+    "producto": "Huevo"
+  },
+  {
+    "año": 1997,
+    "cantidad": 91876136.0,
+    "unidades": "aves",
+    "concepto": "aves de postura",
+    "producto": "Huevo"
+  },
+  {
+    "año": 1998,
+    "cantidad": 97505505.0,
+    "unidades": "aves",
+    "concepto": "aves de postura",
+    "producto": "Huevo"
+  },
+  {
+    "año": 1999,
+    "cantidad": 102326001.0,
+    "unidades": "aves",
+    "concepto": "aves de postura",
+    "producto": "Huevo"
+  },
+  {
+    "año": 2000,
+    "cantidad": 109871103.0,
+    "unidades": "aves",
+    "concepto": "aves de postura",
+    "producto": "Huevo"
+  },
+  {
+    "año": 2001,
+    "cantidad": 113589884.0,
+    "unidades": "aves",
+    "concepto": "aves de postura",
+    "producto": "Huevo"
+  },
+  {
+    "año": 2002,
+    "cantidad": 115286996.0,
+    "unidades": "aves",
+    "concepto": "aves de postura",
+    "producto": "Huevo"
+  },
+  {
+    "año": 2003,
+    "cantidad": 116575512.0,
+    "unidades": "aves",
+    "concepto": "aves de postura",
+    "producto": "Huevo"
+  },
+  {
+    "año": 2004,
+    "cantidad": 124196390.0,
+    "unidades": "aves",
+    "concepto": "aves de postura",
+    "producto": "Huevo"
+  },
+  {
+    "año": 2005,
+    "cantidad": 130704095.0,
+    "unidades": "aves",
+    "concepto": "aves de postura",
+    "producto": "Huevo"
+  },
+  {
+    "año": 2006,
+    "cantidad": 132464112.0,
+    "unidades": "aves",
+    "concepto": "aves de postura",
+    "producto": "Huevo"
+  },
+  {
+    "año": 2007,
+    "cantidad": 129458905.0,
+    "unidades": "aves",
+    "concepto": "aves de postura",
+    "producto": "Huevo"
+  },
+  {
+    "año": 2008,
+    "cantidad": 131065007.0,
+    "unidades": "aves",
+    "concepto": "aves de postura",
+    "producto": "Huevo"
+  },
+  {
+    "año": 2009,
+    "cantidad": 136846358.0,
+    "unidades": "aves",
+    "concepto": "aves de postura",
+    "producto": "Huevo"
+  },
+  {
+    "año": 2010,
+    "cantidad": 142101023.0,
+    "unidades": "aves",
+    "concepto": "aves de postura",
+    "producto": "Huevo"
+  },
+  {
+    "año": 2011,
+    "cantidad": 145702478.0,
+    "unidades": "aves",
+    "concepto": "aves de postura",
+    "producto": "Huevo"
+  },
+  {
+    "año": 2012,
+    "cantidad": 137002043.0,
+    "unidades": "aves",
+    "concepto": "aves de postura",
+    "producto": "Huevo"
+  },
+  {
+    "año": 2013,
+    "cantidad": 148044245.0,
+    "unidades": "aves",
+    "concepto": "aves de postura",
+    "producto": "Huevo"
+  },
+  {
+    "año": 2014,
+    "cantidad": 152146146.0,
+    "unidades": "aves",
+    "concepto": "aves de postura",
+    "producto": "Huevo"
+  },
+  {
+    "año": 2015,
+    "cantidad": 153633544.0,
+    "unidades": "aves",
+    "concepto": "aves de postura",
+    "producto": "Huevo"
+  },
+  {
+    "año": 2016,
+    "cantidad": 158658764.0,
+    "unidades": "aves",
+    "concepto": "aves de postura",
+    "producto": "Huevo"
+  },
+  {
+    "año": 2017,
+    "cantidad": 156774839.0,
+    "unidades": "aves",
+    "concepto": "aves de postura",
+    "producto": "Huevo"
+  },
+  {
+    "año": 2018,
+    "cantidad": 161164829.0,
+    "unidades": "aves",
+    "concepto": "aves de postura",
+    "producto": "Huevo"
+  },
+  {
+    "año": 2019,
+    "cantidad": 163297929.0,
+    "unidades": "aves",
+    "concepto": "aves de postura",
+    "producto": "Huevo"
+  },
+  {
+    "año": 2020,
+    "cantidad": 167423175.85931435,
+    "unidades": "aves",
+    "concepto": "aves de postura",
+    "producto": "Huevo"
+  },
+  {
+    "año": 2021,
+    "cantidad": 172190264.90720043,
+    "unidades": "aves",
+    "concepto": "aves de postura",
+    "producto": "Huevo"
+  },
+  {
+    "año": 2022,
+    "cantidad": 169660333.0,
+    "unidades": "aves",
+    "concepto": "aves de postura",
+    "producto": "Huevo"
+  },
+  {
+    "año": 2023,
+    "cantidad": 171152717.5185164,
+    "unidades": "aves",
+    "concepto": "aves de postura",
+    "producto": "Huevo"
+  },
+  {
+    "año": 2024,
+    "cantidad": 174586635.52197,
+    "unidades": "aves",
+    "concepto": "aves de postura",
+    "producto": "Huevo"
+  },
+  {
+    "año": 2025,
+    "cantidad": 185091499.9377917,
+    "unidades": "aves",
+    "concepto": "aves de postura",
+    "producto": "Huevo"
+  },
+  {
+    "año": 1977,
+    "cantidad": 676168.0,
+    "unidades": "toneladas",
+    "concepto": "produccion",
+    "producto": "Huevo"
+  },
+  {
+    "año": 1978,
+    "cantidad": 690537.0,
+    "unidades": "toneladas",
+    "concepto": "produccion",
+    "producto": "Huevo"
+  },
+  {
+    "año": 1979,
+    "cantidad": 721616.0,
+    "unidades": "toneladas",
+    "concepto": "produccion",
+    "producto": "Huevo"
+  },
+  {
+    "año": 1980,
+    "cantidad": 866086.0,
+    "unidades": "toneladas",
+    "concepto": "produccion",
+    "producto": "Huevo"
+  },
+  {
+    "año": 1981,
+    "cantidad": 886257.0,
+    "unidades": "toneladas",
+    "concepto": "produccion",
+    "producto": "Huevo"
+  },
+  {
+    "año": 1982,
+    "cantidad": 941026.0,
+    "unidades": "toneladas",
+    "concepto": "produccion",
+    "producto": "Huevo"
+  },
+  {
+    "año": 1983,
+    "cantidad": 1016308.0,
+    "unidades": "toneladas",
+    "concepto": "produccion",
+    "producto": "Huevo"
+  },
+  {
+    "año": 1984,
+    "cantidad": 1112857.0,
+    "unidades": "toneladas",
+    "concepto": "produccion",
+    "producto": "Huevo"
+  },
+  {
+    "año": 1985,
+    "cantidad": 1090599.0,
+    "unidades": "toneladas",
+    "concepto": "produccion",
+    "producto": "Huevo"
+  },
+  {
+    "año": 1986,
+    "cantidad": 1068788.0,
+    "unidades": "toneladas",
+    "concepto": "produccion",
+    "producto": "Huevo"
+  },
+  {
+    "año": 1987,
+    "cantidad": 1063444.0,
+    "unidades": "toneladas",
+    "concepto": "produccion",
+    "producto": "Huevo"
+  },
+  {
+    "año": 1988,
+    "cantidad": 1052809.0,
+    "unidades": "toneladas",
+    "concepto": "produccion",
+    "producto": "Huevo"
+  },
+  {
+    "año": 1989,
+    "cantidad": 1111358.0,
+    "unidades": "toneladas",
+    "concepto": "produccion",
+    "producto": "Huevo"
+  },
+  {
+    "año": 1990,
+    "cantidad": 1116818.0,
+    "unidades": "toneladas",
+    "concepto": "produccion",
+    "producto": "Huevo"
+  },
+  {
+    "año": 1991,
+    "cantidad": 1150322.0,
+    "unidades": "toneladas",
+    "concepto": "produccion",
+    "producto": "Huevo"
+  },
+  {
+    "año": 1992,
+    "cantidad": 1187748.0,
+    "unidades": "toneladas",
+    "concepto": "produccion",
+    "producto": "Huevo"
+  },
+  {
+    "año": 1993,
+    "cantidad": 1211503.0,
+    "unidades": "toneladas",
+    "concepto": "produccion",
+    "producto": "Huevo"
+  },
+  {
+    "año": 1994,
+    "cantidad": 1461150.0,
+    "unidades": "toneladas",
+    "concepto": "produccion",
+    "producto": "Huevo"
+  },
+  {
+    "año": 1995,
+    "cantidad": 1453500.0,
+    "unidades": "toneladas",
+    "concepto": "produccion",
+    "producto": "Huevo"
+  },
+  {
+    "año": 1996,
+    "cantidad": 1469538.0,
+    "unidades": "toneladas",
+    "concepto": "produccion",
+    "producto": "Huevo"
+  },
+  {
+    "año": 1997,
+    "cantidad": 1589457.0,
+    "unidades": "toneladas",
+    "concepto": "produccion",
+    "producto": "Huevo"
+  },
+  {
+    "año": 1998,
+    "cantidad": 1686845.0,
+    "unidades": "toneladas",
+    "concepto": "produccion",
+    "producto": "Huevo"
+  },
+  {
+    "año": 1999,
+    "cantidad": 1829751.0,
+    "unidades": "toneladas",
+    "concepto": "produccion",
+    "producto": "Huevo"
+  },
+  {
+    "año": 2000,
+    "cantidad": 1944718.0,
+    "unidades": "toneladas",
+    "concepto": "produccion",
+    "producto": "Huevo"
+  },
+  {
+    "año": 2001,
+    "cantidad": 2010540.0,
+    "unidades": "toneladas",
+    "concepto": "produccion",
+    "producto": "Huevo"
+  },
+  {
+    "año": 2002,
+    "cantidad": 2040579.0,
+    "unidades": "toneladas",
+    "concepto": "produccion",
+    "producto": "Huevo"
+  },
+  {
+    "año": 2003,
+    "cantidad": 2063386.0,
+    "unidades": "toneladas",
+    "concepto": "produccion",
+    "producto": "Huevo"
+  },
+  {
+    "año": 2004,
+    "cantidad": 2198276.103,
+    "unidades": "toneladas",
+    "concepto": "produccion",
+    "producto": "Huevo"
+  },
+  {
+    "año": 2005,
+    "cantidad": 2276865.3349,
+    "unidades": "toneladas",
+    "concepto": "produccion",
+    "producto": "Huevo"
+  },
+  {
+    "año": 2006,
+    "cantidad": 2307524.8310400005,
+    "unidades": "toneladas",
+    "concepto": "produccion",
+    "producto": "Huevo"
+  },
+  {
+    "año": 2007,
+    "cantidad": 2278476.728,
+    "unidades": "toneladas",
+    "concepto": "produccion",
+    "producto": "Huevo"
+  },
+  {
+    "año": 2008,
+    "cantidad": 2306744.1232000003,
+    "unidades": "toneladas",
+    "concepto": "produccion",
+    "producto": "Huevo"
+  },
+  {
+    "año": 2009,
+    "cantidad": 2383863.5563600003,
+    "unidades": "toneladas",
+    "concepto": "produccion",
+    "producto": "Huevo"
+  },
+  {
+    "año": 2010,
+    "cantidad": 2475399.82066,
+    "unidades": "toneladas",
+    "concepto": "produccion",
+    "producto": "Huevo"
+  },
+  {
+    "año": 2011,
+    "cantidad": 2538137.1667600004,
+    "unidades": "toneladas",
+    "concepto": "produccion",
+    "producto": "Huevo"
+  },
+  {
+    "año": 2012,
+    "cantidad": 2386575.5890600006,
+    "unidades": "toneladas",
+    "concepto": "produccion",
+    "producto": "Huevo"
+  },
+  {
+    "año": 2013,
+    "cantidad": 2509349.95275,
+    "unidades": "toneladas",
+    "concepto": "produccion",
+    "producto": "Huevo"
+  },
+  {
+    "año": 2014,
+    "cantidad": 2571270.0,
+    "unidades": "toneladas",
+    "concepto": "produccion",
+    "producto": "Huevo"
+  },
+  {
+    "año": 2015,
+    "cantidad": 2637581.0,
+    "unidades": "toneladas",
+    "concepto": "produccion",
+    "producto": "Huevo"
+  },
+  {
+    "año": 2016,
+    "cantidad": 2765422.0,
+    "unidades": "toneladas",
+    "concepto": "produccion",
+    "producto": "Huevo"
+  },
+  {
+    "año": 2017,
+    "cantidad": 2718476.0,
+    "unidades": "toneladas",
+    "concepto": "produccion",
+    "producto": "Huevo"
+  },
+  {
+    "año": 2018,
+    "cantidad": 2802656.0,
+    "unidades": "toneladas",
+    "concepto": "produccion",
+    "producto": "Huevo"
+  },
+  {
+    "año": 2019,
+    "cantidad": 2852815.0,
+    "unidades": "toneladas",
+    "concepto": "produccion",
+    "producto": "Huevo"
+  },
+  {
+    "año": 2020,
+    "cantidad": 2923331.311981167,
+    "unidades": "toneladas",
+    "concepto": "produccion",
+    "producto": "Huevo"
+  },
+  {
+    "año": 2021,
+    "cantidad": 3008163.927928792,
+    "unidades": "toneladas",
+    "concepto": "produccion",
+    "producto": "Huevo"
+  },
+  {
+    "año": 2022,
+    "cantidad": 2963983.0,
+    "unidades": "toneladas",
+    "concepto": "produccion",
+    "producto": "Huevo"
+  },
+  {
+    "año": 2023,
+    "cantidad": 2990037.9750484806,
+    "unidades": "toneladas",
+    "concepto": "produccion",
+    "producto": "Huevo"
+  },
+  {
+    "año": 2024,
+    "cantidad": 3050028.522568816,
+    "unidades": "toneladas",
+    "concepto": "produccion",
+    "producto": "Huevo"
+  },
+  {
+    "año": 2025,
+    "cantidad": 3233548.5039132214,
+    "unidades": "toneladas",
+    "concepto": "produccion",
+    "producto": "Huevo"
+  },
+  {
+    "año": 1996,
+    "cantidad": 11420.0,
+    "unidades": "toneladas",
+    "concepto": "importaciones",
+    "producto": "Huevo"
+  },
+  {
+    "año": 1997,
+    "cantidad": 13333.0,
+    "unidades": "toneladas",
+    "concepto": "importaciones",
+    "producto": "Huevo"
+  },
+  {
+    "año": 1998,
+    "cantidad": 13850.0,
+    "unidades": "toneladas",
+    "concepto": "importaciones",
+    "producto": "Huevo"
+  },
+  {
+    "año": 1999,
+    "cantidad": 9108.0,
+    "unidades": "toneladas",
+    "concepto": "importaciones",
+    "producto": "Huevo"
+  },
+  {
+    "año": 2000,
+    "cantidad": 11429.0,
+    "unidades": "toneladas",
+    "concepto": "importaciones",
+    "producto": "Huevo"
+  },
+  {
+    "año": 2001,
+    "cantidad": 13765.0,
+    "unidades": "toneladas",
+    "concepto": "importaciones",
+    "producto": "Huevo"
+  },
+  {
+    "año": 2002,
+    "cantidad": 8824.0,
+    "unidades": "toneladas",
+    "concepto": "importaciones",
+    "producto": "Huevo"
+  },
+  {
+    "año": 2003,
+    "cantidad": 4336.0,
+    "unidades": "toneladas",
+    "concepto": "importaciones",
+    "producto": "Huevo"
+  },
+  {
+    "año": 2004,
+    "cantidad": 4514.0,
+    "unidades": "toneladas",
+    "concepto": "importaciones",
+    "producto": "Huevo"
+  },
+  {
+    "año": 2005,
+    "cantidad": 7129.0,
+    "unidades": "toneladas",
+    "concepto": "importaciones",
+    "producto": "Huevo"
+  },
+  {
+    "año": 2006,
+    "cantidad": 20768.0,
+    "unidades": "toneladas",
+    "concepto": "importaciones",
+    "producto": "Huevo"
+  },
+  {
+    "año": 2007,
+    "cantidad": 16103.0,
+    "unidades": "toneladas",
+    "concepto": "importaciones",
+    "producto": "Huevo"
+  },
+  {
+    "año": 2008,
+    "cantidad": 9430.0,
+    "unidades": "toneladas",
+    "concepto": "importaciones",
+    "producto": "Huevo"
+  },
+  {
+    "año": 2009,
+    "cantidad": 15054.0,
+    "unidades": "toneladas",
+    "concepto": "importaciones",
+    "producto": "Huevo"
+  },
+  {
+    "año": 2010,
+    "cantidad": 11974.0,
+    "unidades": "toneladas",
+    "concepto": "importaciones",
+    "producto": "Huevo"
+  },
+  {
+    "año": 2011,
+    "cantidad": 11406.0,
+    "unidades": "toneladas",
+    "concepto": "importaciones",
+    "producto": "Huevo"
+  },
+  {
+    "año": 2012,
+    "cantidad": 29704.0,
+    "unidades": "toneladas",
+    "concepto": "importaciones",
+    "producto": "Huevo"
+  },
+  {
+    "año": 2013,
+    "cantidad": 74976.0,
+    "unidades": "toneladas",
+    "concepto": "importaciones",
+    "producto": "Huevo"
+  },
+  {
+    "año": 2014,
+    "cantidad": 55919.0,
+    "unidades": "toneladas",
+    "concepto": "importaciones",
+    "producto": "Huevo"
+  },
+  {
+    "año": 2015,
+    "cantidad": 31191.0,
+    "unidades": "toneladas",
+    "concepto": "importaciones",
+    "producto": "Huevo"
+  },
+  {
+    "año": 2016,
+    "cantidad": 40718.0,
+    "unidades": "toneladas",
+    "concepto": "importaciones",
+    "producto": "Huevo"
+  },
+  {
+    "año": 2017,
+    "cantidad": 33891.0,
+    "unidades": "toneladas",
+    "concepto": "importaciones",
+    "producto": "Huevo"
+  },
+  {
+    "año": 2018,
+    "cantidad": 19955.0,
+    "unidades": "toneladas",
+    "concepto": "importaciones",
+    "producto": "Huevo"
+  },
+  {
+    "año": 2019,
+    "cantidad": 44661.0,
+    "unidades": "toneladas",
+    "concepto": "importaciones",
+    "producto": "Huevo"
+  },
+  {
+    "año": 2020,
+    "cantidad": 68304.0,
+    "unidades": "toneladas",
+    "concepto": "importaciones",
+    "producto": "Huevo"
+  },
+  {
+    "año": 2021,
+    "cantidad": 60357.0,
+    "unidades": "toneladas",
+    "concepto": "importaciones",
+    "producto": "Huevo"
+  },
+  {
+    "año": 2022,
+    "cantidad": 13587.0,
+    "unidades": "toneladas",
+    "concepto": "importaciones",
+    "producto": "Huevo"
+  },
+  {
+    "año": 2023,
+    "cantidad": 29691.0,
+    "unidades": "toneladas",
+    "concepto": "importaciones",
+    "producto": "Huevo"
+  },
+  {
+    "año": 2024,
+    "cantidad": 7560.0,
+    "unidades": "toneladas",
+    "concepto": "importaciones",
+    "producto": "Huevo"
+  },
+  {
+    "año": 2025,
+    "cantidad": 7649.0,
+    "unidades": "toneladas",
+    "concepto": "importaciones",
+    "producto": "Huevo"
+  },
+  {
+    "año": 2005,
+    "cantidad": 14999.0,
+    "unidades": "toneladas",
+    "concepto": "importaciones",
+    "producto": "Huevo"
+  },
+  {
+    "año": 2006,
+    "cantidad": 8442.0,
+    "unidades": "toneladas",
+    "concepto": "importaciones",
+    "producto": "Huevo"
+  },
+  {
+    "año": 2007,
+    "cantidad": 8215.0,
+    "unidades": "toneladas",
+    "concepto": "exportaciones",
+    "producto": "Huevo"
+  },
+  {
+    "año": 2008,
+    "cantidad": 14579.0,
+    "unidades": "toneladas",
+    "concepto": "exportaciones",
+    "producto": "Huevo"
+  },
+  {
+    "año": 2009,
+    "cantidad": 14853.0,
+    "unidades": "toneladas",
+    "concepto": "exportaciones",
+    "producto": "Huevo"
+  },
+  {
+    "año": 2010,
+    "cantidad": 24362.0,
+    "unidades": "toneladas",
+    "concepto": "exportaciones",
+    "producto": "Huevo"
+  },
+  {
+    "año": 2011,
+    "cantidad": 21773.0,
+    "unidades": "toneladas",
+    "concepto": "exportaciones",
+    "producto": "Huevo"
+  },
+  {
+    "año": 2012,
+    "cantidad": 25292.0,
+    "unidades": "toneladas",
+    "concepto": "exportaciones",
+    "producto": "Huevo"
+  },
+  {
+    "año": 2013,
+    "cantidad": 5848.0,
+    "unidades": "toneladas",
+    "concepto": "exportaciones",
+    "producto": "Huevo"
+  },
+  {
+    "año": 2014,
+    "cantidad": 1151.0,
+    "unidades": "toneladas",
+    "concepto": "exportaciones",
+    "producto": "Huevo"
+  },
+  {
+    "año": 2015,
+    "cantidad": 2682.0,
+    "unidades": "toneladas",
+    "concepto": "exportaciones",
+    "producto": "Huevo"
+  },
+  {
+    "año": 2016,
+    "cantidad": 5960.0,
+    "unidades": "toneladas",
+    "concepto": "exportaciones",
+    "producto": "Huevo"
+  },
+  {
+    "año": 2017,
+    "cantidad": 7526.0,
+    "unidades": "toneladas",
+    "concepto": "exportaciones",
+    "producto": "Huevo"
+  },
+  {
+    "año": 2018,
+    "cantidad": 4933.0,
+    "unidades": "toneladas",
+    "concepto": "exportaciones",
+    "producto": "Huevo"
+  },
+  {
+    "año": 2019,
+    "cantidad": 5809.0,
+    "unidades": "toneladas",
+    "concepto": "exportaciones",
+    "producto": "Huevo"
+  },
+  {
+    "año": 2020,
+    "cantidad": 928.0,
+    "unidades": "toneladas",
+    "concepto": "exportaciones",
+    "producto": "Huevo"
+  },
+  {
+    "año": 2021,
+    "cantidad": 352.0,
+    "unidades": "toneladas",
+    "concepto": "exportaciones",
+    "producto": "Huevo"
+  },
+  {
+    "año": 2022,
+    "cantidad": 2568.0,
+    "unidades": "toneladas",
+    "concepto": "exportaciones",
+    "producto": "Huevo"
+  },
+  {
+    "año": 2023,
+    "cantidad": 449.0,
+    "unidades": "toneladas",
+    "concepto": "exportaciones",
+    "producto": "Huevo"
+  },
+  {
+    "año": 2024,
+    "cantidad": 547.0,
+    "unidades": "toneladas",
+    "concepto": "exportaciones",
+    "producto": "Huevo"
+  },
+  {
+    "año": 2025,
+    "cantidad": 19578.0,
+    "unidades": "toneladas",
+    "concepto": "exportaciones",
+    "producto": "Huevo"
+  },
+  {
+    "año": 1977,
+    "cantidad": 676168.0,
+    "unidades": "toneladas",
+    "concepto": "consumo",
+    "producto": "Huevo"
+  },
+  {
+    "año": 1978,
+    "cantidad": 690537.0,
+    "unidades": "toneladas",
+    "concepto": "consumo",
+    "producto": "Huevo"
+  },
+  {
+    "año": 1979,
+    "cantidad": 721616.0,
+    "unidades": "toneladas",
+    "concepto": "consumo",
+    "producto": "Huevo"
+  },
+  {
+    "año": 1980,
+    "cantidad": 866086.0,
+    "unidades": "toneladas",
+    "concepto": "consumo",
+    "producto": "Huevo"
+  },
+  {
+    "año": 1981,
+    "cantidad": 886257.0,
+    "unidades": "toneladas",
+    "concepto": "consumo",
+    "producto": "Huevo"
+  },
+  {
+    "año": 1982,
+    "cantidad": 941026.0,
+    "unidades": "toneladas",
+    "concepto": "consumo",
+    "producto": "Huevo"
+  },
+  {
+    "año": 1983,
+    "cantidad": 1016308.0,
+    "unidades": "toneladas",
+    "concepto": "consumo",
+    "producto": "Huevo"
+  },
+  {
+    "año": 1984,
+    "cantidad": 1112857.0,
+    "unidades": "toneladas",
+    "concepto": "consumo",
+    "producto": "Huevo"
+  },
+  {
+    "año": 1985,
+    "cantidad": 1090599.0,
+    "unidades": "toneladas",
+    "concepto": "consumo",
+    "producto": "Huevo"
+  },
+  {
+    "año": 1986,
+    "cantidad": 1068788.0,
+    "unidades": "toneladas",
+    "concepto": "consumo",
+    "producto": "Huevo"
+  },
+  {
+    "año": 1987,
+    "cantidad": 1063444.0,
+    "unidades": "toneladas",
+    "concepto": "consumo",
+    "producto": "Huevo"
+  },
+  {
+    "año": 1988,
+    "cantidad": 1052809.0,
+    "unidades": "toneladas",
+    "concepto": "consumo",
+    "producto": "Huevo"
+  },
+  {
+    "año": 1989,
+    "cantidad": 1111358.0,
+    "unidades": "toneladas",
+    "concepto": "consumo",
+    "producto": "Huevo"
+  },
+  {
+    "año": 1990,
+    "cantidad": 1116818.0,
+    "unidades": "toneladas",
+    "concepto": "consumo",
+    "producto": "Huevo"
+  },
+  {
+    "año": 1991,
+    "cantidad": 1150322.0,
+    "unidades": "toneladas",
+    "concepto": "consumo",
+    "producto": "Huevo"
+  },
+  {
+    "año": 1992,
+    "cantidad": 1187748.0,
+    "unidades": "toneladas",
+    "concepto": "consumo",
+    "producto": "Huevo"
+  },
+  {
+    "año": 1993,
+    "cantidad": 1211503.0,
+    "unidades": "toneladas",
+    "concepto": "consumo",
+    "producto": "Huevo"
+  },
+  {
+    "año": 1994,
+    "cantidad": 1461150.0,
+    "unidades": "toneladas",
+    "concepto": "consumo",
+    "producto": "Huevo"
+  },
+  {
+    "año": 1995,
+    "cantidad": 1453500.0,
+    "unidades": "toneladas",
+    "concepto": "consumo",
+    "producto": "Huevo"
+  },
+  {
+    "año": 1996,
+    "cantidad": 1480958.0,
+    "unidades": "toneladas",
+    "concepto": "consumo",
+    "producto": "Huevo"
+  },
+  {
+    "año": 1997,
+    "cantidad": 1602790.0,
+    "unidades": "toneladas",
+    "concepto": "consumo",
+    "producto": "Huevo"
+  },
+  {
+    "año": 1998,
+    "cantidad": 1700695.0,
+    "unidades": "toneladas",
+    "concepto": "consumo",
+    "producto": "Huevo"
+  },
+  {
+    "año": 1999,
+    "cantidad": 1838859.0,
+    "unidades": "toneladas",
+    "concepto": "consumo",
+    "producto": "Huevo"
+  },
+  {
+    "año": 2000,
+    "cantidad": 1956147.0,
+    "unidades": "toneladas",
+    "concepto": "consumo",
+    "producto": "Huevo"
+  },
+  {
+    "año": 2001,
+    "cantidad": 2024305.0,
+    "unidades": "toneladas",
+    "concepto": "consumo",
+    "producto": "Huevo"
+  },
+  {
+    "año": 2002,
+    "cantidad": 2049403.0,
+    "unidades": "toneladas",
+    "concepto": "consumo",
+    "producto": "Huevo"
+  },
+  {
+    "año": 2003,
+    "cantidad": 2067722.0,
+    "unidades": "toneladas",
+    "concepto": "consumo",
+    "producto": "Huevo"
+  },
+  {
+    "año": 2004,
+    "cantidad": 2202790.103,
+    "unidades": "toneladas",
+    "concepto": "consumo",
+    "producto": "Huevo"
+  },
+  {
+    "año": 2005,
+    "cantidad": 2268995.3349,
+    "unidades": "toneladas",
+    "concepto": "consumo",
+    "producto": "Huevo"
+  },
+  {
+    "año": 2006,
+    "cantidad": 2319850.8310400005,
+    "unidades": "toneladas",
+    "concepto": "consumo",
+    "producto": "Huevo"
+  },
+  {
+    "año": 2007,
+    "cantidad": 2286364.728,
+    "unidades": "toneladas",
+    "concepto": "consumo",
+    "producto": "Huevo"
+  },
+  {
+    "año": 2008,
+    "cantidad": 2301595.1232000003,
+    "unidades": "toneladas",
+    "concepto": "consumo",
+    "producto": "Huevo"
+  },
+  {
+    "año": 2009,
+    "cantidad": 2384064.5563600003,
+    "unidades": "toneladas",
+    "concepto": "consumo",
+    "producto": "Huevo"
+  },
+  {
+    "año": 2010,
+    "cantidad": 2463011.82066,
+    "unidades": "toneladas",
+    "concepto": "consumo",
+    "producto": "Huevo"
+  },
+  {
+    "año": 2011,
+    "cantidad": 2527770.1667600004,
+    "unidades": "toneladas",
+    "concepto": "consumo",
+    "producto": "Huevo"
+  },
+  {
+    "año": 2012,
+    "cantidad": 2390987.5890600006,
+    "unidades": "toneladas",
+    "concepto": "consumo",
+    "producto": "Huevo"
+  },
+  {
+    "año": 2013,
+    "cantidad": 2578477.95275,
+    "unidades": "toneladas",
+    "concepto": "consumo",
+    "producto": "Huevo"
+  },
+  {
+    "año": 2014,
+    "cantidad": 2626038.0,
+    "unidades": "toneladas",
+    "concepto": "consumo",
+    "producto": "Huevo"
+  },
+  {
+    "año": 2015,
+    "cantidad": 2666090.0,
+    "unidades": "toneladas",
+    "concepto": "consumo",
+    "producto": "Huevo"
+  },
+  {
+    "año": 2016,
+    "cantidad": 2800180.0,
+    "unidades": "toneladas",
+    "concepto": "consumo",
+    "producto": "Huevo"
+  },
+  {
+    "año": 2017,
+    "cantidad": 2744841.0,
+    "unidades": "toneladas",
+    "concepto": "consumo",
+    "producto": "Huevo"
+  },
+  {
+    "año": 2018,
+    "cantidad": 2817678.0,
+    "unidades": "toneladas",
+    "concepto": "consumo",
+    "producto": "Huevo"
+  },
+  {
+    "año": 2019,
+    "cantidad": 2891667.0,
+    "unidades": "toneladas",
+    "concepto": "consumo",
+    "producto": "Huevo"
+  },
+  {
+    "año": 2020,
+    "cantidad": 2990707.311981167,
+    "unidades": "toneladas",
+    "concepto": "consumo",
+    "producto": "Huevo"
+  },
+  {
+    "año": 2021,
+    "cantidad": 3068168.927928792,
+    "unidades": "toneladas",
+    "concepto": "consumo",
+    "producto": "Huevo"
+  },
+  {
+    "año": 2022,
+    "cantidad": 2975002.0,
+    "unidades": "toneladas",
+    "concepto": "consumo",
+    "producto": "Huevo"
+  },
+  {
+    "año": 2023,
+    "cantidad": 3019279.9750484806,
+    "unidades": "toneladas",
+    "concepto": "consumo",
+    "producto": "Huevo"
+  },
+  {
+    "año": 2024,
+    "cantidad": 3057041.522568816,
+    "unidades": "toneladas",
+    "concepto": "consumo",
+    "producto": "Huevo"
+  },
+  {
+    "año": 2025,
+    "cantidad": 3221619.5039132214,
+    "unidades": "toneladas",
+    "concepto": "consumo",
+    "producto": "Huevo"
+  },
+  {
+    "año": 1977,
+    "cantidad": 10.6,
+    "unidades": "kilogramos",
+    "concepto": "consumo per capita",
+    "producto": "Huevo"
+  },
+  {
+    "año": 1978,
+    "cantidad": 10.5,
+    "unidades": "kilogramos",
+    "concepto": "consumo per capita",
+    "producto": "Huevo"
+  },
+  {
+    "año": 1979,
+    "cantidad": 10.6,
+    "unidades": "kilogramos",
+    "concepto": "consumo per capita",
+    "producto": "Huevo"
+  },
+  {
+    "año": 1980,
+    "cantidad": 12.5,
+    "unidades": "kilogramos",
+    "concepto": "consumo per capita",
+    "producto": "Huevo"
+  },
+  {
+    "año": 1981,
+    "cantidad": 12.6,
+    "unidades": "kilogramos",
+    "concepto": "consumo per capita",
+    "producto": "Huevo"
+  },
+  {
+    "año": 1982,
+    "cantidad": 13.2,
+    "unidades": "kilogramos",
+    "concepto": "consumo per capita",
+    "producto": "Huevo"
+  },
+  {
+    "año": 1983,
+    "cantidad": 13.9,
+    "unidades": "kilogramos",
+    "concepto": "consumo per capita",
+    "producto": "Huevo"
+  },
+  {
+    "año": 1984,
+    "cantidad": 15.0,
+    "unidades": "kilogramos",
+    "concepto": "consumo per capita",
+    "producto": "Huevo"
+  },
+  {
+    "año": 1985,
+    "cantidad": 14.4,
+    "unidades": "kilogramos",
+    "concepto": "consumo per capita",
+    "producto": "Huevo"
+  },
+  {
+    "año": 1986,
+    "cantidad": 13.9,
+    "unidades": "kilogramos",
+    "concepto": "consumo per capita",
+    "producto": "Huevo"
+  },
+  {
+    "año": 1987,
+    "cantidad": 13.6,
+    "unidades": "kilogramos",
+    "concepto": "consumo per capita",
+    "producto": "Huevo"
+  },
+  {
+    "año": 1988,
+    "cantidad": 13.3,
+    "unidades": "kilogramos",
+    "concepto": "consumo per capita",
+    "producto": "Huevo"
+  },
+  {
+    "año": 1989,
+    "cantidad": 13.7,
+    "unidades": "kilogramos",
+    "concepto": "consumo per capita",
+    "producto": "Huevo"
+  },
+  {
+    "año": 1990,
+    "cantidad": 13.8,
+    "unidades": "kilogramos",
+    "concepto": "consumo per capita",
+    "producto": "Huevo"
+  },
+  {
+    "año": 1991,
+    "cantidad": 13.898820743318351,
+    "unidades": "kilogramos",
+    "concepto": "consumo per capita",
+    "producto": "Huevo"
+  },
+  {
+    "año": 1992,
+    "cantidad": 14.139183848388171,
+    "unidades": "kilogramos",
+    "concepto": "consumo per capita",
+    "producto": "Huevo"
+  },
+  {
+    "año": 1993,
+    "cantidad": 14.13903250277178,
+    "unidades": "kilogramos",
+    "concepto": "consumo per capita",
+    "producto": "Huevo"
+  },
+  {
+    "año": 1994,
+    "cantidad": 16.72178988326848,
+    "unidades": "kilogramos",
+    "concepto": "consumo per capita",
+    "producto": "Huevo"
+  },
+  {
+    "año": 1995,
+    "cantidad": 16.348360102577946,
+    "unidades": "kilogramos",
+    "concepto": "consumo per capita",
+    "producto": "Huevo"
+  },
+  {
+    "año": 1996,
+    "cantidad": 16.357308533433475,
+    "unidades": "kilogramos",
+    "concepto": "consumo per capita",
+    "producto": "Huevo"
+  },
+  {
+    "año": 1997,
+    "cantidad": 17.384216577366104,
+    "unidades": "kilogramos",
+    "concepto": "consumo per capita",
+    "producto": "Huevo"
+  },
+  {
+    "año": 1998,
+    "cantidad": 18.114082736877982,
+    "unidades": "kilogramos",
+    "concepto": "consumo per capita",
+    "producto": "Huevo"
+  },
+  {
+    "año": 1999,
+    "cantidad": 19.233116129234695,
+    "unidades": "kilogramos",
+    "concepto": "consumo per capita",
+    "producto": "Huevo"
+  },
+  {
+    "año": 2000,
+    "cantidad": 20.06654493604013,
+    "unidades": "kilogramos",
+    "concepto": "consumo per capita",
+    "producto": "Huevo"
+  },
+  {
+    "año": 2001,
+    "cantidad": 20.519446950422186,
+    "unidades": "kilogramos",
+    "concepto": "consumo per capita",
+    "producto": "Huevo"
+  },
+  {
+    "año": 2002,
+    "cantidad": 20.52748980838767,
+    "unidades": "kilogramos",
+    "concepto": "consumo per capita",
+    "producto": "Huevo"
+  },
+  {
+    "año": 2003,
+    "cantidad": 20.46560563770612,
+    "unidades": "kilogramos",
+    "concepto": "consumo per capita",
+    "producto": "Huevo"
+  },
+  {
+    "año": 2004,
+    "cantidad": 21.565113690208136,
+    "unidades": "kilogramos",
+    "concepto": "consumo per capita",
+    "producto": "Huevo"
+  },
+  {
+    "año": 2005,
+    "cantidad": 21.95001823432104,
+    "unidades": "kilogramos",
+    "concepto": "consumo per capita",
+    "producto": "Huevo"
+  },
+  {
+    "año": 2006,
+    "cantidad": 22.059362814651408,
+    "unidades": "kilogramos",
+    "concepto": "consumo per capita",
+    "producto": "Huevo"
+  },
+  {
+    "año": 2007,
+    "cantidad": 21.376485204334454,
+    "unidades": "kilogramos",
+    "concepto": "consumo per capita",
+    "producto": "Huevo"
+  },
+  {
+    "año": 2008,
+    "cantidad": 21.164093086896553,
+    "unidades": "kilogramos",
+    "concepto": "consumo per capita",
+    "producto": "Huevo"
+  },
+  {
+    "año": 2009,
+    "cantidad": 21.566852323168362,
+    "unidades": "kilogramos",
+    "concepto": "consumo per capita",
+    "producto": "Huevo"
+  },
+  {
+    "año": 2010,
+    "cantidad": 21.925400767874947,
+    "unidades": "kilogramos",
+    "concepto": "consumo per capita",
+    "producto": "Huevo"
+  },
+  {
+    "año": 2011,
+    "cantidad": 22.209087521644438,
+    "unidades": "kilogramos",
+    "concepto": "consumo per capita",
+    "producto": "Huevo"
+  },
+  {
+    "año": 2012,
+    "cantidad": 20.73397358150898,
+    "unidades": "kilogramos",
+    "concepto": "consumo per capita",
+    "producto": "Huevo"
+  },
+  {
+    "año": 2013,
+    "cantidad": 22.068902130443625,
+    "unidades": "kilogramos",
+    "concepto": "consumo per capita",
+    "producto": "Huevo"
+  },
+  {
+    "año": 2014,
+    "cantidad": 22.18351695669916,
+    "unidades": "kilogramos",
+    "concepto": "consumo per capita",
+    "producto": "Huevo"
+  },
+  {
+    "año": 2015,
+    "cantidad": 22.228813749956498,
+    "unidades": "kilogramos",
+    "concepto": "consumo per capita",
+    "producto": "Huevo"
+  },
+  {
+    "año": 2016,
+    "cantidad": 23.117206806482354,
+    "unidades": "kilogramos",
+    "concepto": "consumo per capita",
+    "producto": "Huevo"
+  },
+  {
+    "año": 2017,
+    "cantidad": 22.43750324902656,
+    "unidades": "kilogramos",
+    "concepto": "consumo per capita",
+    "producto": "Huevo"
+  },
+  {
+    "año": 2018,
+    "cantidad": 22.806394136664856,
+    "unidades": "kilogramos",
+    "concepto": "consumo per capita",
+    "producto": "Huevo"
+  },
+  {
+    "año": 2019,
+    "cantidad": 23.175092217364273,
+    "unidades": "kilogramos",
+    "concepto": "consumo per capita",
+    "producto": "Huevo"
+  },
+  {
+    "año": 2020,
+    "cantidad": 23.733130782183157,
+    "unidades": "kilogramos",
+    "concepto": "consumo per capita",
+    "producto": "Huevo"
+  },
+  {
+    "año": 2021,
+    "cantidad": 23.97080928636456,
+    "unidades": "kilogramos",
+    "concepto": "consumo per capita",
+    "producto": "Huevo"
+  },
+  {
+    "año": 2022,
+    "cantidad": 23.0127922825796,
+    "unidades": "kilogramos",
+    "concepto": "consumo per capita",
+    "producto": "Huevo"
+  },
+  {
+    "año": 2023,
+    "cantidad": 23.124058972674494,
+    "unidades": "kilogramos",
+    "concepto": "consumo per capita",
+    "producto": "Huevo"
+  },
+  {
+    "año": 2024,
+    "cantidad": 23.181452555993452,
+    "unidades": "kilogramos",
+    "concepto": "consumo per capita",
+    "producto": "Huevo"
+  },
+  {
+    "año": 2025,
+    "cantidad": 24.18756669815608,
+    "unidades": "kilogramos",
+    "concepto": "consumo per capita",
+    "producto": "Huevo"
+  },
+  {
+    "año": 1977,
+    "cantidad": 180.2,
+    "unidades": "piezas",
+    "concepto": "consumo per capita",
+    "producto": "Huevo"
+  },
+  {
+    "año": 1978,
+    "cantidad": 178.5,
+    "unidades": "piezas",
+    "concepto": "consumo per capita",
+    "producto": "Huevo"
+  },
+  {
+    "año": 1979,
+    "cantidad": 180.2,
+    "unidades": "piezas",
+    "concepto": "consumo per capita",
+    "producto": "Huevo"
+  },
+  {
+    "año": 1980,
+    "cantidad": 212.5,
+    "unidades": "piezas",
+    "concepto": "consumo per capita",
+    "producto": "Huevo"
+  },
+  {
+    "año": 1981,
+    "cantidad": 214.2,
+    "unidades": "piezas",
+    "concepto": "consumo per capita",
+    "producto": "Huevo"
+  },
+  {
+    "año": 1982,
+    "cantidad": 224.39999999999998,
+    "unidades": "piezas",
+    "concepto": "consumo per capita",
+    "producto": "Huevo"
+  },
+  {
+    "año": 1983,
+    "cantidad": 236.3,
+    "unidades": "piezas",
+    "concepto": "consumo per capita",
+    "producto": "Huevo"
+  },
+  {
+    "año": 1984,
+    "cantidad": 255.0,
+    "unidades": "piezas",
+    "concepto": "consumo per capita",
+    "producto": "Huevo"
+  },
+  {
+    "año": 1985,
+    "cantidad": 244.8,
+    "unidades": "piezas",
+    "concepto": "consumo per capita",
+    "producto": "Huevo"
+  },
+  {
+    "año": 1986,
+    "cantidad": 236.3,
+    "unidades": "piezas",
+    "concepto": "consumo per capita",
+    "producto": "Huevo"
+  },
+  {
+    "año": 1987,
+    "cantidad": 231.2,
+    "unidades": "piezas",
+    "concepto": "consumo per capita",
+    "producto": "Huevo"
+  },
+  {
+    "año": 1988,
+    "cantidad": 226.10000000000002,
+    "unidades": "piezas",
+    "concepto": "consumo per capita",
+    "producto": "Huevo"
+  },
+  {
+    "año": 1989,
+    "cantidad": 232.89999999999998,
+    "unidades": "piezas",
+    "concepto": "consumo per capita",
+    "producto": "Huevo"
+  },
+  {
+    "año": 1990,
+    "cantidad": 234.60000000000002,
+    "unidades": "piezas",
+    "concepto": "consumo per capita",
+    "producto": "Huevo"
+  },
+  {
+    "año": 1991,
+    "cantidad": 236.27995263641196,
+    "unidades": "piezas",
+    "concepto": "consumo per capita",
+    "producto": "Huevo"
+  },
+  {
+    "año": 1992,
+    "cantidad": 240.3661254225989,
+    "unidades": "piezas",
+    "concepto": "consumo per capita",
+    "producto": "Huevo"
+  },
+  {
+    "año": 1993,
+    "cantidad": 240.36355254712026,
+    "unidades": "piezas",
+    "concepto": "consumo per capita",
+    "producto": "Huevo"
+  },
+  {
+    "año": 1994,
+    "cantidad": 284.27042801556416,
+    "unidades": "piezas",
+    "concepto": "consumo per capita",
+    "producto": "Huevo"
+  },
+  {
+    "año": 1995,
+    "cantidad": 277.9221217438251,
+    "unidades": "piezas",
+    "concepto": "consumo per capita",
+    "producto": "Huevo"
+  },
+  {
+    "año": 1996,
+    "cantidad": 278.07424506836907,
+    "unidades": "piezas",
+    "concepto": "consumo per capita",
+    "producto": "Huevo"
+  },
+  {
+    "año": 1997,
+    "cantidad": 295.53168181522375,
+    "unidades": "piezas",
+    "concepto": "consumo per capita",
+    "producto": "Huevo"
+  },
+  {
+    "año": 1998,
+    "cantidad": 307.9394065269257,
+    "unidades": "piezas",
+    "concepto": "consumo per capita",
+    "producto": "Huevo"
+  },
+  {
+    "año": 1999,
+    "cantidad": 326.9629741969898,
+    "unidades": "piezas",
+    "concepto": "consumo per capita",
+    "producto": "Huevo"
+  },
+  {
+    "año": 2000,
+    "cantidad": 341.13126391268224,
+    "unidades": "piezas",
+    "concepto": "consumo per capita",
+    "producto": "Huevo"
+  },
+  {
+    "año": 2001,
+    "cantidad": 348.8305981571772,
+    "unidades": "piezas",
+    "concepto": "consumo per capita",
+    "producto": "Huevo"
+  },
+  {
+    "año": 2002,
+    "cantidad": 348.9673267425904,
+    "unidades": "piezas",
+    "concepto": "consumo per capita",
+    "producto": "Huevo"
+  },
+  {
+    "año": 2003,
+    "cantidad": 347.915295841004,
+    "unidades": "piezas",
+    "concepto": "consumo per capita",
+    "producto": "Huevo"
+  },
+  {
+    "año": 2004,
+    "cantidad": 366.6069327335383,
+    "unidades": "piezas",
+    "concepto": "consumo per capita",
+    "producto": "Huevo"
+  },
+  {
+    "año": 2005,
+    "cantidad": 373.15030998345765,
+    "unidades": "piezas",
+    "concepto": "consumo per capita",
+    "producto": "Huevo"
+  },
+  {
+    "año": 2006,
+    "cantidad": 375.00916784907395,
+    "unidades": "piezas",
+    "concepto": "consumo per capita",
+    "producto": "Huevo"
+  },
+  {
+    "año": 2007,
+    "cantidad": 363.40024847368574,
+    "unidades": "piezas",
+    "concepto": "consumo per capita",
+    "producto": "Huevo"
+  },
+  {
+    "año": 2008,
+    "cantidad": 359.7895824772414,
+    "unidades": "piezas",
+    "concepto": "consumo per capita",
+    "producto": "Huevo"
+  },
+  {
+    "año": 2009,
+    "cantidad": 366.63648949386214,
+    "unidades": "piezas",
+    "concepto": "consumo per capita",
+    "producto": "Huevo"
+  },
+  {
+    "año": 2010,
+    "cantidad": 372.73181305387413,
+    "unidades": "piezas",
+    "concepto": "consumo per capita",
+    "producto": "Huevo"
+  },
+  {
+    "año": 2011,
+    "cantidad": 377.55448786795546,
+    "unidades": "piezas",
+    "concepto": "consumo per capita",
+    "producto": "Huevo"
+  },
+  {
+    "año": 2012,
+    "cantidad": 352.47755088565265,
+    "unidades": "piezas",
+    "concepto": "consumo per capita",
+    "producto": "Huevo"
+  },
+  {
+    "año": 2013,
+    "cantidad": 375.17133621754164,
+    "unidades": "piezas",
+    "concepto": "consumo per capita",
+    "producto": "Huevo"
+  },
+  {
+    "año": 2014,
+    "cantidad": 377.11978826388577,
+    "unidades": "piezas",
+    "concepto": "consumo per capita",
+    "producto": "Huevo"
+  },
+  {
+    "año": 2015,
+    "cantidad": 377.88983374926045,
+    "unidades": "piezas",
+    "concepto": "consumo per capita",
+    "producto": "Huevo"
+  },
+  {
+    "año": 2016,
+    "cantidad": 392.9925157102,
+    "unidades": "piezas",
+    "concepto": "consumo per capita",
+    "producto": "Huevo"
+  },
+  {
+    "año": 2017,
+    "cantidad": 381.4375552334515,
+    "unidades": "piezas",
+    "concepto": "consumo per capita",
+    "producto": "Huevo"
+  },
+  {
+    "año": 2018,
+    "cantidad": 387.70870032330254,
+    "unidades": "piezas",
+    "concepto": "consumo per capita",
+    "producto": "Huevo"
+  },
+  {
+    "año": 2019,
+    "cantidad": 393.97656769519267,
+    "unidades": "piezas",
+    "concepto": "consumo per capita",
+    "producto": "Huevo"
+  },
+  {
+    "año": 2020,
+    "cantidad": 403.46322329711364,
+    "unidades": "piezas",
+    "concepto": "consumo per capita",
+    "producto": "Huevo"
+  },
+  {
+    "año": 2021,
+    "cantidad": 407.5037578681975,
+    "unidades": "piezas",
+    "concepto": "consumo per capita",
+    "producto": "Huevo"
+  },
+  {
+    "año": 2022,
+    "cantidad": 391.2174688038532,
+    "unidades": "piezas",
+    "concepto": "consumo per capita",
+    "producto": "Huevo"
+  },
+  {
+    "año": 2023,
+    "cantidad": 393.1090025354664,
+    "unidades": "piezas",
+    "concepto": "consumo per capita",
+    "producto": "Huevo"
+  },
+  {
+    "año": 2024,
+    "cantidad": 394.0846934518887,
+    "unidades": "piezas",
+    "concepto": "consumo per capita",
+    "producto": "Huevo"
+  },
+  {
+    "año": 2025,
+    "cantidad": 406.3511205290221,
+    "unidades": "piezas",
+    "concepto": "consumo per capita",
+    "producto": "Huevo"
+  },
+  {
+    "año": 1989,
+    "cantidad": 1000.0,
+    "unidades": "miles de aves",
+    "concepto": "produccion",
+    "producto": "pavo"
+  },
+  {
+    "año": 1990,
+    "cantidad": 1200.0,
+    "unidades": "miles de aves",
+    "concepto": "produccion",
+    "producto": "pavo"
+  },
+  {
+    "año": 1991,
+    "cantidad": 1500.0,
+    "unidades": "miles de aves",
+    "concepto": "produccion",
+    "producto": "pavo"
+  },
+  {
+    "año": 1992,
+    "cantidad": 1625.0,
+    "unidades": "miles de aves",
+    "concepto": "produccion",
+    "producto": "pavo"
+  },
+  {
+    "año": 1993,
+    "cantidad": 1200.0,
+    "unidades": "miles de aves",
+    "concepto": "produccion",
+    "producto": "pavo"
+  },
+  {
+    "año": 1994,
+    "cantidad": 875.0,
+    "unidades": "miles de aves",
+    "concepto": "produccion",
+    "producto": "pavo"
+  },
+  {
+    "año": 1995,
+    "cantidad": 1258.5,
+    "unidades": "miles de aves",
+    "concepto": "produccion",
+    "producto": "pavo"
+  },
+  {
+    "año": 1996,
+    "cantidad": 1634.5,
+    "unidades": "miles de aves",
+    "concepto": "produccion",
+    "producto": "pavo"
+  },
+  {
+    "año": 1997,
+    "cantidad": 1668.125,
+    "unidades": "miles de aves",
+    "concepto": "produccion",
+    "producto": "pavo"
+  },
+  {
+    "año": 1998,
+    "cantidad": 1784.75,
+    "unidades": "miles de aves",
+    "concepto": "produccion",
+    "producto": "pavo"
+  },
+  {
+    "año": 1999,
+    "cantidad": 2055.125,
+    "unidades": "miles de aves",
+    "concepto": "produccion",
+    "producto": "pavo"
+  },
+  {
+    "año": 2000,
+    "cantidad": 2028.625,
+    "unidades": "miles de aves",
+    "concepto": "produccion",
+    "producto": "pavo"
+  },
+  {
+    "año": 2001,
+    "cantidad": 2303.25,
+    "unidades": "miles de aves",
+    "concepto": "produccion",
+    "producto": "pavo"
+  },
+  {
+    "año": 2002,
+    "cantidad": 2690.5,
+    "unidades": "miles de aves",
+    "concepto": "produccion",
+    "producto": "pavo"
+  },
+  {
+    "año": 2003,
+    "cantidad": 2678.25,
+    "unidades": "miles de aves",
+    "concepto": "produccion",
+    "producto": "pavo"
+  },
+  {
+    "año": 2004,
+    "cantidad": 2078.75,
+    "unidades": "miles de aves",
+    "concepto": "produccion",
+    "producto": "pavo"
+  },
+  {
+    "año": 2005,
+    "cantidad": 1730.0,
+    "unidades": "miles de aves",
+    "concepto": "produccion",
+    "producto": "pavo"
+  },
+  {
+    "año": 2006,
+    "cantidad": 1800.0,
+    "unidades": "miles de aves",
+    "concepto": "produccion",
+    "producto": "pavo"
+  },
+  {
+    "año": 2007,
+    "cantidad": 1800.0,
+    "unidades": "miles de aves",
+    "concepto": "produccion",
+    "producto": "pavo"
+  },
+  {
+    "año": 2008,
+    "cantidad": 1872.0,
+    "unidades": "miles de aves",
+    "concepto": "produccion",
+    "producto": "pavo"
+  },
+  {
+    "año": 2009,
+    "cantidad": 1428.0,
+    "unidades": "miles de aves",
+    "concepto": "produccion",
+    "producto": "pavo"
+  },
+  {
+    "año": 2010,
+    "cantidad": 1324.263,
+    "unidades": "miles de aves",
+    "concepto": "produccion",
+    "producto": "pavo"
+  },
+  {
+    "año": 2011,
+    "cantidad": 1251.57,
+    "unidades": "miles de aves",
+    "concepto": "produccion",
+    "producto": "pavo"
+  },
+  {
+    "año": 2012,
+    "cantidad": 1024.05,
+    "unidades": "miles de aves",
+    "concepto": "produccion",
+    "producto": "pavo"
+  },
+  {
+    "año": 2013,
+    "cantidad": 1027.0,
+    "unidades": "miles de aves",
+    "concepto": "produccion",
+    "producto": "pavo"
+  },
+  {
+    "año": 2014,
+    "cantidad": 1113.988,
+    "unidades": "miles de aves",
+    "concepto": "produccion",
+    "producto": "pavo"
+  },
+  {
+    "año": 2015,
+    "cantidad": 1475.0,
+    "unidades": "miles de aves",
+    "concepto": "produccion",
+    "producto": "pavo"
+  },
+  {
+    "año": 2016,
+    "cantidad": 1494.0,
+    "unidades": "miles de aves",
+    "concepto": "produccion",
+    "producto": "pavo"
+  },
+  {
+    "año": 2017,
+    "cantidad": 1210.0,
+    "unidades": "miles de aves",
+    "concepto": "produccion",
+    "producto": "pavo"
+  },
+  {
+    "año": 2018,
+    "cantidad": 1343.0,
+    "unidades": "miles de aves",
+    "concepto": "produccion",
+    "producto": "pavo"
+  },
+  {
+    "año": 2019,
+    "cantidad": 918.0,
+    "unidades": "miles de aves",
+    "concepto": "produccion",
+    "producto": "pavo"
+  },
+  {
+    "año": 2020,
+    "cantidad": 819.0,
+    "unidades": "miles de aves",
+    "concepto": "produccion",
+    "producto": "pavo"
+  },
+  {
+    "año": 2021,
+    "cantidad": 1050.78,
+    "unidades": "miles de aves",
+    "concepto": "produccion",
+    "producto": "pavo"
+  },
+  {
+    "año": 2022,
+    "cantidad": 943.904,
+    "unidades": "miles de aves",
+    "concepto": "produccion",
+    "producto": "pavo"
+  },
+  {
+    "año": 2023,
+    "cantidad": 1057.658586131,
+    "unidades": "miles de aves",
+    "concepto": "produccion",
+    "producto": "pavo"
+  },
+  {
+    "año": 2024,
+    "cantidad": 933.4802932,
+    "unidades": "miles de aves",
+    "concepto": "produccion",
+    "producto": "pavo"
+  },
+  {
+    "año": 2025,
+    "cantidad": 715.10712,
+    "unidades": "miles de aves",
+    "concepto": "produccion",
+    "producto": "pavo"
+  },
+  {
+    "año": 1989,
+    "cantidad": 8000.0,
+    "unidades": "toneladas",
+    "concepto": "produccion",
+    "producto": "pavo"
+  },
+  {
+    "año": 1990,
+    "cantidad": 9600.0,
+    "unidades": "toneladas",
+    "concepto": "produccion",
+    "producto": "pavo"
+  },
+  {
+    "año": 1991,
+    "cantidad": 12000.0,
+    "unidades": "toneladas",
+    "concepto": "produccion",
+    "producto": "pavo"
+  },
+  {
+    "año": 1992,
+    "cantidad": 13000.0,
+    "unidades": "toneladas",
+    "concepto": "produccion",
+    "producto": "pavo"
+  },
+  {
+    "año": 1993,
+    "cantidad": 9600.0,
+    "unidades": "toneladas",
+    "concepto": "produccion",
+    "producto": "pavo"
+  },
+  {
+    "año": 1994,
+    "cantidad": 7000.0,
+    "unidades": "toneladas",
+    "concepto": "produccion",
+    "producto": "pavo"
+  },
+  {
+    "año": 1995,
+    "cantidad": 10068.0,
+    "unidades": "toneladas",
+    "concepto": "produccion",
+    "producto": "pavo"
+  },
+  {
+    "año": 1996,
+    "cantidad": 13076.0,
+    "unidades": "toneladas",
+    "concepto": "produccion",
+    "producto": "pavo"
+  },
+  {
+    "año": 1997,
+    "cantidad": 13345.0,
+    "unidades": "toneladas",
+    "concepto": "produccion",
+    "producto": "pavo"
+  },
+  {
+    "año": 1998,
+    "cantidad": 14278.0,
+    "unidades": "toneladas",
+    "concepto": "produccion",
+    "producto": "pavo"
+  },
+  {
+    "año": 1999,
+    "cantidad": 16441.0,
+    "unidades": "toneladas",
+    "concepto": "produccion",
+    "producto": "pavo"
+  },
+  {
+    "año": 2000,
+    "cantidad": 16229.0,
+    "unidades": "toneladas",
+    "concepto": "produccion",
+    "producto": "pavo"
+  },
+  {
+    "año": 2001,
+    "cantidad": 18426.0,
+    "unidades": "toneladas",
+    "concepto": "produccion",
+    "producto": "pavo"
+  },
+  {
+    "año": 2002,
+    "cantidad": 21524.0,
+    "unidades": "toneladas",
+    "concepto": "produccion",
+    "producto": "pavo"
+  },
+  {
+    "año": 2003,
+    "cantidad": 21426.0,
+    "unidades": "toneladas",
+    "concepto": "produccion",
+    "producto": "pavo"
+  },
+  {
+    "año": 2004,
+    "cantidad": 16630.0,
+    "unidades": "toneladas",
+    "concepto": "produccion",
+    "producto": "pavo"
+  },
+  {
+    "año": 2005,
+    "cantidad": 14541.0,
+    "unidades": "toneladas",
+    "concepto": "produccion",
+    "producto": "pavo"
+  },
+  {
+    "año": 2006,
+    "cantidad": 16467.0,
+    "unidades": "toneladas",
+    "concepto": "produccion",
+    "producto": "pavo"
+  },
+  {
+    "año": 2007,
+    "cantidad": 15059.0,
+    "unidades": "toneladas",
+    "concepto": "produccion",
+    "producto": "pavo"
+  },
+  {
+    "año": 2008,
+    "cantidad": 14974.0,
+    "unidades": "toneladas",
+    "concepto": "produccion",
+    "producto": "pavo"
+  },
+  {
+    "año": 2009,
+    "cantidad": 11422.0,
+    "unidades": "toneladas",
+    "concepto": "produccion",
+    "producto": "pavo"
+  },
+  {
+    "año": 2010,
+    "cantidad": 10594.0,
+    "unidades": "toneladas",
+    "concepto": "produccion",
+    "producto": "pavo"
+  },
+  {
+    "año": 2011,
+    "cantidad": 10013.0,
+    "unidades": "toneladas",
+    "concepto": "produccion",
+    "producto": "pavo"
+  },
+  {
+    "año": 2012,
+    "cantidad": 8192.0,
+    "unidades": "toneladas",
+    "concepto": "produccion",
+    "producto": "pavo"
+  },
+  {
+    "año": 2013,
+    "cantidad": 8214.0,
+    "unidades": "toneladas",
+    "concepto": "produccion",
+    "producto": "pavo"
+  },
+  {
+    "año": 2014,
+    "cantidad": 8912.0,
+    "unidades": "toneladas",
+    "concepto": "produccion",
+    "producto": "pavo"
+  },
+  {
+    "año": 2015,
+    "cantidad": 11802.0,
+    "unidades": "toneladas",
+    "concepto": "produccion",
+    "producto": "pavo"
+  },
+  {
+    "año": 2016,
+    "cantidad": 11950.0,
+    "unidades": "toneladas",
+    "concepto": "produccion",
+    "producto": "pavo"
+  },
+  {
+    "año": 2017,
+    "cantidad": 9687.0,
+    "unidades": "toneladas",
+    "concepto": "produccion",
+    "producto": "pavo"
+  },
+  {
+    "año": 2018,
+    "cantidad": 10741.0,
+    "unidades": "toneladas",
+    "concepto": "produccion",
+    "producto": "pavo"
+  },
+  {
+    "año": 2019,
+    "cantidad": 7344.0,
+    "unidades": "toneladas",
+    "concepto": "produccion",
+    "producto": "pavo"
+  },
+  {
+    "año": 2020,
+    "cantidad": 7545.6662400000005,
+    "unidades": "toneladas",
+    "concepto": "produccion",
+    "producto": "pavo"
+  },
+  {
+    "año": 2021,
+    "cantidad": 8406.24,
+    "unidades": "toneladas",
+    "concepto": "produccion",
+    "producto": "pavo"
+  },
+  {
+    "año": 2022,
+    "cantidad": 7551.232,
+    "unidades": "toneladas",
+    "concepto": "produccion",
+    "producto": "pavo"
+  },
+  {
+    "año": 2023,
+    "cantidad": 8461.268689048,
+    "unidades": "toneladas",
+    "concepto": "produccion",
+    "producto": "pavo"
+  },
+  {
+    "año": 2024,
+    "cantidad": 7467.8423456,
+    "unidades": "toneladas",
+    "concepto": "produccion",
+    "producto": "pavo"
+  },
+  {
+    "año": 2025,
+    "cantidad": 5720.85696,
+    "unidades": "toneladas",
+    "concepto": "produccion",
+    "producto": "pavo"
+  },
+  {
+    "año": 1989,
+    "cantidad": 5382.0,
+    "unidades": "toneladas",
+    "concepto": "importaciones",
+    "producto": "pavo"
+  },
+  {
+    "año": 1990,
+    "cantidad": 12204.0,
+    "unidades": "toneladas",
+    "concepto": "importaciones",
+    "producto": "pavo"
+  },
+  {
+    "año": 1991,
+    "cantidad": 34906.0,
+    "unidades": "toneladas",
+    "concepto": "importaciones",
+    "producto": "pavo"
+  },
+  {
+    "año": 1992,
+    "cantidad": 56812.0,
+    "unidades": "toneladas",
+    "concepto": "importaciones",
+    "producto": "pavo"
+  },
+  {
+    "año": 1993,
+    "cantidad": 77222.0,
+    "unidades": "toneladas",
+    "concepto": "importaciones",
+    "producto": "pavo"
+  },
+  {
+    "año": 1994,
+    "cantidad": 76588.0,
+    "unidades": "toneladas",
+    "concepto": "importaciones",
+    "producto": "pavo"
+  },
+  {
+    "año": 1995,
+    "cantidad": 82163.0,
+    "unidades": "toneladas",
+    "concepto": "importaciones",
+    "producto": "pavo"
+  },
+  {
+    "año": 1996,
+    "cantidad": 90275.0,
+    "unidades": "toneladas",
+    "concepto": "importaciones",
+    "producto": "pavo"
+  },
+  {
+    "año": 1997,
+    "cantidad": 102098.0,
+    "unidades": "toneladas",
+    "concepto": "importaciones",
+    "producto": "pavo"
+  },
+  {
+    "año": 1998,
+    "cantidad": 109669.0,
+    "unidades": "toneladas",
+    "concepto": "importaciones",
+    "producto": "pavo"
+  },
+  {
+    "año": 1999,
+    "cantidad": 113854.0,
+    "unidades": "toneladas",
+    "concepto": "importaciones",
+    "producto": "pavo"
+  },
+  {
+    "año": 2000,
+    "cantidad": 111196.0,
+    "unidades": "toneladas",
+    "concepto": "importaciones",
+    "producto": "pavo"
+  },
+  {
+    "año": 2001,
+    "cantidad": 124018.0,
+    "unidades": "toneladas",
+    "concepto": "importaciones",
+    "producto": "pavo"
+  },
+  {
+    "año": 2002,
+    "cantidad": 104465.0,
+    "unidades": "toneladas",
+    "concepto": "importaciones",
+    "producto": "pavo"
+  },
+  {
+    "año": 2003,
+    "cantidad": 135132.0,
+    "unidades": "toneladas",
+    "concepto": "importaciones",
+    "producto": "pavo"
+  },
+  {
+    "año": 2004,
+    "cantidad": 140754.0,
+    "unidades": "toneladas",
+    "concepto": "importaciones",
+    "producto": "pavo"
+  },
+  {
+    "año": 2005,
+    "cantidad": 178474.0,
+    "unidades": "toneladas",
+    "concepto": "importaciones",
+    "producto": "pavo"
+  },
+  {
+    "año": 2006,
+    "cantidad": 181967.0,
+    "unidades": "toneladas",
+    "concepto": "importaciones",
+    "producto": "pavo"
+  },
+  {
+    "año": 2007,
+    "cantidad": 195008.0,
+    "unidades": "toneladas",
+    "concepto": "importaciones",
+    "producto": "pavo"
+  },
+  {
+    "año": 2008,
+    "cantidad": 194153.0,
+    "unidades": "toneladas",
+    "concepto": "importaciones",
+    "producto": "pavo"
+  },
+  {
+    "año": 2009,
+    "cantidad": 143468.0,
+    "unidades": "toneladas",
+    "concepto": "importaciones",
+    "producto": "pavo"
+  },
+  {
+    "año": 2010,
+    "cantidad": 150361.0,
+    "unidades": "toneladas",
+    "concepto": "importaciones",
+    "producto": "pavo"
+  },
+  {
+    "año": 2011,
+    "cantidad": 148459.0,
+    "unidades": "toneladas",
+    "concepto": "importaciones",
+    "producto": "pavo"
+  },
+  {
+    "año": 2012,
+    "cantidad": 157187.0,
+    "unidades": "toneladas",
+    "concepto": "importaciones",
+    "producto": "pavo"
+  },
+  {
+    "año": 2013,
+    "cantidad": 155549.0,
+    "unidades": "toneladas",
+    "concepto": "importaciones",
+    "producto": "pavo"
+  },
+  {
+    "año": 2014,
+    "cantidad": 154912.0,
+    "unidades": "toneladas",
+    "concepto": "importaciones",
+    "producto": "pavo"
+  },
+  {
+    "año": 2015,
+    "cantidad": 129683.0,
+    "unidades": "toneladas",
+    "concepto": "importaciones",
+    "producto": "pavo"
+  },
+  {
+    "año": 2016,
+    "cantidad": 158822.0,
+    "unidades": "toneladas",
+    "concepto": "importaciones",
+    "producto": "pavo"
+  },
+  {
+    "año": 2017,
+    "cantidad": 162666.0,
+    "unidades": "toneladas",
+    "concepto": "importaciones",
+    "producto": "pavo"
+  },
+  {
+    "año": 2018,
+    "cantidad": 158881.0,
+    "unidades": "toneladas",
+    "concepto": "importaciones",
+    "producto": "pavo"
+  },
+  {
+    "año": 2019,
+    "cantidad": 155022.0,
+    "unidades": "toneladas",
+    "concepto": "importaciones",
+    "producto": "pavo"
+  },
+  {
+    "año": 2020,
+    "cantidad": 150096.37430000183,
+    "unidades": "toneladas",
+    "concepto": "importaciones",
+    "producto": "pavo"
+  },
+  {
+    "año": 2021,
+    "cantidad": 163502.34399999998,
+    "unidades": "toneladas",
+    "concepto": "importaciones",
+    "producto": "pavo"
+  },
+  {
+    "año": 2022,
+    "cantidad": 123245.13,
+    "unidades": "toneladas",
+    "concepto": "importaciones",
+    "producto": "pavo"
+  },
+  {
+    "año": 2023,
+    "cantidad": 108860.0,
+    "unidades": "toneladas",
+    "concepto": "importaciones",
+    "producto": "pavo"
+  },
+  {
+    "año": 2024,
+    "cantidad": 117498.0,
+    "unidades": "toneladas",
+    "concepto": "importaciones",
+    "producto": "pavo"
+  },
+  {
+    "año": 2025,
+    "cantidad": 100075.0,
+    "unidades": "toneladas",
+    "concepto": "importaciones",
+    "producto": "pavo"
+  },
+  {
+    "año": 1989,
+    "cantidad": 13382.0,
+    "unidades": "toneladas",
+    "concepto": "consumo",
+    "producto": "pavo"
+  },
+  {
+    "año": 1990,
+    "cantidad": 21804.0,
+    "unidades": "toneladas",
+    "concepto": "consumo",
+    "producto": "pavo"
+  },
+  {
+    "año": 1991,
+    "cantidad": 46906.0,
+    "unidades": "toneladas",
+    "concepto": "consumo",
+    "producto": "pavo"
+  },
+  {
+    "año": 1992,
+    "cantidad": 69812.0,
+    "unidades": "toneladas",
+    "concepto": "consumo",
+    "producto": "pavo"
+  },
+  {
+    "año": 1993,
+    "cantidad": 86822.0,
+    "unidades": "toneladas",
+    "concepto": "consumo",
+    "producto": "pavo"
+  },
+  {
+    "año": 1994,
+    "cantidad": 83588.0,
+    "unidades": "toneladas",
+    "concepto": "consumo",
+    "producto": "pavo"
+  },
+  {
+    "año": 1995,
+    "cantidad": 92231.0,
+    "unidades": "toneladas",
+    "concepto": "consumo",
+    "producto": "pavo"
+  },
+  {
+    "año": 1996,
+    "cantidad": 103351.0,
+    "unidades": "toneladas",
+    "concepto": "consumo",
+    "producto": "pavo"
+  },
+  {
+    "año": 1997,
+    "cantidad": 115443.0,
+    "unidades": "toneladas",
+    "concepto": "consumo",
+    "producto": "pavo"
+  },
+  {
+    "año": 1998,
+    "cantidad": 123947.0,
+    "unidades": "toneladas",
+    "concepto": "consumo",
+    "producto": "pavo"
+  },
+  {
+    "año": 1999,
+    "cantidad": 130295.0,
+    "unidades": "toneladas",
+    "concepto": "consumo",
+    "producto": "pavo"
+  },
+  {
+    "año": 2000,
+    "cantidad": 127425.0,
+    "unidades": "toneladas",
+    "concepto": "consumo",
+    "producto": "pavo"
+  },
+  {
+    "año": 2001,
+    "cantidad": 142444.0,
+    "unidades": "toneladas",
+    "concepto": "consumo",
+    "producto": "pavo"
+  },
+  {
+    "año": 2002,
+    "cantidad": 125989.0,
+    "unidades": "toneladas",
+    "concepto": "consumo",
+    "producto": "pavo"
+  },
+  {
+    "año": 2003,
+    "cantidad": 156558.0,
+    "unidades": "toneladas",
+    "concepto": "consumo",
+    "producto": "pavo"
+  },
+  {
+    "año": 2004,
+    "cantidad": 157384.0,
+    "unidades": "toneladas",
+    "concepto": "consumo",
+    "producto": "pavo"
+  },
+  {
+    "año": 2005,
+    "cantidad": 193015.0,
+    "unidades": "toneladas",
+    "concepto": "consumo",
+    "producto": "pavo"
+  },
+  {
+    "año": 2006,
+    "cantidad": 198434.0,
+    "unidades": "toneladas",
+    "concepto": "consumo",
+    "producto": "pavo"
+  },
+  {
+    "año": 2007,
+    "cantidad": 210067.0,
+    "unidades": "toneladas",
+    "concepto": "consumo",
+    "producto": "pavo"
+  },
+  {
+    "año": 2008,
+    "cantidad": 209127.0,
+    "unidades": "toneladas",
+    "concepto": "consumo",
+    "producto": "pavo"
+  },
+  {
+    "año": 2009,
+    "cantidad": 154890.0,
+    "unidades": "toneladas",
+    "concepto": "consumo",
+    "producto": "pavo"
+  },
+  {
+    "año": 2010,
+    "cantidad": 160955.0,
+    "unidades": "toneladas",
+    "concepto": "consumo",
+    "producto": "pavo"
+  },
+  {
+    "año": 2011,
+    "cantidad": 158472.0,
+    "unidades": "toneladas",
+    "concepto": "consumo",
+    "producto": "pavo"
+  },
+  {
+    "año": 2012,
+    "cantidad": 165379.0,
+    "unidades": "toneladas",
+    "concepto": "consumo",
+    "producto": "pavo"
+  },
+  {
+    "año": 2013,
+    "cantidad": 163763.0,
+    "unidades": "toneladas",
+    "concepto": "consumo",
+    "producto": "pavo"
+  },
+  {
+    "año": 2014,
+    "cantidad": 163824.0,
+    "unidades": "toneladas",
+    "concepto": "consumo",
+    "producto": "pavo"
+  },
+  {
+    "año": 2015,
+    "cantidad": 141485.0,
+    "unidades": "toneladas",
+    "concepto": "consumo",
+    "producto": "pavo"
+  },
+  {
+    "año": 2016,
+    "cantidad": 170772.0,
+    "unidades": "toneladas",
+    "concepto": "consumo",
+    "producto": "pavo"
+  },
+  {
+    "año": 2017,
+    "cantidad": 172353.0,
+    "unidades": "toneladas",
+    "concepto": "consumo",
+    "producto": "pavo"
+  },
+  {
+    "año": 2018,
+    "cantidad": 169622.0,
+    "unidades": "toneladas",
+    "concepto": "consumo",
+    "producto": "pavo"
+  },
+  {
+    "año": 2019,
+    "cantidad": 162366.0,
+    "unidades": "toneladas",
+    "concepto": "consumo",
+    "producto": "pavo"
+  },
+  {
+    "año": 2020,
+    "cantidad": 157642.04054000182,
+    "unidades": "toneladas",
+    "concepto": "consumo",
+    "producto": "pavo"
+  },
+  {
+    "año": 2021,
+    "cantidad": 171908.58399999997,
+    "unidades": "toneladas",
+    "concepto": "consumo",
+    "producto": "pavo"
+  },
+  {
+    "año": 2022,
+    "cantidad": 130796.36200000001,
+    "unidades": "toneladas",
+    "concepto": "consumo",
+    "producto": "pavo"
+  },
+  {
+    "año": 2023,
+    "cantidad": 117321.268689048,
+    "unidades": "toneladas",
+    "concepto": "consumo",
+    "producto": "pavo"
+  },
+  {
+    "año": 2024,
+    "cantidad": 124965.8423456,
+    "unidades": "toneladas",
+    "concepto": "consumo",
+    "producto": "pavo"
+  },
+  {
+    "año": 2025,
+    "cantidad": 105795.85696,
+    "unidades": "toneladas",
+    "concepto": "consumo",
+    "producto": "pavo"
+  },
+  {
+    "año": 1989,
+    "cantidad": 0.16580760271596373,
+    "unidades": "kilogramos",
+    "concepto": "consumo per capita",
+    "producto": "pavo"
+  },
+  {
+    "año": 1990,
+    "cantidad": 0.26871741782822495,
+    "unidades": "kilogramos",
+    "concepto": "consumo per capita",
+    "producto": "pavo"
+  },
+  {
+    "año": 1991,
+    "cantidad": 0.5667508427679036,
+    "unidades": "kilogramos",
+    "concepto": "consumo per capita",
+    "producto": "pavo"
+  },
+  {
+    "año": 1992,
+    "cantidad": 0.8310556640159993,
+    "unidades": "kilogramos",
+    "concepto": "consumo per capita",
+    "producto": "pavo"
+  },
+  {
+    "año": 1993,
+    "cantidad": 1.0132695337573672,
+    "unidades": "kilogramos",
+    "concepto": "consumo per capita",
+    "producto": "pavo"
+  },
+  {
+    "año": 1994,
+    "cantidad": 0.9566033417257954,
+    "unidades": "kilogramos",
+    "concepto": "consumo per capita",
+    "producto": "pavo"
+  },
+  {
+    "año": 1995,
+    "cantidad": 1.0373757142214424,
+    "unidades": "kilogramos",
+    "concepto": "consumo per capita",
+    "producto": "pavo"
+  },
+  {
+    "año": 1996,
+    "cantidad": 1.1415206874461552,
+    "unidades": "kilogramos",
+    "concepto": "consumo per capita",
+    "producto": "pavo"
+  },
+  {
+    "año": 1997,
+    "cantidad": 1.2521204364519838,
+    "unidades": "kilogramos",
+    "concepto": "consumo per capita",
+    "producto": "pavo"
+  },
+  {
+    "año": 1998,
+    "cantidad": 1.32015806066803,
+    "unidades": "kilogramos",
+    "concepto": "consumo per capita",
+    "producto": "pavo"
+  },
+  {
+    "año": 1999,
+    "cantidad": 1.362790113901411,
+    "unidades": "kilogramos",
+    "concepto": "consumo per capita",
+    "producto": "pavo"
+  },
+  {
+    "año": 2000,
+    "cantidad": 1.3071509904291005,
+    "unidades": "kilogramos",
+    "concepto": "consumo per capita",
+    "producto": "pavo"
+  },
+  {
+    "año": 2001,
+    "cantidad": 1.4438891873536537,
+    "unidades": "kilogramos",
+    "concepto": "consumo per capita",
+    "producto": "pavo"
+  },
+  {
+    "año": 2002,
+    "cantidad": 1.261946973566914,
+    "unidades": "kilogramos",
+    "concepto": "consumo per capita",
+    "producto": "pavo"
+  },
+  {
+    "año": 2003,
+    "cantidad": 1.5495575746778312,
+    "unidades": "kilogramos",
+    "concepto": "consumo per capita",
+    "producto": "pavo"
+  },
+  {
+    "año": 2004,
+    "cantidad": 1.540774969161788,
+    "unidades": "kilogramos",
+    "concepto": "consumo per capita",
+    "producto": "pavo"
+  },
+  {
+    "año": 2005,
+    "cantidad": 1.8672064698996818,
+    "unidades": "kilogramos",
+    "concepto": "consumo per capita",
+    "producto": "pavo"
+  },
+  {
+    "año": 2006,
+    "cantidad": 1.88690046023354,
+    "unidades": "kilogramos",
+    "concepto": "consumo per capita",
+    "producto": "pavo"
+  },
+  {
+    "año": 2007,
+    "cantidad": 1.9640322746524304,
+    "unidades": "kilogramos",
+    "concepto": "consumo per capita",
+    "producto": "pavo"
+  },
+  {
+    "año": 2008,
+    "cantidad": 1.9228477643229527,
+    "unidades": "kilogramos",
+    "concepto": "consumo per capita",
+    "producto": "pavo"
+  },
+  {
+    "año": 2009,
+    "cantidad": 1.4011742037035362,
+    "unidades": "kilogramos",
+    "concepto": "consumo per capita",
+    "producto": "pavo"
+  },
+  {
+    "año": 2010,
+    "cantidad": 1.4327998148411907,
+    "unidades": "kilogramos",
+    "concepto": "consumo per capita",
+    "producto": "pavo"
+  },
+  {
+    "año": 2011,
+    "cantidad": 1.3923411882976777,
+    "unidades": "kilogramos",
+    "concepto": "consumo per capita",
+    "producto": "pavo"
+  },
+  {
+    "año": 2012,
+    "cantidad": 1.4341202909733404,
+    "unidades": "kilogramos",
+    "concepto": "consumo per capita",
+    "producto": "pavo"
+  },
+  {
+    "año": 2013,
+    "cantidad": 1.4016290562939888,
+    "unidades": "kilogramos",
+    "concepto": "consumo per capita",
+    "producto": "pavo"
+  },
+  {
+    "año": 2014,
+    "cantidad": 1.383907042439707,
+    "unidades": "kilogramos",
+    "concepto": "consumo per capita",
+    "producto": "pavo"
+  },
+  {
+    "año": 2015,
+    "cantidad": 1.17964649108342,
+    "unidades": "kilogramos",
+    "concepto": "consumo per capita",
+    "producto": "pavo"
+  },
+  {
+    "año": 2016,
+    "cantidad": 1.409827811339487,
+    "unidades": "kilogramos",
+    "concepto": "consumo per capita",
+    "producto": "pavo"
+  },
+  {
+    "año": 2017,
+    "cantidad": 1.408887071229071,
+    "unidades": "kilogramos",
+    "concepto": "consumo per capita",
+    "producto": "pavo"
+  },
+  {
+    "año": 2018,
+    "cantidad": 1.3729269938755835,
+    "unidades": "kilogramos",
+    "concepto": "consumo per capita",
+    "producto": "pavo"
+  },
+  {
+    "año": 2019,
+    "cantidad": 1.301272595691194,
+    "unidades": "kilogramos",
+    "concepto": "consumo per capita",
+    "producto": "pavo"
+  },
+  {
+    "año": 2020,
+    "cantidad": 1.2509880689152646,
+    "unidades": "kilogramos",
+    "concepto": "consumo per capita",
+    "producto": "pavo"
+  },
+  {
+    "año": 2021,
+    "cantidad": 1.343077248531675,
+    "unidades": "kilogramos",
+    "concepto": "consumo per capita",
+    "producto": "pavo"
+  },
+  {
+    "año": 2022,
+    "cantidad": 1.0117604996645677,
+    "unidades": "kilogramos",
+    "concepto": "consumo per capita",
+    "producto": "pavo"
+  },
+  {
+    "año": 2023,
+    "cantidad": 0.8985400354834512,
+    "unidades": "kilogramos",
+    "concepto": "consumo per capita",
+    "producto": "pavo"
+  },
+  {
+    "año": 2024,
+    "cantidad": 0.9476121681919593,
+    "unidades": "kilogramos",
+    "concepto": "consumo per capita",
+    "producto": "pavo"
+  },
+  {
+    "año": 2025,
+    "cantidad": 0.7943037169660457,
+    "unidades": "kilogramos",
+    "concepto": "consumo per capita",
+    "producto": "pavo"
+  },
+  {
+    "año": 1977,
+    "cantidad": 216.2,
+    "unidades": "millones de aves",
+    "concepto": "produccion",
+    "producto": "pollo"
+  },
+  {
+    "año": 1978,
+    "cantidad": 267.9,
+    "unidades": "millones de aves",
+    "concepto": "produccion",
+    "producto": "pollo"
+  },
+  {
+    "año": 1979,
+    "cantidad": 317.4,
+    "unidades": "millones de aves",
+    "concepto": "produccion",
+    "producto": "pollo"
+  },
+  {
+    "año": 1980,
+    "cantidad": 359.2,
+    "unidades": "millones de aves",
+    "concepto": "produccion",
+    "producto": "pollo"
+  },
+  {
+    "año": 1981,
+    "cantidad": 405.2,
+    "unidades": "millones de aves",
+    "concepto": "produccion",
+    "producto": "pollo"
+  },
+  {
+    "año": 1982,
+    "cantidad": 416.1,
+    "unidades": "millones de aves",
+    "concepto": "produccion",
+    "producto": "pollo"
+  },
+  {
+    "año": 1983,
+    "cantidad": 429.6,
+    "unidades": "millones de aves",
+    "concepto": "produccion",
+    "producto": "pollo"
+  },
+  {
+    "año": 1984,
+    "cantidad": 444.6,
+    "unidades": "millones de aves",
+    "concepto": "produccion",
+    "producto": "pollo"
+  },
+  {
+    "año": 1985,
+    "cantidad": 478.9,
+    "unidades": "millones de aves",
+    "concepto": "produccion",
+    "producto": "pollo"
+  },
+  {
+    "año": 1986,
+    "cantidad": 390.2,
+    "unidades": "millones de aves",
+    "concepto": "produccion",
+    "producto": "pollo"
+  },
+  {
+    "año": 1987,
+    "cantidad": 432.0,
+    "unidades": "millones de aves",
+    "concepto": "produccion",
+    "producto": "pollo"
+  },
+  {
+    "año": 1988,
+    "cantidad": 436.5,
+    "unidades": "millones de aves",
+    "concepto": "produccion",
+    "producto": "pollo"
+  },
+  {
+    "año": 1989,
+    "cantidad": 471.8,
+    "unidades": "millones de aves",
+    "concepto": "produccion",
+    "producto": "pollo"
+  },
+  {
+    "año": 1990,
+    "cantidad": 511.0,
+    "unidades": "millones de aves",
+    "concepto": "produccion",
+    "producto": "pollo"
+  },
+  {
+    "año": 1991,
+    "cantidad": 637.0,
+    "unidades": "millones de aves",
+    "concepto": "produccion",
+    "producto": "pollo"
+  },
+  {
+    "año": 1992,
+    "cantidad": 727.4,
+    "unidades": "millones de aves",
+    "concepto": "produccion",
+    "producto": "pollo"
+  },
+  {
+    "año": 1993,
+    "cantidad": 737.5,
+    "unidades": "millones de aves",
+    "concepto": "produccion",
+    "producto": "pollo"
+  },
+  {
+    "año": 1994,
+    "cantidad": 747.0,
+    "unidades": "millones de aves",
+    "concepto": "produccion",
+    "producto": "pollo"
+  },
+  {
+    "año": 1995,
+    "cantidad": 840.0,
+    "unidades": "millones de aves",
+    "concepto": "produccion",
+    "producto": "pollo"
+  },
+  {
+    "año": 1996,
+    "cantidad": 831.0,
+    "unidades": "millones de aves",
+    "concepto": "produccion",
+    "producto": "pollo"
+  },
+  {
+    "año": 1997,
+    "cantidad": 839.2,
+    "unidades": "millones de aves",
+    "concepto": "produccion",
+    "producto": "pollo"
+  },
+  {
+    "año": 1998,
+    "cantidad": 911.9,
+    "unidades": "millones de aves",
+    "concepto": "produccion",
+    "producto": "pollo"
+  },
+  {
+    "año": 1999,
+    "cantidad": 1046.52,
+    "unidades": "millones de aves",
+    "concepto": "produccion",
+    "producto": "pollo"
+  },
+  {
+    "año": 2000,
+    "cantidad": 1135.4,
+    "unidades": "millones de aves",
+    "concepto": "produccion",
+    "producto": "pollo"
+  },
+  {
+    "año": 2001,
+    "cantidad": 1212.7,
+    "unidades": "millones de aves",
+    "concepto": "produccion",
+    "producto": "pollo"
+  },
+  {
+    "año": 2002,
+    "cantidad": 1272.0,
+    "unidades": "millones de aves",
+    "concepto": "produccion",
+    "producto": "pollo"
+  },
+  {
+    "año": 2003,
+    "cantidad": 1331.332,
+    "unidades": "millones de aves",
+    "concepto": "produccion",
+    "producto": "pollo"
+  },
+  {
+    "año": 2004,
+    "cantidad": 1347.0,
+    "unidades": "millones de aves",
+    "concepto": "produccion",
+    "producto": "pollo"
+  },
+  {
+    "año": 2005,
+    "cantidad": 1362.9,
+    "unidades": "millones de aves",
+    "concepto": "produccion",
+    "producto": "pollo"
+  },
+  {
+    "año": 2006,
+    "cantidad": 1413.9,
+    "unidades": "millones de aves",
+    "concepto": "produccion",
+    "producto": "pollo"
+  },
+  {
+    "año": 2007,
+    "cantidad": 1458.8,
+    "unidades": "millones de aves",
+    "concepto": "produccion",
+    "producto": "pollo"
+  },
+  {
+    "año": 2008,
+    "cantidad": 1460.9,
+    "unidades": "millones de aves",
+    "concepto": "produccion",
+    "producto": "pollo"
+  },
+  {
+    "año": 2009,
+    "cantidad": 1424.20665,
+    "unidades": "millones de aves",
+    "concepto": "produccion",
+    "producto": "pollo"
+  },
+  {
+    "año": 2010,
+    "cantidad": 1438.79,
+    "unidades": "millones de aves",
+    "concepto": "produccion",
+    "producto": "pollo"
+  },
+  {
+    "año": 2011,
+    "cantidad": 1458.942,
+    "unidades": "millones de aves",
+    "concepto": "produccion",
+    "producto": "pollo"
+  },
+  {
+    "año": 2012,
+    "cantidad": 1513.777,
+    "unidades": "millones de aves",
+    "concepto": "produccion",
+    "producto": "pollo"
+  },
+  {
+    "año": 2013,
+    "cantidad": 1472.09813,
+    "unidades": "millones de aves",
+    "concepto": "produccion",
+    "producto": "pollo"
+  },
+  {
+    "año": 2014,
+    "cantidad": 1525.534,
+    "unidades": "millones de aves",
+    "concepto": "produccion",
+    "producto": "pollo"
+  },
+  {
+    "año": 2015,
+    "cantidad": 1609.2,
+    "unidades": "millones de aves",
+    "concepto": "produccion",
+    "producto": "pollo"
+  },
+  {
+    "año": 2016,
+    "cantidad": 1677.0,
+    "unidades": "millones de aves",
+    "concepto": "produccion",
+    "producto": "pollo"
+  },
+  {
+    "año": 2017,
+    "cantidad": 1731.466,
+    "unidades": "millones de aves",
+    "concepto": "produccion",
+    "producto": "pollo"
+  },
+  {
+    "año": 2018,
+    "cantidad": 1787.181,
+    "unidades": "millones de aves",
+    "concepto": "produccion",
+    "producto": "pollo"
+  },
+  {
+    "año": 2019,
+    "cantidad": 1831.98,
+    "unidades": "millones de aves",
+    "concepto": "produccion",
+    "producto": "pollo"
+  },
+  {
+    "año": 2020,
+    "cantidad": 1761.81030751059,
+    "unidades": "millones de aves",
+    "concepto": "produccion",
+    "producto": "pollo"
+  },
+  {
+    "año": 2021,
+    "cantidad": 1815.8889509820376,
+    "unidades": "millones de aves",
+    "concepto": "produccion",
+    "producto": "pollo"
+  },
+  {
+    "año": 2022,
+    "cantidad": 1875.94997546064,
+    "unidades": "millones de aves",
+    "concepto": "produccion",
+    "producto": "pollo"
+  },
+  {
+    "año": 2023,
+    "cantidad": 1992.3782849414272,
+    "unidades": "millones de aves",
+    "concepto": "produccion",
+    "producto": "pollo"
+  },
+  {
+    "año": 2024,
+    "cantidad": 2047.67877943528,
+    "unidades": "millones de aves",
+    "concepto": "produccion",
+    "producto": "pollo"
+  },
+  {
+    "año": 2025,
+    "cantidad": 2046.28992449434,
+    "unidades": "millones de aves",
+    "concepto": "produccion",
+    "producto": "pollo"
+  },
+  {
+    "año": 1977,
+    "cantidad": 399970.0,
+    "unidades": "toneladas",
+    "concepto": "produccion",
+    "producto": "pollo"
+  },
+  {
+    "año": 1978,
+    "cantidad": 495615.0,
+    "unidades": "toneladas",
+    "concepto": "produccion",
+    "producto": "pollo"
+  },
+  {
+    "año": 1979,
+    "cantidad": 587190.0,
+    "unidades": "toneladas",
+    "concepto": "produccion",
+    "producto": "pollo"
+  },
+  {
+    "año": 1980,
+    "cantidad": 664520.0,
+    "unidades": "toneladas",
+    "concepto": "produccion",
+    "producto": "pollo"
+  },
+  {
+    "año": 1981,
+    "cantidad": 749620.0,
+    "unidades": "toneladas",
+    "concepto": "produccion",
+    "producto": "pollo"
+  },
+  {
+    "año": 1982,
+    "cantidad": 769785.0,
+    "unidades": "toneladas",
+    "concepto": "produccion",
+    "producto": "pollo"
+  },
+  {
+    "año": 1983,
+    "cantidad": 794760.0,
+    "unidades": "toneladas",
+    "concepto": "produccion",
+    "producto": "pollo"
+  },
+  {
+    "año": 1984,
+    "cantidad": 822510.0,
+    "unidades": "toneladas",
+    "concepto": "produccion",
+    "producto": "pollo"
+  },
+  {
+    "año": 1985,
+    "cantidad": 885965.0,
+    "unidades": "toneladas",
+    "concepto": "produccion",
+    "producto": "pollo"
+  },
+  {
+    "año": 1986,
+    "cantidad": 721805.0,
+    "unidades": "toneladas",
+    "concepto": "produccion",
+    "producto": "pollo"
+  },
+  {
+    "año": 1987,
+    "cantidad": 799200.0,
+    "unidades": "toneladas",
+    "concepto": "produccion",
+    "producto": "pollo"
+  },
+  {
+    "año": 1988,
+    "cantidad": 807525.0,
+    "unidades": "toneladas",
+    "concepto": "produccion",
+    "producto": "pollo"
+  },
+  {
+    "año": 1989,
+    "cantidad": 872830.0,
+    "unidades": "toneladas",
+    "concepto": "produccion",
+    "producto": "pollo"
+  },
+  {
+    "año": 1990,
+    "cantidad": 945350.0,
+    "unidades": "toneladas",
+    "concepto": "produccion",
+    "producto": "pollo"
+  },
+  {
+    "año": 1991,
+    "cantidad": 1178450.0,
+    "unidades": "toneladas",
+    "concepto": "produccion",
+    "producto": "pollo"
+  },
+  {
+    "año": 1992,
+    "cantidad": 1345653.0,
+    "unidades": "toneladas",
+    "concepto": "produccion",
+    "producto": "pollo"
+  },
+  {
+    "año": 1993,
+    "cantidad": 1364375.0,
+    "unidades": "toneladas",
+    "concepto": "produccion",
+    "producto": "pollo"
+  },
+  {
+    "año": 1994,
+    "cantidad": 1383216.0,
+    "unidades": "toneladas",
+    "concepto": "produccion",
+    "producto": "pollo"
+  },
+  {
+    "año": 1995,
+    "cantidad": 1512000.0,
+    "unidades": "toneladas",
+    "concepto": "produccion",
+    "producto": "pollo"
+  },
+  {
+    "año": 1996,
+    "cantidad": 1478349.0,
+    "unidades": "toneladas",
+    "concepto": "produccion",
+    "producto": "pollo"
+  },
+  {
+    "año": 1997,
+    "cantidad": 1492937.0,
+    "unidades": "toneladas",
+    "concepto": "produccion",
+    "producto": "pollo"
+  },
+  {
+    "año": 1998,
+    "cantidad": 1586841.0,
+    "unidades": "toneladas",
+    "concepto": "produccion",
+    "producto": "pollo"
+  },
+  {
+    "año": 1999,
+    "cantidad": 1784320.0,
+    "unidades": "toneladas",
+    "concepto": "produccion",
+    "producto": "pollo"
+  },
+  {
+    "año": 2000,
+    "cantidad": 1935966.0,
+    "unidades": "toneladas",
+    "concepto": "produccion",
+    "producto": "pollo"
+  },
+  {
+    "año": 2001,
+    "cantidad": 2066510.0,
+    "unidades": "toneladas",
+    "concepto": "produccion",
+    "producto": "pollo"
+  },
+  {
+    "año": 2002,
+    "cantidad": 2156514.0,
+    "unidades": "toneladas",
+    "concepto": "produccion",
+    "producto": "pollo"
+  },
+  {
+    "año": 2003,
+    "cantidad": 2289891.0,
+    "unidades": "toneladas",
+    "concepto": "produccion",
+    "producto": "pollo"
+  },
+  {
+    "año": 2004,
+    "cantidad": 2389715.0,
+    "unidades": "toneladas",
+    "concepto": "produccion",
+    "producto": "pollo"
+  },
+  {
+    "año": 2005,
+    "cantidad": 2498300.0,
+    "unidades": "toneladas",
+    "concepto": "produccion",
+    "producto": "pollo"
+  },
+  {
+    "año": 2006,
+    "cantidad": 2591764.0,
+    "unidades": "toneladas",
+    "concepto": "produccion",
+    "producto": "pollo"
+  },
+  {
+    "año": 2007,
+    "cantidad": 2682775.0,
+    "unidades": "toneladas",
+    "concepto": "produccion",
+    "producto": "pollo"
+  },
+  {
+    "año": 2008,
+    "cantidad": 2853228.0,
+    "unidades": "toneladas",
+    "concepto": "produccion",
+    "producto": "pollo"
+  },
+  {
+    "año": 2009,
+    "cantidad": 2781476.0,
+    "unidades": "toneladas",
+    "concepto": "produccion",
+    "producto": "pollo"
+  },
+  {
+    "año": 2010,
+    "cantidad": 2809945.0,
+    "unidades": "toneladas",
+    "concepto": "produccion",
+    "producto": "pollo"
+  },
+  {
+    "año": 2011,
+    "cantidad": 2906214.0,
+    "unidades": "toneladas",
+    "concepto": "produccion",
+    "producto": "pollo"
+  },
+  {
+    "año": 2012,
+    "cantidad": 2957922.0,
+    "unidades": "toneladas",
+    "concepto": "produccion",
+    "producto": "pollo"
+  },
+  {
+    "año": 2013,
+    "cantidad": 2907394.0,
+    "unidades": "toneladas",
+    "concepto": "produccion",
+    "producto": "pollo"
+  },
+  {
+    "año": 2014,
+    "cantidad": 3025133.0,
+    "unidades": "toneladas",
+    "concepto": "produccion",
+    "producto": "pollo"
+  },
+  {
+    "año": 2015,
+    "cantidad": 3175010.0,
+    "unidades": "toneladas",
+    "concepto": "produccion",
+    "producto": "pollo"
+  },
+  {
+    "año": 2016,
+    "cantidad": 3275204.0,
+    "unidades": "toneladas",
+    "concepto": "produccion",
+    "producto": "pollo"
+  },
+  {
+    "año": 2017,
+    "cantidad": 3383287.0,
+    "unidades": "toneladas",
+    "concepto": "produccion",
+    "producto": "pollo"
+  },
+  {
+    "año": 2018,
+    "cantidad": 3470706.0,
+    "unidades": "toneladas",
+    "concepto": "produccion",
+    "producto": "pollo"
+  },
+  {
+    "año": 2019,
+    "cantidad": 3554041.0,
+    "unidades": "toneladas",
+    "concepto": "produccion",
+    "producto": "pollo"
+  },
+  {
+    "año": 2020,
+    "cantidad": 3595727.9872869733,
+    "unidades": "toneladas",
+    "concepto": "produccion",
+    "producto": "pollo"
+  },
+  {
+    "año": 2021,
+    "cantidad": 3633753.5891427435,
+    "unidades": "toneladas",
+    "concepto": "produccion",
+    "producto": "pollo"
+  },
+  {
+    "año": 2022,
+    "cantidad": 3757278.3373951153,
+    "unidades": "toneladas",
+    "concepto": "produccion",
+    "producto": "pollo"
+  },
+  {
+    "año": 2023,
+    "cantidad": 3850078.2351950523,
+    "unidades": "toneladas",
+    "concepto": "produccion",
+    "producto": "pollo"
+  },
+  {
+    "año": 2024,
+    "cantidad": 3948450.970152805,
+    "unidades": "toneladas",
+    "concepto": "produccion",
+    "producto": "pollo"
+  },
+  {
+    "año": 2025,
+    "cantidad": 4071543.521081688,
+    "unidades": "toneladas",
+    "concepto": "produccion",
+    "producto": "pollo"
+  },
+  {
+    "año": 1994,
+    "cantidad": 83636.0,
+    "unidades": "toneladas",
+    "concepto": "importaciones",
+    "producto": "pollo"
+  },
+  {
+    "año": 1995,
+    "cantidad": 81210.0,
+    "unidades": "toneladas",
+    "concepto": "importaciones",
+    "producto": "pollo"
+  },
+  {
+    "año": 1996,
+    "cantidad": 73798.0,
+    "unidades": "toneladas",
+    "concepto": "importaciones",
+    "producto": "pollo"
+  },
+  {
+    "año": 1997,
+    "cantidad": 88963.0,
+    "unidades": "toneladas",
+    "concepto": "importaciones",
+    "producto": "pollo"
+  },
+  {
+    "año": 1998,
+    "cantidad": 95785.0,
+    "unidades": "toneladas",
+    "concepto": "importaciones",
+    "producto": "pollo"
+  },
+  {
+    "año": 1999,
+    "cantidad": 95212.0,
+    "unidades": "toneladas",
+    "concepto": "importaciones",
+    "producto": "pollo"
+  },
+  {
+    "año": 2000,
+    "cantidad": 115549.0,
+    "unidades": "toneladas",
+    "concepto": "importaciones",
+    "producto": "pollo"
+  },
+  {
+    "año": 2001,
+    "cantidad": 141621.0,
+    "unidades": "toneladas",
+    "concepto": "importaciones",
+    "producto": "pollo"
+  },
+  {
+    "año": 2002,
+    "cantidad": 137863.0,
+    "unidades": "toneladas",
+    "concepto": "importaciones",
+    "producto": "pollo"
+  },
+  {
+    "año": 2003,
+    "cantidad": 123289.0,
+    "unidades": "toneladas",
+    "concepto": "importaciones",
+    "producto": "pollo"
+  },
+  {
+    "año": 2004,
+    "cantidad": 105691.0,
+    "unidades": "toneladas",
+    "concepto": "importaciones",
+    "producto": "pollo"
+  },
+  {
+    "año": 2005,
+    "cantidad": 127965.0,
+    "unidades": "toneladas",
+    "concepto": "importaciones",
+    "producto": "pollo"
+  },
+  {
+    "año": 2006,
+    "cantidad": 192307.0,
+    "unidades": "toneladas",
+    "concepto": "importaciones",
+    "producto": "pollo"
+  },
+  {
+    "año": 2007,
+    "cantidad": 166032.0,
+    "unidades": "toneladas",
+    "concepto": "importaciones",
+    "producto": "pollo"
+  },
+  {
+    "año": 2008,
+    "cantidad": 204167.0,
+    "unidades": "toneladas",
+    "concepto": "importaciones",
+    "producto": "pollo"
+  },
+  {
+    "año": 2009,
+    "cantidad": 239722.0,
+    "unidades": "toneladas",
+    "concepto": "importaciones",
+    "producto": "pollo"
+  },
+  {
+    "año": 2010,
+    "cantidad": 288147.0,
+    "unidades": "toneladas",
+    "concepto": "importaciones",
+    "producto": "pollo"
+  },
+  {
+    "año": 2011,
+    "cantidad": 311506.0,
+    "unidades": "toneladas",
+    "concepto": "importaciones",
+    "producto": "pollo"
+  },
+  {
+    "año": 2012,
+    "cantidad": 330633.0,
+    "unidades": "toneladas",
+    "concepto": "importaciones",
+    "producto": "pollo"
+  },
+  {
+    "año": 2013,
+    "cantidad": 386511.0,
+    "unidades": "toneladas",
+    "concepto": "importaciones",
+    "producto": "pollo"
+  },
+  {
+    "año": 2014,
+    "cantidad": 416901.0,
+    "unidades": "toneladas",
+    "concepto": "importaciones",
+    "producto": "pollo"
+  },
+  {
+    "año": 2015,
+    "cantidad": 480545.0,
+    "unidades": "toneladas",
+    "concepto": "importaciones",
+    "producto": "pollo"
+  },
+  {
+    "año": 2016,
+    "cantidad": 502640.0,
+    "unidades": "toneladas",
+    "concepto": "importaciones",
+    "producto": "pollo"
+  },
+  {
+    "año": 2017,
+    "cantidad": 517214.0,
+    "unidades": "toneladas",
+    "concepto": "importaciones",
+    "producto": "pollo"
+  },
+  {
+    "año": 2018,
+    "cantidad": 517270.0,
+    "unidades": "toneladas",
+    "concepto": "importaciones",
+    "producto": "pollo"
+  },
+  {
+    "año": 2019,
+    "cantidad": 567864.0,
+    "unidades": "toneladas",
+    "concepto": "importaciones",
+    "producto": "pollo"
+  },
+  {
+    "año": 2020,
+    "cantidad": 550253.0,
+    "unidades": "toneladas",
+    "concepto": "importaciones",
+    "producto": "pollo"
+  },
+  {
+    "año": 2021,
+    "cantidad": 605418.0,
+    "unidades": "toneladas",
+    "concepto": "importaciones",
+    "producto": "pollo"
+  },
+  {
+    "año": 2022,
+    "cantidad": 594790.0,
+    "unidades": "toneladas",
+    "concepto": "importaciones",
+    "producto": "pollo"
+  },
+  {
+    "año": 2023,
+    "cantidad": 690218.0,
+    "unidades": "toneladas",
+    "concepto": "importaciones",
+    "producto": "pollo"
+  },
+  {
+    "año": 2024,
+    "cantidad": 694263.0,
+    "unidades": "toneladas",
+    "concepto": "importaciones",
+    "producto": "pollo"
+  },
+  {
+    "año": 2025,
+    "cantidad": 702365.0,
+    "unidades": "toneladas",
+    "concepto": "importaciones",
+    "producto": "pollo"
+  },
+  {
+    "año": 2005,
+    "cantidad": 0.676,
+    "unidades": "toneladas",
+    "concepto": "exportaciones",
+    "producto": "pollo"
+  },
+  {
+    "año": 2006,
+    "cantidad": 37.328,
+    "unidades": "toneladas",
+    "concepto": "exportaciones",
+    "producto": "pollo"
+  },
+  {
+    "año": 2007,
+    "cantidad": 291.669,
+    "unidades": "toneladas",
+    "concepto": "exportaciones",
+    "producto": "pollo"
+  },
+  {
+    "año": 2008,
+    "cantidad": 1609.03,
+    "unidades": "toneladas",
+    "concepto": "exportaciones",
+    "producto": "pollo"
+  },
+  {
+    "año": 2009,
+    "cantidad": 5558.837,
+    "unidades": "toneladas",
+    "concepto": "exportaciones",
+    "producto": "pollo"
+  },
+  {
+    "año": 2010,
+    "cantidad": 10482.442,
+    "unidades": "toneladas",
+    "concepto": "exportaciones",
+    "producto": "pollo"
+  },
+  {
+    "año": 2011,
+    "cantidad": 13209.0,
+    "unidades": "toneladas",
+    "concepto": "exportaciones",
+    "producto": "pollo"
+  },
+  {
+    "año": 2012,
+    "cantidad": 4177.0,
+    "unidades": "toneladas",
+    "concepto": "exportaciones",
+    "producto": "pollo"
+  },
+  {
+    "año": 2013,
+    "cantidad": 3770.0,
+    "unidades": "toneladas",
+    "concepto": "exportaciones",
+    "producto": "pollo"
+  },
+  {
+    "año": 2014,
+    "cantidad": 7335.0,
+    "unidades": "toneladas",
+    "concepto": "exportaciones",
+    "producto": "pollo"
+  },
+  {
+    "año": 2015,
+    "cantidad": 2149.0,
+    "unidades": "toneladas",
+    "concepto": "exportaciones",
+    "producto": "pollo"
+  },
+  {
+    "año": 2016,
+    "cantidad": 1439.0,
+    "unidades": "toneladas",
+    "concepto": "exportaciones",
+    "producto": "pollo"
+  },
+  {
+    "año": 2017,
+    "cantidad": 2435.0,
+    "unidades": "toneladas",
+    "concepto": "exportaciones",
+    "producto": "pollo"
+  },
+  {
+    "año": 2018,
+    "cantidad": 2453.0,
+    "unidades": "toneladas",
+    "concepto": "exportaciones",
+    "producto": "pollo"
+  },
+  {
+    "año": 2019,
+    "cantidad": 4473.0,
+    "unidades": "toneladas",
+    "concepto": "exportaciones",
+    "producto": "pollo"
+  },
+  {
+    "año": 2020,
+    "cantidad": 3299.0,
+    "unidades": "toneladas",
+    "concepto": "exportaciones",
+    "producto": "pollo"
+  },
+  {
+    "año": 2021,
+    "cantidad": 3666.0,
+    "unidades": "toneladas",
+    "concepto": "exportaciones",
+    "producto": "pollo"
+  },
+  {
+    "año": 2022,
+    "cantidad": 3569.0,
+    "unidades": "toneladas",
+    "concepto": "exportaciones",
+    "producto": "pollo"
+  },
+  {
+    "año": 2023,
+    "cantidad": 4040.0,
+    "unidades": "toneladas",
+    "concepto": "exportaciones",
+    "producto": "pollo"
+  },
+  {
+    "año": 2024,
+    "cantidad": 1929.0,
+    "unidades": "toneladas",
+    "concepto": "exportaciones",
+    "producto": "pollo"
+  },
+  {
+    "año": 2025,
+    "cantidad": 2366.0,
+    "unidades": "toneladas",
+    "concepto": "exportaciones",
+    "producto": "pollo"
+  },
+  {
+    "año": 1994,
+    "cantidad": 1466852.0,
+    "unidades": "toneladas",
+    "concepto": "consumo",
+    "producto": "pollo"
+  },
+  {
+    "año": 1995,
+    "cantidad": 1593210.0,
+    "unidades": "toneladas",
+    "concepto": "consumo",
+    "producto": "pollo"
+  },
+  {
+    "año": 1996,
+    "cantidad": 1552147.0,
+    "unidades": "toneladas",
+    "concepto": "consumo",
+    "producto": "pollo"
+  },
+  {
+    "año": 1997,
+    "cantidad": 1581900.0,
+    "unidades": "toneladas",
+    "concepto": "consumo",
+    "producto": "pollo"
+  },
+  {
+    "año": 1998,
+    "cantidad": 1682626.0,
+    "unidades": "toneladas",
+    "concepto": "consumo",
+    "producto": "pollo"
+  },
+  {
+    "año": 1999,
+    "cantidad": 1879532.0,
+    "unidades": "toneladas",
+    "concepto": "consumo",
+    "producto": "pollo"
+  },
+  {
+    "año": 2000,
+    "cantidad": 2051515.0,
+    "unidades": "toneladas",
+    "concepto": "consumo",
+    "producto": "pollo"
+  },
+  {
+    "año": 2001,
+    "cantidad": 2208131.0,
+    "unidades": "toneladas",
+    "concepto": "consumo",
+    "producto": "pollo"
+  },
+  {
+    "año": 2002,
+    "cantidad": 2294377.0,
+    "unidades": "toneladas",
+    "concepto": "consumo",
+    "producto": "pollo"
+  },
+  {
+    "año": 2003,
+    "cantidad": 2413180.0,
+    "unidades": "toneladas",
+    "concepto": "consumo",
+    "producto": "pollo"
+  },
+  {
+    "año": 2004,
+    "cantidad": 2495406.0,
+    "unidades": "toneladas",
+    "concepto": "consumo",
+    "producto": "pollo"
+  },
+  {
+    "año": 2005,
+    "cantidad": 2626264.324,
+    "unidades": "toneladas",
+    "concepto": "consumo",
+    "producto": "pollo"
+  },
+  {
+    "año": 2006,
+    "cantidad": 2784033.672,
+    "unidades": "toneladas",
+    "concepto": "consumo",
+    "producto": "pollo"
+  },
+  {
+    "año": 2007,
+    "cantidad": 2848515.331,
+    "unidades": "toneladas",
+    "concepto": "consumo",
+    "producto": "pollo"
+  },
+  {
+    "año": 2008,
+    "cantidad": 3055785.97,
+    "unidades": "toneladas",
+    "concepto": "consumo",
+    "producto": "pollo"
+  },
+  {
+    "año": 2009,
+    "cantidad": 3015639.163,
+    "unidades": "toneladas",
+    "concepto": "consumo",
+    "producto": "pollo"
+  },
+  {
+    "año": 2010,
+    "cantidad": 3087609.558,
+    "unidades": "toneladas",
+    "concepto": "consumo",
+    "producto": "pollo"
+  },
+  {
+    "año": 2011,
+    "cantidad": 3204511.0,
+    "unidades": "toneladas",
+    "concepto": "consumo",
+    "producto": "pollo"
+  },
+  {
+    "año": 2012,
+    "cantidad": 3284378.0,
+    "unidades": "toneladas",
+    "concepto": "consumo",
+    "producto": "pollo"
+  },
+  {
+    "año": 2013,
+    "cantidad": 3290135.0,
+    "unidades": "toneladas",
+    "concepto": "consumo",
+    "producto": "pollo"
+  },
+  {
+    "año": 2014,
+    "cantidad": 3434699.0,
+    "unidades": "toneladas",
+    "concepto": "consumo",
+    "producto": "pollo"
+  },
+  {
+    "año": 2015,
+    "cantidad": 3653406.0,
+    "unidades": "toneladas",
+    "concepto": "consumo",
+    "producto": "pollo"
+  },
+  {
+    "año": 2016,
+    "cantidad": 3776405.0,
+    "unidades": "toneladas",
+    "concepto": "consumo",
+    "producto": "pollo"
+  },
+  {
+    "año": 2017,
+    "cantidad": 3898066.0,
+    "unidades": "toneladas",
+    "concepto": "consumo",
+    "producto": "pollo"
+  },
+  {
+    "año": 2018,
+    "cantidad": 3985523.0,
+    "unidades": "toneladas",
+    "concepto": "consumo",
+    "producto": "pollo"
+  },
+  {
+    "año": 2019,
+    "cantidad": 4117432.0,
+    "unidades": "toneladas",
+    "concepto": "consumo",
+    "producto": "pollo"
+  },
+  {
+    "año": 2020,
+    "cantidad": 4142681.9872869733,
+    "unidades": "toneladas",
+    "concepto": "consumo",
+    "producto": "pollo"
+  },
+  {
+    "año": 2021,
+    "cantidad": 4235505.5891427435,
+    "unidades": "toneladas",
+    "concepto": "consumo",
+    "producto": "pollo"
+  },
+  {
+    "año": 2022,
+    "cantidad": 4348499.337395115,
+    "unidades": "toneladas",
+    "concepto": "consumo",
+    "producto": "pollo"
+  },
+  {
+    "año": 2023,
+    "cantidad": 4536256.235195052,
+    "unidades": "toneladas",
+    "concepto": "consumo",
+    "producto": "pollo"
+  },
+  {
+    "año": 2024,
+    "cantidad": 4640784.970152805,
+    "unidades": "toneladas",
+    "concepto": "consumo",
+    "producto": "pollo"
+  },
+  {
+    "año": 2025,
+    "cantidad": 4771542.521081688,
+    "unidades": "toneladas",
+    "concepto": "consumo",
+    "producto": "pollo"
+  },
+  {
+    "año": 1994,
+    "cantidad": 16.787045090409705,
+    "unidades": "kilogramos",
+    "concepto": "consumo per capita",
+    "producto": "pollo"
+  },
+  {
+    "año": 1995,
+    "cantidad": 17.919759751653395,
+    "unidades": "kilogramos",
+    "concepto": "consumo per capita",
+    "producto": "pollo"
+  },
+  {
+    "año": 1996,
+    "cantidad": 17.143597163621905,
+    "unidades": "kilogramos",
+    "concepto": "consumo per capita",
+    "producto": "pollo"
+  },
+  {
+    "año": 1997,
+    "cantidad": 17.15763899433827,
+    "unidades": "kilogramos",
+    "concepto": "consumo per capita",
+    "producto": "pollo"
+  },
+  {
+    "año": 1998,
+    "cantidad": 17.92163002726653,
+    "unidades": "kilogramos",
+    "concepto": "consumo per capita",
+    "producto": "pollo"
+  },
+  {
+    "año": 1999,
+    "cantidad": 19.65852587099541,
+    "unidades": "kilogramos",
+    "concepto": "consumo per capita",
+    "producto": "pollo"
+  },
+  {
+    "año": 2000,
+    "cantidad": 21.044848845439716,
+    "unidades": "kilogramos",
+    "concepto": "consumo per capita",
+    "producto": "pollo"
+  },
+  {
+    "año": 2001,
+    "cantidad": 22.38280640223815,
+    "unidades": "kilogramos",
+    "concepto": "consumo per capita",
+    "producto": "pollo"
+  },
+  {
+    "año": 2002,
+    "cantidad": 22.981229403928403,
+    "unidades": "kilogramos",
+    "concepto": "consumo per capita",
+    "producto": "pollo"
+  },
+  {
+    "año": 2003,
+    "cantidad": 23.88483084902112,
+    "unidades": "kilogramos",
+    "concepto": "consumo per capita",
+    "producto": "pollo"
+  },
+  {
+    "año": 2004,
+    "cantidad": 24.429796565700077,
+    "unidades": "kilogramos",
+    "concepto": "consumo per capita",
+    "producto": "pollo"
+  },
+  {
+    "año": 2005,
+    "cantidad": 25.406200230238657,
+    "unidades": "kilogramos",
+    "concepto": "consumo per capita",
+    "producto": "pollo"
+  },
+  {
+    "año": 2006,
+    "cantidad": 26.473257692746564,
+    "unidades": "kilogramos",
+    "concepto": "consumo per capita",
+    "producto": "pollo"
+  },
+  {
+    "año": 2007,
+    "cantidad": 26.63234132408351,
+    "unidades": "kilogramos",
+    "concepto": "consumo per capita",
+    "producto": "pollo"
+  },
+  {
+    "año": 2008,
+    "cantidad": 28.099181333333334,
+    "unidades": "kilogramos",
+    "concepto": "consumo per capita",
+    "producto": "pollo"
+  },
+  {
+    "año": 2009,
+    "cantidad": 27.28023631528003,
+    "unidades": "kilogramos",
+    "concepto": "consumo per capita",
+    "producto": "pollo"
+  },
+  {
+    "año": 2010,
+    "cantidad": 27.485486024070646,
+    "unidades": "kilogramos",
+    "concepto": "consumo per capita",
+    "producto": "pollo"
+  },
+  {
+    "año": 2011,
+    "cantidad": 28.154958943239052,
+    "unidades": "kilogramos",
+    "concepto": "consumo per capita",
+    "producto": "pollo"
+  },
+  {
+    "año": 2012,
+    "cantidad": 28.481204584780645,
+    "unidades": "kilogramos",
+    "concepto": "consumo per capita",
+    "producto": "pollo"
+  },
+  {
+    "año": 2013,
+    "cantidad": 28.159894574048003,
+    "unidades": "kilogramos",
+    "concepto": "consumo per capita",
+    "producto": "pollo"
+  },
+  {
+    "año": 2014,
+    "cantidad": 29.014699523638903,
+    "unidades": "kilogramos",
+    "concepto": "consumo per capita",
+    "producto": "pollo"
+  },
+  {
+    "año": 2015,
+    "cantidad": 30.460667692003483,
+    "unidades": "kilogramos",
+    "concepto": "consumo per capita",
+    "producto": "pollo"
+  },
+  {
+    "año": 2016,
+    "cantidad": 31.176544140031712,
+    "unidades": "kilogramos",
+    "concepto": "consumo per capita",
+    "producto": "pollo"
+  },
+  {
+    "año": 2017,
+    "cantidad": 31.864457190751654,
+    "unidades": "kilogramos",
+    "concepto": "consumo per capita",
+    "producto": "pollo"
+  },
+  {
+    "año": 2018,
+    "cantidad": 32.25897649722322,
+    "unidades": "kilogramos",
+    "concepto": "consumo per capita",
+    "producto": "pollo"
+  },
+  {
+    "año": 2019,
+    "cantidad": 32.998912495362234,
+    "unidades": "kilogramos",
+    "concepto": "consumo per capita",
+    "producto": "pollo"
+  },
+  {
+    "año": 2020,
+    "cantidad": 32.87476945650885,
+    "unidades": "kilogramos",
+    "concepto": "consumo per capita",
+    "producto": "pollo"
+  },
+  {
+    "año": 2021,
+    "cantidad": 33.090908321403944,
+    "unidades": "kilogramos",
+    "concepto": "consumo per capita",
+    "producto": "pollo"
+  },
+  {
+    "año": 2022,
+    "cantidad": 33.63732595554854,
+    "unidades": "kilogramos",
+    "concepto": "consumo per capita",
+    "producto": "pollo"
+  },
+  {
+    "año": 2023,
+    "cantidad": 34.742275497696575,
+    "unidades": "kilogramos",
+    "concepto": "consumo per capita",
+    "producto": "pollo"
+  },
+  {
+    "año": 2024,
+    "cantidad": 35.19093077864566,
+    "unidades": "kilogramos",
+    "concepto": "consumo per capita",
+    "producto": "pollo"
+  },
+  {
+    "año": 2025,
+    "cantidad": 35.82421910519322,
+    "unidades": "kilogramos",
+    "concepto": "consumo per capita",
+    "producto": "pollo"
+  }
+]

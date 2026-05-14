@@ -1,36 +1,102 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Dashboard Avícola México
 
-## Getting Started
+Un dashboard interactivo construido con **Next.js** para visualizar la producción y el consumo avícola en México durante el periodo **1977–2025**.
 
-First, run the development server:
+![Dashboard Preview](public/window.svg)
+
+## Características
+
+- **Filtros globales**: rango de años, productos (pollo, pavo, huevo) y conceptos.
+- **KPIs**: métricas clave resumidas para el año activo.
+- **Visualizaciones**:
+  - Gráficos de líneas (tendencias generales)
+  - Gráficos de área y barras (producción y consumo)
+  - Gráficos de dona (distribución)
+  - Gráficos de comercio exterior (importaciones / exportaciones / balance)
+  - Gráficos de población y aves de postura
+- **Tabla de datos**: exploración detallada con `@tanstack/react-table`.
+- **Tema oscuro**: diseño profesional con paleta de colores personalizada.
+
+## Stack tecnológico
+
+- [Next.js](https://nextjs.org/) 16 — framework React con App Router
+- [React](https://react.dev/) 19 — biblioteca de UI
+- [Tailwind CSS](https://tailwindcss.com/) v4 — utilidades de estilo
+- [shadcn/ui](https://ui.shadcn.com/) — componentes base accesibles
+- [Recharts](https://recharts.org/) + [ECharts](https://echarts.apache.org/) — motores de gráficos
+- [xlsx](https://www.npmjs.com/package/xlsx) — parsing de Excel en el cliente
+
+## Requisitos previos
+
+- Node.js 20+
+- npm 10+
+
+## Instalación
+
+```bash
+npm install
+```
+
+## Desarrollo
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Abre [http://localhost:3000](http://localhost:3000) en tu navegador.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Compilación (export estático)
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+```bash
+npm run build
+```
 
-## Learn More
+El resultado se genera en la carpeta `/dist` como archivos estáticos HTML/CSS/JS. Puedes desplegar esos archivos en cualquier servicio de hosting estático (Vercel, GitHub Pages, Netlify, AWS S3, etc.).
 
-To learn more about Next.js, take a look at the following resources:
+> **Nota**: Este proyecto usa `output: 'export'` en `next.config.ts`, por lo que no admite rutas de API ni renderizado del lado del servidor.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Datos
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+La fuente de datos es el archivo Excel ubicado en:
 
-## Deploy on Vercel
+```
+public/base produccion-consumo.xlsx
+```
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+El dashboard lo descarga y parsea en tiempo de ejecución mediante la librería `xlsx`. Asegúrate de que este archivo esté presente antes de compilar.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## Estructura del proyecto
+
+```
+dashboard-next/
+├── app/                    # Páginas y estilos (App Router)
+│   ├── layout.tsx
+│   ├── page.tsx
+│   └── globals.css
+├── components/
+│   ├── charts/             # Componentes de gráficos
+│   ├── layout/             # Header, Sidebar, Filtros, KPIs
+│   ├── table/              # Tabla de datos
+│   └── ui/                 # Componentes shadcn/ui
+├── lib/
+│   ├── data.ts             # Parser de Excel y helpers
+│   ├── filters.tsx         # Contexto global (DashboardProvider)
+│   └── utils.ts            # Utilidades de clases CSS
+├── types/
+│   └── index.ts            # Tipos de TypeScript
+├── public/                 # Archivos estáticos (incluye el Excel)
+└── next.config.ts
+```
+
+## Scripts disponibles
+
+| Script | Descripción |
+|--------|-------------|
+| `npm run dev` | Servidor de desarrollo en `localhost:3000` |
+| `npm run build` | Compilación estática en `/dist` |
+| `npm run start` | Servidor de producción (requiere build previo) |
+| `npm run lint` | Linter con ESLint |
+
+## Licencia
+
+Uso interno / privado.
