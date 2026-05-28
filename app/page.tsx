@@ -3,23 +3,13 @@
 import { useEffect } from "react";
 import { useDashboard } from "@/lib/filters";
 import { Header } from "@/components/layout/Header";
-import { Sidebar } from "@/components/layout/Sidebar";
 import { KpiCards } from "@/components/layout/KpiCards";
 import { GlobalFilters } from "@/components/layout/GlobalFilters";
-import { LineChartSection } from "@/components/charts/LineChartSection";
-import { CombinedChart } from "@/components/charts/CombinedChart";
-import { ProductionChart } from "@/components/charts/ProductionChart";
-import { ConsumptionAreaChart } from "@/components/charts/ConsumptionAreaChart";
-import { PerCapitaChart } from "@/components/charts/PerCapitaChart";
-import { TradeChart } from "@/components/charts/TradeChart";
-import { BalanceChart } from "@/components/charts/BalanceChart";
-import { PopulationChart } from "@/components/charts/PopulationChart";
-import { LayingHensChart } from "@/components/charts/LayingHensChart";
-import { ProductionDistributionChart } from "@/components/charts/ProductionDistributionChart";
-import { DataTable } from "@/components/table/DataTable";
+import { MainContentRow } from "@/components/layout/MainContentRow";
+import { RightInsightPanel } from "@/components/layout/RightInsightPanel";
 
 export default function DashboardPage() {
-  const { data, loading, error, reloadFromFile } = useDashboard();
+  const { data, loading, error, reloadFromFile, rightPanelCollapsed } = useDashboard();
 
   useEffect(() => {
     if (data.length === 0 && !loading && !error) {
@@ -29,10 +19,10 @@ export default function DashboardPage() {
 
   if (loading && data.length === 0) {
     return (
-      <div className="flex min-h-screen items-center justify-center" style={{ background: '#F2F8FF', color: '#1C1C1C' }}>
+      <div className="flex h-screen items-center justify-center" style={{ background: 'var(--bg-light)', color: 'var(--text-dark)' }}>
         <div className="text-center">
-          <div className="mb-4 h-8 w-8 animate-spin rounded-full border-2 border-[#03488D] border-t-transparent mx-auto" />
-          <p className="text-sm" style={{ color: '#5a6478' }}>Cargando datos...</p>
+          <div className="mb-4 h-8 w-8 animate-spin rounded-full border-2 border-[var(--navy-primary)] border-t-transparent mx-auto" />
+          <p className="text-sm" style={{ color: 'var(--text-muted)' }}>Cargando datos...</p>
         </div>
       </div>
     );
@@ -40,13 +30,14 @@ export default function DashboardPage() {
 
   if (error && data.length === 0) {
     return (
-      <div className="flex min-h-screen items-center justify-center" style={{ background: '#F2F8FF', color: '#1C1C1C' }}>
+      <div className="flex h-screen items-center justify-center" style={{ background: 'var(--bg-light)', color: 'var(--text-dark)' }}>
         <div className="text-center max-w-md px-6">
-          <p className="text-lg font-semibold mb-2" style={{ color: '#b85c00' }}>Error</p>
-          <p className="text-sm mb-4" style={{ color: '#5a6478' }}>{error}</p>
+          <p className="text-lg font-semibold mb-2" style={{ color: 'var(--warning)' }}>Error</p>
+          <p className="text-sm mb-4" style={{ color: 'var(--text-muted)' }}>{error}</p>
           <button
             onClick={reloadFromFile}
-            className="btn-filled"
+            className="inline-flex items-center gap-2 px-4 py-2 text-sm font-medium transition-colors"
+            style={{ background: 'var(--navy-primary)', color: '#fff', borderRadius: 2 }}
           >
             Reintentar
           </button>
@@ -56,59 +47,28 @@ export default function DashboardPage() {
   }
 
   return (
-    <div className="min-h-full flex flex-col" style={{ background: '#F2F8FF' }}>
+    <div className="h-screen flex flex-col overflow-hidden" style={{ background: 'var(--bg-light)' }}>
       <Header />
-      
-      <div className="flex flex-1">
-        <Sidebar />
-        
-        <div className="flex-1 min-w-0">
-          <GlobalFilters />
-          
-          <div className="p-6 space-y-6">
-            <KpiCards />
-
-            <div id="overview" className="scroll-mt-20">
-              <LineChartSection />
-            </div>
-
-            <div id="produccion" className="scroll-mt-20">
-              <CombinedChart />
-            </div>
-
-            <div className="grid grid-cols-1 gap-6 xl:grid-cols-2">
-              <ProductionChart />
-              <ProductionDistributionChart />
-            </div>
-
-            <div id="consumo" className="scroll-mt-20">
-              <div className="grid grid-cols-1 gap-6 xl:grid-cols-2">
-                <ConsumptionAreaChart />
-                <PerCapitaChart />
-              </div>
-            </div>
-
-            <div id="comercio" className="scroll-mt-20">
-              <div className="grid grid-cols-1 gap-6 xl:grid-cols-2">
-                <TradeChart />
-                <BalanceChart />
-              </div>
-            </div>
-
-            <div id="poblacion" className="scroll-mt-20">
-              <div className="grid grid-cols-1 gap-6 xl:grid-cols-2">
-                <PopulationChart />
-                <LayingHensChart />
-              </div>
-            </div>
-
-            <DataTable />
-
-            <footer className="text-center py-4" style={{ fontSize: 11, fontFamily: "'JetBrains Mono', monospace", letterSpacing: '0.05em', color: '#5a6478' }}>
-              Dashboard Avícola México — Datos 1977-2025
-            </footer>
+      <div className="flex flex-1 overflow-hidden relative">
+        <main
+          className={`flex-1 flex flex-col overflow-hidden transition-all duration-300 ${
+            rightPanelCollapsed ? 'lg:mr-[48px]' : 'lg:mr-[400px]'
+          }`}
+        >
+          <div className="flex-none">
+            <GlobalFilters />
           </div>
-        </div>
+
+          <div className="flex-1 flex flex-col overflow-y-auto overflow-x-hidden px-4 sm:px-6 py-4 gap-4">
+            <div className="flex-none">
+              <KpiCards />
+            </div>
+            <div className="flex-1 min-h-auto">
+              <MainContentRow />
+            </div>
+          </div>
+        </main>
+        <RightInsightPanel />
       </div>
     </div>
   );

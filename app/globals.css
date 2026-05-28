@@ -5,8 +5,8 @@
 @custom-variant dark (&:is(.dark *));
 
 @theme inline {
-  --color-background: #F2F8FF;
-  --color-foreground: #1C1C1C;
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
   --font-sans: 'Quicksand', ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
   --font-mono: 'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
   --font-heading: 'Playfair Display', ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
@@ -49,7 +49,7 @@
 }
 
 :root {
-  /* UNA Admin Design System */
+  /* UNA Design System — Light Mode */
   --navy-deep: #06254B;
   --navy-primary: #03488D;
   --bg-light: #F2F8FF;
@@ -61,10 +61,19 @@
   --hairline-light: rgba(6, 37, 75, 0.06);
   --hairline-light-strong: rgba(6, 37, 75, 0.10);
   --hairline-light-ui: rgba(6, 37, 75, 0.15);
+  --hairline-yellow: rgba(248, 210, 39, 0.25);
   --shadow-rest: 0 2px 12px rgba(6, 37, 75, 0.04);
   --shadow-hover: 0 14px 36px rgba(6, 37, 75, 0.10);
+  --shadow-modal: 0 40px 80px rgba(6, 37, 75, 0.30);
   --success: #2e8b57;
   --warning: #b85c00;
+
+  /* Chart colors UNA */
+  --chart-1: #06254B;
+  --chart-2: #03488D;
+  --chart-3: #F8D227;
+  --chart-4: #2e8b57;
+  --chart-5: #b85c00;
 
   /* shadcn overrides — light mode */
   --background: #F2F8FF;
@@ -85,11 +94,62 @@
   --border: rgba(6, 37, 75, 0.06);
   --input: rgba(6, 37, 75, 0.15);
   --ring: #03488D;
-  --chart-1: #03488D;
-  --chart-2: #06254B;
-  --chart-3: #F8D227;
-  --chart-4: #2e8b57;
-  --chart-5: #b85c00;
+  --radius: 0.125rem;
+  --sidebar: #06254B;
+  --sidebar-foreground: rgba(255, 255, 255, 0.72);
+  --sidebar-primary: #F8D227;
+  --sidebar-primary-foreground: #06254B;
+  --sidebar-accent: rgba(3, 72, 141, 0.45);
+  --sidebar-accent-foreground: #FFFFFF;
+  --sidebar-border: rgba(248, 210, 39, 0.10);
+  --sidebar-ring: #F8D227;
+}
+
+[data-theme="dark"] {
+  /* UNA Design System — Dark Mode */
+  --navy-deep: #06254B;
+  --navy-primary: #4f8ef7;
+  --bg-light: #0a1628;
+  --white: #0d1f3a;
+  --accent-yellow: #F8D227;
+  --text-dark: #e2e8f0;
+  --text-editorial: #94a3b8;
+  --text-muted: #94a3b8;
+  --hairline-light: rgba(255, 255, 255, 0.06);
+  --hairline-light-strong: rgba(255, 255, 255, 0.10);
+  --hairline-light-ui: rgba(255, 255, 255, 0.15);
+  --hairline-yellow: rgba(248, 210, 39, 0.25);
+  --shadow-rest: 0 2px 12px rgba(0, 0, 0, 0.20);
+  --shadow-hover: 0 14px 36px rgba(0, 0, 0, 0.30);
+  --shadow-modal: 0 40px 80px rgba(0, 0, 0, 0.50);
+  --success: #34d399;
+  --warning: #f59e0b;
+
+  --chart-1: #4f8ef7;
+  --chart-2: #f7c94f;
+  --chart-3: #f7734f;
+  --chart-4: #34d399;
+  --chart-5: #a78bfa;
+
+  /* shadcn overrides — dark mode */
+  --background: #0a1628;
+  --foreground: #e2e8f0;
+  --card: #0d1f3a;
+  --card-foreground: #e2e8f0;
+  --popover: #0d1f3a;
+  --popover-foreground: #e2e8f0;
+  --primary: #4f8ef7;
+  --primary-foreground: #ffffff;
+  --secondary: #0d1f3a;
+  --secondary-foreground: #e2e8f0;
+  --muted: #0d1f3a;
+  --muted-foreground: #94a3b8;
+  --accent: rgba(79, 142, 247, 0.20);
+  --accent-foreground: #e0e7ff;
+  --destructive: #f7734f;
+  --border: rgba(255, 255, 255, 0.06);
+  --input: rgba(255, 255, 255, 0.08);
+  --ring: #4f8ef7;
   --radius: 0.125rem;
   --sidebar: #06254B;
   --sidebar-foreground: rgba(255, 255, 255, 0.72);
@@ -110,7 +170,7 @@
   }
   body {
     @apply bg-background text-foreground;
-    font-family: 'Quicksand', sans-serif;
+    font-family: 'Quicksand', ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
     background: var(--bg-light);
     color: var(--text-dark);
   }
@@ -118,11 +178,23 @@
     @apply font-sans;
   }
   h1, h2, h3, h4 {
-    font-family: 'Playfair Display', serif;
+    font-family: 'Playfair Display', ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
     font-weight: 500;
     letter-spacing: -0.01em;
     color: var(--navy-deep);
   }
+}
+
+[data-theme="dark"] body {
+  background: #0a1628;
+  color: #e2e8f0;
+}
+
+[data-theme="dark"] h1,
+[data-theme="dark"] h2,
+[data-theme="dark"] h3,
+[data-theme="dark"] h4 {
+  color: #e2e8f0;
 }
 
 /* Custom scrollbar */
@@ -130,56 +202,38 @@
   width: 6px;
   height: 6px;
 }
-
 ::-webkit-scrollbar-track {
   background: transparent;
 }
-
 ::-webkit-scrollbar-thumb {
   background: rgba(6, 37, 75, 0.12);
   border-radius: 3px;
 }
-
 ::-webkit-scrollbar-thumb:hover {
   background: rgba(6, 37, 75, 0.25);
 }
-
-/* Typography helpers */
-.font-heading {
-  font-family: 'Playfair Display', ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
+[data-theme="dark"] ::-webkit-scrollbar-thumb {
+  background: rgba(148, 163, 184, 0.15);
+}
+[data-theme="dark"] ::-webkit-scrollbar-thumb:hover {
+  background: rgba(148, 163, 184, 0.30);
 }
 
-.font-body {
-  font-family: 'Quicksand', ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
-}
-
-.font-mono-numbers {
-  font-family: 'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
-}
-
-/* Italic accent patterns */
-em.acc {
-  font-style: italic;
-  color: var(--navy-primary);
-  font-weight: 400;
-}
-
-/* Card base styles */
+/* UNA Card base */
 .una-card {
   background: white;
   border: 1px solid var(--hairline-light);
   border-radius: 2px;
   box-shadow: var(--shadow-rest);
+  padding: 16px;
   transition: transform 0.3s cubic-bezier(0.2, 0.8, 0.2, 1), box-shadow 0.3s cubic-bezier(0.2, 0.8, 0.2, 1);
   position: relative;
   overflow: hidden;
 }
-
 .una-card:hover {
   transform: translateY(-2px);
   box-shadow: var(--shadow-hover);
 }
-
 .una-card::before {
   content: '';
   position: absolute;
@@ -192,12 +246,63 @@ em.acc {
   transform-origin: left;
   transition: transform 0.4s cubic-bezier(0.2, 0.8, 0.2, 1);
 }
-
 .una-card:hover::before {
   transform: scaleX(1);
+}
+
+[data-theme="dark"] .una-card {
+  background: #0d1f3a;
+  border-color: rgba(255, 255, 255, 0.06);
 }
 
 /* Table row hover */
 .una-table-row:hover td {
   background: var(--bg-light);
+}
+[data-theme="dark"] .una-table-row:hover td {
+  background: rgba(79, 142, 247, 0.06);
+}
+
+/* Typography helpers */
+.font-heading {
+  font-family: 'Playfair Display', ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
+}
+.font-body {
+  font-family: 'Quicksand', ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+}
+.font-mono-numbers {
+  font-family: 'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+}
+
+/* Italic accent patterns */
+em.acc {
+  font-style: italic;
+  color: var(--navy-primary);
+  font-weight: 400;
+}
+[data-theme="dark"] em.acc {
+  color: #4f8ef7;
+}
+
+/* Section eyebrow */
+.section-eyebrow {
+  display: inline-flex;
+  align-items: center;
+  gap: 12px;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 11px;
+  letter-spacing: 0.3em;
+  text-transform: uppercase;
+  color: var(--navy-primary);
+  font-weight: 600;
+  margin-bottom: 16px;
+}
+.section-eyebrow::before {
+  content: '';
+  width: 32px;
+  height: 1px;
+  background: var(--accent-yellow);
+}
+[data-theme="dark"] .section-eyebrow {
+  color: #4f8ef7;
 }

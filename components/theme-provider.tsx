@@ -3,9 +3,9 @@
 import { ThemeProvider as NextThemesProvider } from "next-themes";
 import { type ReactNode } from "react";
 
-export function ThemeProvider({ children }: { children: ReactNode }) {
+export function ThemeProvider({ children, ...props }: { children: ReactNode } & React.ComponentProps<typeof NextThemesProvider>) {
   return (
-    <NextThemesProvider attribute="class" defaultTheme="system" enableSystem>
+    <NextThemesProvider attribute="data-theme" defaultTheme="system" enableSystem {...props}>
       {children}
     </NextThemesProvider>
   );

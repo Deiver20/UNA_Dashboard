@@ -1,6 +1,6 @@
 "use client";
 
-import { useState, useMemo } from "react";
+import { useMemo } from "react";
 import { useDashboard } from "@/lib/filters";
 import {
   LineChart,
@@ -9,138 +9,102 @@ import {
   YAxis,
   CartesianGrid,
   Tooltip,
+  Legend,
   ResponsiveContainer,
 } from "recharts";
-
-const PRODUCTOS_DISPONIBLES = ["pollo", "huevo", "pavo"];
-const CONCEPTOS_DISPONIBLES = [
-  "produccion",
-  "consumo",
-  "importaciones",
-  "exportaciones",
-];
+import { ChartWrapper } from "./ChartWrapper";
 
 const COLORS: Record<string, string> = {
-  pollo: "#03488D",
-  huevo: "#F8D227",
-  pavo: "#06254B",
+  pollo: "#06254B",
+  huevo: "#03488D",
+  pavo: "#F8D227",
 };
 
-export function LineChartSection() {
-  const { data } = useDashboard();
-  const [producto, setProducto] = useState<string>("pollo");
-  const [concepto, setConcepto] = useState<string>("produccion");
+interface LineChartSectionProps {
+  concepto?: string;
+}
+
+export function LineChartSection({ concepto = "produccion" }: LineChartSectionProps) {
+  const { data, filters, sectionFilters } = useDashboard();
+  const productos = sectionFilters.overview.productos.map((p) => p.toLowerCase());
 
   const chartData = useMemo(() => {
     const filtered = data.filter(
       (d) =>
-        d.concepto === concepto &&
-        d.producto?.toLowerCase() === producto
+        d.año >= filters.yearRange[0] &&
+        d.año <= filters.yearRange[1] &&
+        d.concepto === concepto
     );
-    const grouped = new Map<number, number>();
+    const grouped = new Map<number, Record<string, number>>();
     for (const d of filtered) {
-      grouped.set(d.año, (grouped.get(d.año) ?? 0) + d.cantidad);
+      if (!d.producto) continue;
+      const prod = d.producto.toLowerCase();
+      if (!productos.includes(prod)) continue;
+      if (!grouped.has(d.año)) grouped.set(d.año, {});
+      const row = grouped.get(d.año)!;
+      row[prod] = (row[prod] ?? 0) + d.cantidad;
     }
     return Array.from(grouped.entries())
-      .map(([año, cantidad]) => ({ año, cantidad }))
+      .map(([año, prods]) => ({ año, ...prods }))
       .sort((a, b) => a.año - b.año);
-  }, [data, producto, concepto]);
-
-  const selectStyle: React.CSSProperties = {
-    borderRadius: 2,
-    border: "1px solid rgba(6,37,75,0.15)",
-    background: "white",
-    padding: "6px 12px",
-    fontSize: 13,
-    fontFamily: "'Quicksand', sans-serif",
-    color: "#06254B",
-    outline: "none",
-  };
+  }, [data, concepto, filters.yearRange, productos, sectionFilters.overview.productos]);
 
   return (
-    <div className="una-card" style={{ padding: "28px 28px 24px" }}>
-      <div className="mb-4 flex flex-col gap-3 sm:flex-row sm:items-center sm:justify-between">
-        <h3
-          className="text-base font-semibold font-heading"
-          style={{ color: "#06254B" }}
-        >
-          Evolución Temporal (1977–2025)
-        </h3>
-        <div className="flex flex-wrap gap-2">
-          <select
-            value={producto}
-            onChange={(e) => setProducto(e.target.value)}
-            style={selectStyle}
-          >
-            {PRODUCTOS_DISPONIBLES.map((p) => (
-              <option key={p} value={p} className="capitalize">
-                {p.charAt(0).toUpperCase() + p.slice(1)}
-              </option>
-            ))}
-          </select>
-          <select
-            value={concepto}
-            onChange={(e) => setConcepto(e.target.value)}
-            style={selectStyle}
-          >
-            {CONCEPTOS_DISPONIBLES.map((c) => (
-              <option key={c} value={c} className="capitalize">
-                {c.charAt(0).toUpperCase() + c.slice(1)}
-              </option>
-            ))}
-          </select>
-        </div>
-      </div>
-
-      <div className="h-80 w-full">
-        <ResponsiveContainer width="100%" height="100%">
-          <LineChart data={chartData} margin={{ top: 5, right: 20, bottom: 5, left: 0 }}>
-            <CartesianGrid strokeDasharray="3 3" stroke="rgba(6,37,75,0.08)" />
-            <XAxis
-              dataKey="año"
-              stroke="#5a6478"
-              tick={{ fill: "#5a6478", fontSize: 12 }}
-              tickLine={false}
-              axisLine={{ stroke: "rgba(6,37,75,0.10)" }}
-            />
-            <YAxis
-              stroke="#5a6478"
-              tick={{ fill: "#5a6478", fontSize: 12 }}
-              tickLine={false}
-              axisLine={{ stroke: "rgba(6,37,75,0.10)" }}
-              tickFormatter={(v: number) =>
-                v >= 1_000_000
-                  ? `${(v / 1_000_000).toFixed(1)}M`
-                  : v >= 1_000
-                  ? `${(v / 1_000).toFixed(0)}k`
-                  : String(v)
-              }
-            />
-            <Tooltip
-              contentStyle={{
-                backgroundColor: "white",
-                border: "1px solid rgba(6,37,75,0.15)",
-                borderRadius: 2,
-                color: "#1C1C1C",
-                boxShadow: "0 14px 36px rgba(6, 37, 75, 0.10)",
-              }}
-              labelStyle={{ color: "#5a6478" }}
-              formatter={(value: any) => [
-                Number(value).toLocaleString("es-ES", { maximumFractionDigits: 0 }),
-                concepto.charAt(0).toUpperCase() + concepto.slice(1),
-              ]}
-            />
+    <ChartWrapper className="h-full w-full">
+      <ResponsiveContainer width="100%" height="100%">
+        <LineChart data={chartData} margin={{ top: 5, right: 20, bottom: 5, left: 0 }}>
+          <CartesianGrid strokeDasharray="3 3" stroke="var(--hairline-light)" />
+          <XAxis
+            dataKey="año"
+            stroke="var(--hairline-light-ui)"
+            tick={{ fill: "var(--text-muted)", fontSize: 12 }}
+            tickLine={false}
+            axisLine={{ stroke: "var(--hairline-light-ui)" }}
+          />
+          <YAxis
+            stroke="var(--hairline-light-ui)"
+            tick={{ fill: "var(--text-muted)", fontSize: 12 }}
+            tickLine={false}
+            axisLine={{ stroke: "var(--hairline-light-ui)" }}
+            tickFormatter={(v: number) =>
+              v >= 1_000_000
+                ? `${(v / 1_000_000).toFixed(1)}M`
+                : v >= 1_000
+                ? `${(v / 1_000).toFixed(0)}k`
+                : String(v)
+            }
+          />
+          <Tooltip
+            contentStyle={{
+              backgroundColor: "var(--card)",
+              border: "1px solid var(--hairline-light-ui)",
+              borderRadius: 2,
+              color: "var(--text-dark)",
+              boxShadow: "var(--shadow-hover)",
+            }}
+            labelStyle={{ color: "var(--text-muted)" }}
+            formatter={(value, name) => [
+              Number(value ?? 0).toLocaleString("es-ES", { maximumFractionDigits: 0 }),
+              String(name).charAt(0).toUpperCase() + String(name).slice(1),
+            ]}
+          />
+          <Legend
+            wrapperStyle={{ fontFamily: "'Quicksand', sans-serif", fontSize: 12, color: "var(--text-muted)" }}
+            formatter={(value: string) => value.charAt(0).toUpperCase() + value.slice(1)}
+          />
+          {productos.map((prod) => (
             <Line
+              key={prod}
               type="monotone"
-              dataKey="cantidad"
-              stroke={COLORS[producto]}
+              dataKey={prod}
+              stroke={COLORS[prod]}
               strokeWidth={2.5}
-              dot={{ r: 3, fill: COLORS[producto], strokeWidth: 0 }}
+              dot={{ r: 3, fill: COLORS[prod], strokeWidth: 0 }}
               activeDot={{ r: 5 }}
             />
-          </LineChart>
-        </ResponsiveContainer>
-      </div>
-    </div>
+          ))}
+        </LineChart>
+      </ResponsiveContainer>
+    </ChartWrapper>
   );
 }

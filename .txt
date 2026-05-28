@@ -1,0 +1,57 @@
+El dashboard necesita una reestructuración de layout completa para que 
+todo quepa en pantalla sin scroll obligatorio. Objetivo: que al cargar 
+cualquier pestaña, todo el contenido esté visible dentro del viewport.
+
+## LAYOUT GENERAL — SIN SCROLL FORZADO
+
+- El dashboard debe ocupar exactamente 100vh, sin overflow vertical
+- Usa height: 100vh en el contenedor raíz y distribuye el espacio 
+  con flexbox o grid internamente
+- Ninguna sección debe empujar contenido fuera del viewport por defecto
+- El scroll solo aparece si el usuario lo decide (overflow: auto, 
+  no overflow: scroll)
+
+
+## TARJETAS KPI — SÚBELAS Y COMPÁCTALAS
+
+- Reduce el padding interno de cada card a 16px (actualmente ~24px)
+- Reduce el tamaño del número principal a 1.6rem (de ~2rem)
+- Reduce margin-top de la sección de KPIs a 12px desde el filtro 
+  de productos
+- Las 4 cards deben caber en una fila sin scroll horizontal
+
+## GRÁFICOS — OCUPAR EL ESPACIO RESTANTE
+
+Después del header (56px) + filtros (48px) + KPIs (100px) + 
+márgenes (32px), el espacio restante (~calc(100vh - 236px)) debe 
+distribuirse entre los dos gráficos:
+- Gráfico Evolución Temporal: flex: 1, height: 100% del espacio 
+  restante, sin altura fija
+- Gráfico Distribución (donut): mismo height que el de línea, 
+  el donut debe centrarse verticalmente en ese espacio
+- Ambos gráficos en fila (flex-direction: row), con gap de 16px
+
+## GRÁFICOS INTERNOS — AJUSTE DE RECHARTS
+
+- En el LineChart y BarChart, usa height="100%" con un wrapper 
+  div que tenga flex: 1 y min-height: 0 para que recharts 
+  respete el espacio disponible
+- En el PieChart, ajusta el outerRadius dinámicamente o fíjalo 
+  en 120px para que no se corte
+- La leyenda del donut debe estar dentro del card, con 
+  overflow visible
+
+## CAMBIO DE PESTAÑA
+
+- Al hacer clic en cualquier ítem del sidebar, el área de 
+  contenido debe reemplazarse completamente (no apilarse)
+- Cada vista/pestaña debe seguir el mismo sistema de layout: 
+  100vh, sin scroll obligatorio, gráficos que llenan el espacio
+
+## ESPACIADO GLOBAL
+
+- padding del área de contenido: 20px (no más de 24px)
+- gap entre secciones: 12px
+- gap entre cards: 12px
+- Todos los títulos de sección con padding-top: 0 
+  (el padding lo da el contenedor con los 20px globales)

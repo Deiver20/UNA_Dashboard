@@ -4,45 +4,7 @@ import { useDashboard } from "@/lib/filters";
 import { Factory, UtensilsCrossed, ArrowRightLeft, TrendingUp } from "lucide-react";
 
 export function KpiCards() {
-  const { filteredData, activeYear, selectedProduct, setSelectedProduct } = useDashboard();
-
-  const yearData = filteredData.filter((d) => d.año === activeYear);
-
-  const produccion =
-    yearData.find(
-      (d) =>
-        d.concepto === "produccion" &&
-        d.producto?.toLowerCase() === selectedProduct
-    )?.cantidad ?? 0;
-
-  const consumo =
-    yearData.find(
-      (d) =>
-        d.concepto === "consumo" && d.producto?.toLowerCase() === selectedProduct
-    )?.cantidad ?? 0;
-
-  const consumoPerCapita =
-    yearData.find(
-      (d) =>
-        d.concepto === "consumo per capita" &&
-        d.producto?.toLowerCase() === selectedProduct
-    )?.cantidad ?? 0;
-
-  const exportaciones =
-    yearData.find(
-      (d) =>
-        d.concepto === "exportaciones" &&
-        d.producto?.toLowerCase() === selectedProduct
-    )?.cantidad ?? 0;
-
-  const importaciones =
-    yearData.find(
-      (d) =>
-        d.concepto === "importaciones" &&
-        d.producto?.toLowerCase() === selectedProduct
-    )?.cantidad ?? 0;
-
-  const balanceComercial = exportaciones + importaciones;
+  const { activeYear, selectedProduct, setSelectedProduct, kpiDeltas } = useDashboard();
 
   const productNames: Record<string, string> = {
     pollo: "Pollo",
@@ -52,75 +14,65 @@ export function KpiCards() {
 
   const cards = [
     {
+      key: "produccion",
       title: `Producción de ${productNames[selectedProduct]}`,
-      value: produccion,
       unit: "ton",
       icon: Factory,
-      color: "#03488D",
     },
     {
+      key: "consumo",
       title: `Consumo de ${productNames[selectedProduct]}`,
-      value: consumo,
       unit: "ton",
       icon: UtensilsCrossed,
-      color: "#03488D",
     },
     {
+      key: "consumo per capita",
       title: `Consumo per cápita ${productNames[selectedProduct]}`,
-      value: consumoPerCapita,
       unit: "kg/hab",
       icon: TrendingUp,
-      color: "#03488D",
     },
     {
+      key: "balance",
       title: "Balance comercial",
-      value: balanceComercial,
       unit: "ton",
       icon: ArrowRightLeft,
-      color: "#03488D",
     },
   ];
 
   return (
-    <div className="space-y-4">
-      {/* Header de sección */}
-      <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-3">
-        <div>
-          <h2
-            className="text-base font-semibold font-heading"
-            style={{ color: "#06254B" }}
-          >
-            Indicadores del año {activeYear}
-          </h2>
-          <p className="text-xs mt-0.5" style={{ color: "#5a6478", fontFamily: "'Quicksand', sans-serif" }}>
-            Métricas principales por producto seleccionado
-          </p>
-        </div>
+    <div className="flex-none">
+      <div className="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-2 mb-3">
+        <h2
+          className="text-sm font-heading"
+          style={{ color: "var(--navy-deep)", fontWeight: 500, letterSpacing: "-0.01em" }}
+        >
+          Indicadores <em className="acc">{activeYear}</em>
+        </h2>
 
-        {/* Segmented control */}
         <div
-          className="inline-flex p-0.5 shrink-0"
+          className="inline-flex p-0.5"
           style={{
             borderRadius: 2,
-            border: "1px solid rgba(6,37,75,0.15)",
-            background: "white",
+            border: "1px solid var(--hairline-light-ui)",
+            background: "var(--white)",
           }}
         >
           {["pollo", "huevo", "pavo"].map((p) => (
             <button
               key={p}
               onClick={() => setSelectedProduct(p)}
+              aria-pressed={selectedProduct === p}
               className="transition-all"
               style={{
                 borderRadius: 2,
-                padding: "6px 14px",
-                fontSize: 11,
+                padding: "3px 10px",
+                fontSize: 10,
                 fontWeight: 700,
                 letterSpacing: "0.18em",
                 textTransform: "uppercase",
                 fontFamily: "'Quicksand', sans-serif",
                 background: selectedProduct === p ? "#06254B" : "transparent",
-                color: selectedProduct === p ? "white" : "#5a6478",
+                color: selectedProduct === p ? "white" : "var(--text-muted)",
               }}
             >
               {productNames[p]}
@@ -129,51 +81,77 @@ export function KpiCards() {
         </div>
       </div>
 
-      <div className="grid grid-cols-1 gap-5 sm:grid-cols-2 xl:grid-cols-4">
+      <div className="grid grid-cols-2 xl:grid-cols-4 gap-2 sm:gap-3">
         {cards.map((card) => {
           const Icon = card.icon;
+          const delta = kpiDeltas[card.key];
+          const isPositive = delta?.direction === "up";
+          const isNegative = delta?.direction === "down";
+          const deltaColor = isPositive ? "var(--success)" : isNegative ? "var(--warning)" : "var(--text-muted)";
+          const arrow = isPositive ? "▲" : isNegative ? "▼" : "—";
+
           return (
             <div
-              key={card.title}
+              key={card.key}
               className="una-card"
-              style={{ padding: "28px 28px 24px" }}
             >
               <div className="flex items-center justify-between">
                 <span
-                  className="text-sm"
+                  className="text-[9px] font-semibold uppercase"
                   style={{
-                    color: "#5a6478",
+                    color: "var(--text-muted)",
                     fontFamily: "'Quicksand', sans-serif",
-                    fontWeight: 500,
+                    letterSpacing: "0.28em",
+                    display: "inline-flex",
+                    alignItems: "center",
+                    gap: 6,
                   }}
                 >
+                  <span
+                    style={{
+                      width: 5,
+                      height: 5,
+                      background: "var(--accent-yellow)",
+                      display: "inline-block",
+                      transform: "rotate(45deg)",
+                      flexShrink: 0,
+                    }}
+                  />
                   {card.title}
                 </span>
                 <div
-                  className="flex h-9 w-9 items-center justify-center"
+                  className="flex h-6 w-6 items-center justify-center"
                   style={{
-                    backgroundColor: "#F2F8FF",
+                    backgroundColor: "var(--bg-light)",
                     borderRadius: 2,
-                    color: card.color,
+                    color: "var(--navy-primary)",
                   }}
                 >
-                  <Icon className="h-4 w-4" style={{ strokeWidth: 1.6 }} />
+                  <Icon className="h-3 w-3" style={{ strokeWidth: 1.6 }} />
                 </div>
               </div>
-              <div className="mt-3 flex items-baseline gap-1.5">
+              <div className="mt-1.5 flex items-baseline gap-1.5">
                 <span
-                  className="text-2xl font-bold font-mono-numbers"
-                  style={{ color: "#06254B", fontSize: 32 }}
+                  className="font-heading text-lg sm:text-xl md:text-2xl"
+                  style={{ color: "var(--navy-deep)", fontWeight: 500, letterSpacing: "-0.02em" }}
                 >
-                  {card.value.toLocaleString("es-ES", {
+                  {(delta?.value ?? 0).toLocaleString("es-ES", {
                     maximumFractionDigits: 1,
                   })}
                 </span>
                 <span
-                  className="text-xs"
-                  style={{ color: "#5a6478", fontFamily: "'Quicksand', sans-serif" }}
+                  className="text-[10px]"
+                  style={{ color: "var(--text-muted)", fontFamily: "'Quicksand', sans-serif" }}
                 >
                   {card.unit}
+                </span>
+              </div>
+              <div className="mt-1 flex items-center gap-1">
+                <span className="text-[10px] font-semibold" style={{ color: deltaColor, fontFamily: "'Quicksand', sans-serif" }}>
+                  {arrow} {Math.abs(delta?.deltaPercent ?? 0).toFixed(1)}%
+                </span>
+                <span className="text-[9px]" style={{ color: "var(--text-muted)", fontFamily: "'Quicksand', sans-serif" }}>
+                  vs anterior
                 </span>
               </div>
             </div>

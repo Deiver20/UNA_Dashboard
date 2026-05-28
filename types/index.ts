@@ -33,3 +33,37 @@ export interface FilterState {
   productos: string[];
   conceptos: string[];
 }
+
+export type Section =
+  | "overview"
+  | "produccion"
+  | "consumo"
+  | "comercio"
+  | "poblacion"
+  | "balance comercial"
+  | "aves de postura";
+
+export interface KpiDelta {
+  value: number;
+  prevValue: number;
+  delta: number;
+  deltaPercent: number;
+  direction: "up" | "down" | "flat";
+}
+
+export interface InsightItem {
+  id: string;
+  title: string;
+  description: string;
+  timestamp: string;
+  badge?: "info" | "warning" | "success" | "danger";
+}
+
+export interface AiInsightVersion {
+  id: string;
+  period: string;
+  section: Section;
+  insights: InsightItem[];
+  generatedAt: string;
+  promptSnapshot: string;
+}

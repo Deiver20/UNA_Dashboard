@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Playfair_Display, Quicksand, JetBrains_Mono } from "next/font/google";
 import "./globals.css";
 import { DashboardProvider } from "@/lib/filters";
+import { ThemeProvider } from "@/components/theme-provider";
 
 const playfair = Playfair_Display({
   variable: "--font-playfair",
@@ -38,8 +39,10 @@ export default function RootLayout({
       suppressHydrationWarning
       className={`${playfair.variable} ${quicksand.variable} ${jetbrains.variable}`}
     >
-      <body className="min-h-full antialiased" style={{ background: '#F2F8FF', color: '#1C1C1C' }}>
-        <DashboardProvider>{children}</DashboardProvider>
+      <body className="min-h-full antialiased" style={{ background: 'var(--bg-light)', color: 'var(--text-dark)' }}>
+        <ThemeProvider attribute="data-theme" defaultTheme="system" enableSystem>
+          <DashboardProvider>{children}</DashboardProvider>
+        </ThemeProvider>
       </body>
     </html>
   );

@@ -12,6 +12,7 @@ import {
   ResponsiveContainer,
   Legend,
 } from "recharts";
+import { ChartWrapper } from "./ChartWrapper";
 
 const COLORS: Record<string, string> = {
   pollo: "#03488D",
@@ -20,8 +21,8 @@ const COLORS: Record<string, string> = {
 };
 
 export function ConsumptionAreaChart() {
-  const { filteredData, filters } = useDashboard();
-  const productos = filters.productos.map((p) => p.toLowerCase());
+  const { filteredData, sectionFilters } = useDashboard();
+  const productos = sectionFilters.consumo.productos.map((p) => p.toLowerCase());
 
   const chartData = useMemo(() => {
     const years = Array.from(new Set(filteredData.map((d) => d.año))).sort(
@@ -42,33 +43,25 @@ export function ConsumptionAreaChart() {
       }
       return row;
     });
-  }, [filteredData, productos]);
+  }, [filteredData, productos, sectionFilters.consumo.productos]);
 
   return (
-    <div className="una-card" style={{ padding: "28px 28px 24px" }}>
-      <h3 className="text-base font-semibold font-heading mb-1" style={{ color: "#06254B" }}>
-        Consumo Total por Producto
-      </h3>
-      <p className="text-sm mb-4" style={{ color: "#5a6478", fontFamily: "'Quicksand', sans-serif" }}>
-        Evolución del consumo (toneladas)
-      </p>
-
-      <div className="h-72 w-full">
-        <ResponsiveContainer width="100%" height="100%">
-          <AreaChart data={chartData} margin={{ top: 5, right: 20, bottom: 5, left: 0 }}>
-            <CartesianGrid strokeDasharray="3 3" stroke="rgba(6,37,75,0.08)" />
+    <ChartWrapper className="h-full w-full">
+      <ResponsiveContainer width="100%" height="100%" >
+        <AreaChart data={chartData} margin={{ top: 5, right: 20, bottom: 5, left: 0 }}>
+            <CartesianGrid strokeDasharray="3 3" stroke="var(--hairline-light)" />
             <XAxis
               dataKey="año"
-              stroke="#5a6478"
-              tick={{ fill: "#5a6478", fontSize: 12 }}
+              stroke="var(--hairline-light-ui)"
+              tick={{ fill: "var(--text-muted)", fontSize: 12 }}
               tickLine={false}
-              axisLine={{ stroke: "rgba(6,37,75,0.10)" }}
+              axisLine={{ stroke: "var(--hairline-light-ui)" }}
             />
             <YAxis
-              stroke="#5a6478"
-              tick={{ fill: "#5a6478", fontSize: 12 }}
+              stroke="var(--hairline-light-ui)"
+              tick={{ fill: "var(--text-muted)", fontSize: 12 }}
               tickLine={false}
-              axisLine={{ stroke: "rgba(6,37,75,0.10)" }}
+              axisLine={{ stroke: "var(--hairline-light-ui)" }}
               tickFormatter={(v: number) =>
                 v >= 1_000_000
                   ? `${(v / 1_000_000).toFixed(1)}M`
@@ -79,18 +72,18 @@ export function ConsumptionAreaChart() {
             />
             <Tooltip
               contentStyle={{
-                backgroundColor: "white",
-                border: "1px solid rgba(6,37,75,0.15)",
+                backgroundColor: "var(--card)",
+                border: "1px solid var(--hairline-light-ui)",
                 borderRadius: 2,
-                color: "#1C1C1C",
-                boxShadow: "0 14px 36px rgba(6, 37, 75, 0.10)",
+                color: "var(--text-dark)",
+                boxShadow: "var(--shadow-hover)",
               }}
-              formatter={(value: any, name: any) => [
-                Number(value).toLocaleString("es-ES", { maximumFractionDigits: 0 }),
+              formatter={(value, name) => [
+                Number(value ?? 0).toLocaleString("es-ES", { maximumFractionDigits: 0 }),
                 String(name).charAt(0).toUpperCase() + String(name).slice(1),
               ]}
             />
-            <Legend wrapperStyle={{ color: "#5a6478" }} />
+            <Legend wrapperStyle={{ color: "var(--text-muted)" }} />
             {productos.map((prod) => (
               <Area
                 key={prod}
@@ -105,7 +98,6 @@ export function ConsumptionAreaChart() {
             ))}
           </AreaChart>
         </ResponsiveContainer>
-      </div>
-    </div>
+    </ChartWrapper>
   );
 }
